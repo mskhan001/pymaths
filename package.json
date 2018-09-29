@@ -1,0 +1,24 @@
+{
+  "name": "pymaths",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shubhamgoyal001@bitbucket.org/shubhamgoyal001/pymaths.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shubhamgoyal001/pymaths#readme",
+  "devDependencies": {
+    "pm2": "^3.0.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
