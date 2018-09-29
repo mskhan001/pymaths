@@ -2828,7 +2828,7 @@ body {
 
 .design-sprint {
   padding: 100px 0;
-  background: url(../img/home/Heading.png) center no-repeat fixed;
+  background: url(../img/bg.jpg) center no-repeat fixed;
   background-size: cover;
 }
 
@@ -2893,7 +2893,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 200px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -3406,7 +3406,8 @@ body {
 }
 
 .item:nth-child(1) .item__right__image-left {
-  width: 370px;
+  width: 600px;
+  height: 350px;
 }
 
 .item:nth-child(1) .item__right__image-left::before {
@@ -3422,7 +3423,7 @@ body {
 }
 
 .item:nth-child(2) .item__right__image-left {
-  width: 470px;
+  width: 600px;
 }
 
 .item:nth-child(2) .item__right__image-left::before {
