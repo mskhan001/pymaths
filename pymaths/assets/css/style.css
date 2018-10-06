@@ -1864,7 +1864,7 @@ body {
 }
 
 .dropdown-catagories__item {
-  position: static;
+  position: relative;
   padding: 7px 13px;
   -webkit-transition: border-left 0.5s ease;
   transition: border-left 0.5s ease;
@@ -1908,9 +1908,10 @@ body {
 }
 
 .cate-sub {
-  position: absolute;
   z-index: 999;
+  position: absolute;
   left: 100%;
+  top:  0;
   min-width: 200px;
   border: 1px solid #e8e8e8;
   background-color: #fff;
