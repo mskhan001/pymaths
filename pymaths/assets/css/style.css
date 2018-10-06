@@ -1910,7 +1910,6 @@ body {
 .cate-sub {
   position: absolute;
   z-index: 999;
-  top: -1px;
   left: 100%;
   min-width: 200px;
   border: 1px solid #e8e8e8;
