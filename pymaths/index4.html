@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Collapsible sidebar using Bootstrap 4</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style4.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/logo_header.png">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font/flaticon/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+        <header class="header-content">
+
+                <div class="header-top hidden-sm hidden-xs" id="header-top">
+                <div class="container">
+                  <nav class="navbar navbar-inverse header-top__top">
+                    <div class="navbar-header"><a class="navbar-brand logo__link" href="http://pymaths.com/"><img class="logo__image" src="../assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
+                    <div class="nav navbar-nav navbar-left categories"><a class="dropdown-toggle categories__button"><i class="glyph-icon flaticon-signs-1 categories__icon"></i><span class="categories__text">Competitive Exams</span></a>
+                      <div class="dropdown-catagories">
+                            <ul class="dropdown-catagories__list ">
+                              <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="https://drive.google.com/drive/folders/1XdEYnnxAdHhzJFSeKZRtUJ88_FeHgtmA" target="_blank">Olympiad</a>
+
+                              </li>
+
+                              <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="https://drive.google.com/drive/folders/17gOirfprc10Ko2NNBRGXder3NXjlwNUg" target="_blank">NTSE</a>
+
+                                <!--
+                                <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                                <div class="cate-sub">
+                                  <ul class="cate-sub__list">
+                                    <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Design Thinking</a></li>
+                                    <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Fashion</a></li>
+                                  </ul>
+                                </div>
+                              -->
+                              </li>
+                              <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="https://drive.google.com/drive/folders/1QftPrizVReRs4oZX4yxmh37iHM37sOjC" target="_blank">KVPY</a>
+                              </li>
+                              <!--
+                              <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="http://swlabs.co/educef/html/index.html#">Blogs</a>
+                                <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                                <div class="cate-sub">
+                                  <ul class="cate-sub__list">
+                                    <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Databases</a></li>
+                                    <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Mobie Apps</a></li>
+                                  </ul>
+                                </div>
+                              </li>
+                              -->
+
+                            </ul>
+
+                      </div>
+                    </div>
+
+                    <form class="navbar-form navbar-left form-search">
+                      <div class="form-search__input-group">
+                        <input class="form-control form-search__input" type="text" placeholder="Search your course...">
+                        <div class="form-search__btn-group">
+                          <button class="btn form-search__button" type="submit"><i class="glyph-icon flaticon-search form-search__icon"></i></button>
+                        </div>
+                      </div>
+                    </form>
+
+                    <!--
+                    <div class="nav navbar-nav navbar-right nav-right nav-right--login">
+                      <button class="btn btn-default button-default nav-right__instructor" type="submit">Revision Mode</button>
+                      <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-bell nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a>
+                        <div class="nav-right__profile"><i class="glyph-icon flaticon-profile-2 nav-right__profile__icon"></i><span class="nav-right__profile__status"></span>
+                          <div class="profile">
+                            <div class="profile__avarta"><img class="profile__image" src="./30w.jpg" alt=""></div><a class="profile__user-name" href="http://swlabs.co/educef/html/index.html#">Alex Sander</a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-profile profile__icon"></i><span class="profile__text">My profile</span></a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shield profile__icon"></i><span class="profile__text">My course</span></a><a class="btn btn-default button-default profile__btn" href="http://swlabs.co/educef/html/index.html#">Log out</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    -->
+
+                    <!--
+                    <div class="nav navbar-nav navbar-right nav-right--notlogin">
+                      <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
+                      <button class="btn btn-default button-default nav-right__become" type="submit">become an Instructor</button>
+                      <div class="nav-right__signin"><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
+                    </div>
+                    -->
+
+                  </nav>
+                </div>
+              </div>
+
+              <div class="bottom-header hidden-sm hidden-xs affix-top" id="scrollspy" data-spy="affix" data-offset-top="112">
+                <div class="container">
+                  <div class="logo--menu"><a class="logo__link" href="http://pymaths.com/"><img class="logo__image" src="../assets/img/logo_header.png" alt="PyMaths"></a></div>
+                  <nav class="menu-main">
+                        <ul class="menu-main__list" style="height: 80px !important">
+                          <li class="menu-main__item active"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1sRsOoeIOnVTUFss6hN8PNYMdwLHHe-t8" target="blank" id="elements">Engineering Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../index4.html" target="blank">Real Analysis</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1pciFSVCEmtgvo-AsTIdXVUTXlpP3fzHZ" target="blank">Real Number System and Series & Sequences</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Whsi6Cm6JJw_RDksE-yMciMih4fDfT5U" target="blank">Riemann Integral and Improper Integrals</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1YL6dElcPxd3WsnG4bsSAyLGG3vG-Ps5G" target="blank">Fundamental Theorems of Integral Calculus</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1SwL6PmJIXo3d4g8ZrlbLt8GIRrtkz96m" target="blank">Convergence and Continuity for Sequences and Series</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1EKCszDDPgbh66XUcvm7CsPaHO4XZo3PL" target="blank">Differentiability and Integrability for Sequences and Series</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bupXMh9OMMZ9Kz7MLo-NV8i6JLWxBVnE" target="blank">Partial Derivatives of Functions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1He1ekrDMovjb4oRFA4ZCjCoBuMT7fTI8" target="blank">Calculus</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1sSRU1gEHOadglLEEBNgipOknMHqh8s82" target="blank">Real Numbers</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DY_PFMX3T4-bDMqJ2wbzsCJsIwa4ltDe" target="blank">Functions of Two or Three Variables</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1n6ic6zOEkkQYqGulJR6Zay9nbbfa8b_x" target="blank">Definite and Indefinite Integrals</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/18Iq_FBWwpY1tKuQ1a8dlK62rO1XEv_jc" target="blank">Vector Analysis</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1BpmmbnUuVbjrha3O7zco4ud6xi7v5X-m" target="blank">Scalar and Vector Fields</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1G9FLX2Td8ednGj0l-4SYyhYVG6HNhOSA" target="blank">Application to Geometry</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1LQhULgRvwexx4qIO62X4B4IsDXZVHgMa" target="blank">Gauss and Stokes' Theorems and Green's Indentities</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1kEBI03_VuhmrqZp3aybYiB40uR9YrH8L" target="blank">Complex Analysis</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1CEwphqyQaD8Wt_elUwdWArd0HdvrLCvB" target="blank">Analytic Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1O-kANPJEWn954Dn4aGAYWt4rSP4FVg8F" target="blank">Cauchy-Riemann Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1U9lKacKqJA6VCcai6dC_Lj-oWLaGpCqi" target="blank">Cauchy’s Theorem</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1mXCAaHIgAEvuo2kwM7D_SJOYKufS0vp9" target="blank">Cauchy’s Integral Formula</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1uAuLPRjRbttdS_WTa832iNB8VM66-I4S" target="blank">Power Series and Taylor's Series</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1xjWWmIgsI5PhEiBGJw8kTAUj-ALDIsw6" target="blank">Singularities</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14kZ6duO0NJpxardzQ5I8GhhjnaS3DOJo" target="blank">Laurent's Series</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bDemTkQeGck1H0LSQV2cjSN29tnVZW6X" target="blank">Cauchy's Residue Theorem</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1tw9I-l6Phf47HYrYXjqmwZ_-uBYhBNGO" target="blank">Contour Integration</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1r4NT3l5_B7XgjX1fPbGdF7u67bBEFMw2" target="blank">Analytic Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1BM00x9CBNvDHisI5cpU4nFUXHeuyCpuU" target="blank">Cartesian and Polar Coordinates in Three Dimensions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/17_b6eN2cjgpp9OoJ3WHmG5z4LLxeTo_l" target="blank">Second-Degree Equations in Three Variables</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Uc-Fs5zOE_Nhs5lBXsBE8eItsMejFCsP" target="blank">Reduction to Canonical forms</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1woPDIP42gUxjuES8_eL3vem2RmgPHhTA" target="blank">Straight Lines</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1cVDcF45-3rTDmIjW6uQUgXEE8N9ELhUt" target="blank">Shortest Distance between two Skew Lines</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/17_qdU17z3uOeWEkO18UkYtMkx2KzN05j" target="blank">Plane, Sphere, Cone, Cylinder, Paraboloid, Ellipsoid, Hyperboloid of One & Two Sheets and their Properties</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1aSjTMFu90oLF8GBeHpjBtprcqm5dc0GN" target="blank">Linear Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/16qa95TcFqZeGu1DB2f87munfxuW-f8Qv" target="blank">Vector Spaces Over Real and Complex Planes</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JQYs77bZwwAxd1JMN2lb46HKZ4amnAm9" target="blank">Linear Transformations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1v_LRMJci6_ACc6Qt3XoQe9ulupcT4Vbt" target="blank">Algebra of Matrices</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1qn-y0__C24SCFYjrzqXN8gAsXo25yikx" target="blank">Ordinary Differential Equations</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DBq5mmC67oxahiaQvE_BgAv_MbvciiEl" target="blank">Formulation of Differential Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-XsQU2JAxPDiIHLwR394dJlUFPKnHEI6" target="blank">Equations of First Order and Their Solutions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1r65gviH580IhcDrI_VF91w23fMzMGoA-" target="blank">Second and Higher Order Linear Equations With Constant Coefficients</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1cSbHj6LnLOn959xBs6r2bdEju-uFSS8H" target="blank">Second order Linear Equations with Variable Coefficients</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1edI8Jee6IcXowHuCpfrDwRp9edxo08i6" target="blank">Laplace and Inverse Laplace Transforms and their Properties</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1mR4TH2W1G25SdPwW7k0as7PCTU4JE2JF" target="blank">Laplace Transforms of Elementary Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Kmk01nQuzGFo2eu-_XQklxwYTZRbjtDZ" target="blank">Solving Differential Equations Using Laplace and Inverse Laplace Transforms</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1VkDI_DK-FroecoiccGVi9v_o1EuqSk05" target="blank">Partial Differential Equations</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1eo-RQDMBXC04nPdciu8_DclgWz6NW1Ib" target="blank">Family of Surfaces in Three Dimensions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1VJHRlduwuXfqreirKSPKe_1gRGM5qBfr" target="blank">Formulation of Partial Differential Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1LZC9ZiKpfvFmxGBVx2bSvlFclIY13m1n" target="blank">Solution of Quasilinear Partial Differential Equations of the First Order</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/11jEImLAdlhC8Zbw4Z3eQIGyc5I6F1QQt" target="blank">Cauchy’s Method of Characteristics</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bnOJho545a9r0fjOUeFd62zlsxKDvc45" target="blank">Linear Partial Differential Equations of the Second Order with Constant Coefficients</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JVgOTAClKAVq-qswib1KzX1IorxDw6Uy" target="blank">Canonical Form</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1GpMvcfoCx_rwySIN52auGCDl8CJtBh_V" target="blank">Equation of a Vibrating String</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1i61SFvQuiKKxrBmBKRbY6gOJkIYSsWeZ" target="blank">Heat Equation</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Y2S2Dzx9hoVE6TPlKyIu3nL33J5E1AeL" target="blank">Laplace Equations and Their Solutions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1GIjllMW9jxMhqHrbfvk9JcPKG0BvTFnP" target="blank">Numerical Methods</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ct37gb6nvWkNgF4ETd3hCjxLip1wyGwP" target="blank">Solution of Equations Using Various Numerical Methods</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14i05Ty0PQ9dJ_r7bCooEDfoZTbVIB6pN" target="blank">Numerical Integration</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ExYgO_IGWsl154OnfkdXnQvaE9OPf3-Y" target="blank">Numerical Solution of ODEs: Euler and Runga Kutta Methods</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18ZPIT6T1vBtQ9Q6VJYkLPQQYc89DErDT" target="blank">Computer Programming</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1gM4dhNlkqxrwQ9h0GzXzZTufIJXQj0uE" target="blank">Elements of Computer Systems</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/19stiwMxWtNqMuH7F7aktf4QUowE4yj9B" target="blank">Representation of Integers and Real Numbers</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Kycjc5NiJHcvJ7kmy-nO8sdY2rCfCeM6" target="blank">Algorithms and Flow Charts</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1rLFJaJ8jKSTTo_8sab7E4-kOhItpj-Kj" target="blank">Linear Programming</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ATJsNyJ2tRGhXOoq4iB-LkFpiGybWgVV" target="blank">Linear Programming Problems: Basic Solution, Basic Feasible Solution and Optimal Solution</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/188baqweHCnzhxCyeEI_4_GPz7QHEpgFX" target="blank">Graphical Method and Simplex Method of Solutions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10EsDCC52mvK8pa1pYJO-YLTnucPLgU2z" target="blank">Duality</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1_hJoTNwVAPDaIUYMJlCDo4kSxyaxsQX8" target="blank">Transportation and Assignment Problems</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1FCZ131XKCez_6mlV2b3njOffX5s7cAJW" target="blank">Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Gr5ZLRozdsI1XHrcVJHYV8wjX4Jx--pB" target="blank">Groups, Homomorphism of Groups and Basic Isomorphism Theorems</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14IylFbrOEpFOesc2odLA7WkBvrrAAJmC" target="blank">Permutation Groups and Cayley’s Theorem</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/115-aeZgp7uuGCRl5xnCuBScJZAuEWXWH" target="blank">Rings, Subrings and Ideals, Homomorphisms of Rings</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1j1OXgDPlVU8qnIJT_qQd3rGuM4GnGT9p" target="blank">Integral Domains, Principal Ideal Domains, Euclidean Domains and Unique Factorization Domains</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dc12vFF_XsSzwYTPP_lHsx7qeQybHSH4" target="blank">Fields and Quotient Fields</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1nwahTy5Wnl0tFkPFWLy0qMXrYd_JdwLU" target="blank" id="elements">UPSC Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1Da6Q4eEjh8yMxYScMX_2VNZKtm2DlL3X" target="blank">Paper 1</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1xI76tDRYW0Kg4emNfzsGGiFFBCdwSQva" target="blank">Linear Algebra</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1pYaXhA-rBEQqaRqFw3IvVtLDgVVS21Mn" target="blank">Calculus</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18xijvgx8GFT6xtJi4tb23v1cPgRH83PH" target="blank">Analytic Geometry</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1G6FC9qv2XVEFDIERGR-Lootbgnnt98kV" target="blank">Ordinary Differential Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1eQzynAZR-DPj0piu4tKL-d-jQ06UTG9w" target="blank">Dynamics, Statics and Hydrostatics</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1V6UIdZbX0gg-ss7qhgwXgaSXx85JMM-s" target="blank">Vector Analysis</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1kdyaHuernd8bOkf-ozYurxY4-EpWBQIK" target="blank">Paper 2</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1GI8l_kyl5WfdzJMmbzBeRDOmQkPpcP8o" target="blank">Algebra</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18hY-yzAibQswTOasV7wUnydC4sMieM7V" target="blank">Real Analysis</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1rJhipj2qwP-TXaKmlP3ti4W4vm4RlEqd" target="blank">Linear Programming</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1IIlymhtxwZehvhCpFe_WQfMpe0syUTb5" target="blank">Partial Differential Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1MRu7hsjTpnBZ5Y69hu3N0NLbvxCCg5zL" target="blank">Numerical Analysis and Computer Programming</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1jw-NnP34hgXc6eQH4wcWMqlcjyZd1LNk" target="blank">Numerical Integration</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-bDxXsxgNvYosb8FbYK_8l9zqxIrdCiK" target="blank">Mechanics and Fluid Dynamics</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1AYC97A7Cn0Q-1zMLWKKu0rVJWQsXv6O0" target="blank">Previous Year Papers</a>
+                                </li>
+
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1GwZ9_UMFkqedRyhq22VGNDI0gtwAfFyg" target="blank" id="elements">JEE Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1W-n0E3DBu_CUPSJNexSRN_eJcIsJXKu_" target="blank">Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JZiIk0wbfQX7359jU8rcjrxo6PJFSHFy" target="blank">Complex Numbers</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1KYCuBZFBU3iO77CHF30wHd79G7p0grRR" target="blank">Quadratic Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1x8UlBkCJdsydY8hrG-t_JKMp1ygioOJ0" target="blank">Progressions and Series</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1wjndIPbF6viXyxWxKITpXbGT_HZv5tXh" target="blank">Permutations and Combinations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1qkj2mA6ZJIhSGU2w6EClUaV9tr6hwJ-2" target="blank">Matrices</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1X0RBF2IKLqYZU-xFfl3mZ3bYnJiEiH7y" target="blank">Probability</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1INbA2sHhcIcNZCRHbgEEismzn2yN3HMI" target="blank">Trigonometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1vcKoR2qZcZpnoHwaiFG_opx_y2IVMA4U" target="blank">Trigonometric Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ZCfcxBKAH3mS4uxM7VWu2OU8n-44NDWn" target="blank">Triangle Problems</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1gGCjLDznujSFyrCXT--k-3_y3pQ5DFFx" target="blank">Inverse Trigonometric Functions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1ZW2ONya224Ujxd0jzKpbTBRtWYGgmMLP" target="blank">Analytical Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1R6nndAmoHVn1kdRNhRNtPUpzDK_wwOlO" target="blank">Two Points Problems</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/15H5N3FgVda0gBP1xdgjRY69S7Vm-4iZ_" target="blank">Straight Lines</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1KvJ9iVpwf61f75aShOCVsm3ntNrCOpN6" target="blank">Circle</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18BAtPya3H24KHaS2vWN8FRYmsUmBHega" target="blank">Parabola, Ellipse and Hyperbola</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1k7I_pJ6lv5zAacpsrlmUcdD7hh66fsg9" target="blank">Three-Dimensional Problems</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1JqGYbqvp58UiY57R9hvLRIM74NqA1imz" target="blank">Differential Calculus</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18AKhIBqmjeDzcSkP1b2_N7BGXb6ZP4H0" target="blank">Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1kzYFBLVlpvdn9eyAZPcyqnH9Ry_c3er-" target="blank">Limits and Continuity</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JSyKgaJl0mqMJUEsUEv5WO8QlE3Xrr9m" target="blank">Types and Properties of Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1FT3o4CYa5NUMUiwlGcYi-QnI_8ouNNGB" target="blank">Derivatives of Functions Part 1</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1aPOXfNFSRrNzcjC7rBP_AQvgVkAYTrpi" target="blank">Derivatives of Functions Part 2</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1KCMa9lQfnSxLtL3LQAvEgUAWna5opxbq" target="blank">Integral Calculus</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dzXLZR-0CxvF2qS5mczFEwDtx_lY9ngH" target="blank">Inverse of Differentiation</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1iGUYyytgvifLI3tExGq_Kep8Lx9uFTEm" target="blank">Indefinite and Definite Integrals</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1rrBY2ml1gClj7Baek59AWyxTyQf5vBHb" target="blank">Evaluation Techniques and Applications</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18QIjfgL697Ug-E3Txd65OuRx_fw9n0lG" target="blank">Formation and Solution of Ordinary Differential Equations</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/10013b0u83YUAkFMAcb6ojZYCvShgL5x2" target="blank">Vectors</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dp-8oZ2H24xEGMUDSJu73QdNavwLYX_U" target="blank">Addition of Vectors</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1tCIpDgBflycV0PKq2o6ac2h9DK1abFu3" target="blank">Scalar Multiplication</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1W38ZYCW7mzsQnkqhJNdlIzfRshyQdfI-" target="blank">Dot and Cross Products</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/107OPPxE04JTrl_qTMeoRwgn8W7_Hjc23" target="blank">Scalar Triple Products</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1SBoZFJxNWXw25WoBfMOVI9NXQXGBaM4K" target="blank">Geometrical Interpretations</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1e9ZYY60G-MrNKpIc2pLPrrxk0x78QVSv" target="blank">Previous Year Papers</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1-YR1noRDyIQS1LS_e6kkdG7w5HYYXl6I" target="blank" id="elements">XII Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1z6gYzp0MHUtk-MbPdp-NN9pyZ2XHcy4U" target="blank">Relations and Functions</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1myZ_U8KQlPbdzx0B5ZVcWKuVDNcDk5nC" target="blank">Relations and Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1iBMGXaQuQK1AX8Hv6pzAJQztZddZLRXk" target="blank">Inverse Trigonometric Functions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1LWvT7HOpsfnQNov_v3CuiuA-POeM5DEH" target="blank">Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1vyfUs4EMpAvTu_ZdabI-6Me5DxVnFwbT" target="blank">Matrices</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1msnmYCSUpgs3R5gwZoZze5QM4v4HLCqS" target="blank">Determinants</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1du1CywJoL9tKv5KkfdNsuO1_DY6SAIco" target="blank">Calculus</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1czGxm-7po6OmIx8vqeEobfwvYWavldtm" target="blank">Continuity and Differentiability</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1VvJZSEmtim4tPf98blgHhGvKtq4_o0ce" target="blank">Applications of Derivatives</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1S_V_r1vs8b48LzF9sSqdE71tR-KCInKl" target="blank">Integrals</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1sCKBFwaIGjPVTXVizwe3poqohpR79srg" target="blank">Applications of the Integrals</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1xNwR8EbDCZwZCJ4sGi5j2dMiyt2LhJxa" target="blank">Differential Equations</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1i-KynYdnC3LbMMTcWMQRzXHsLOUAFPmt" target="blank">Vectors and Three - Dimensional Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1LAKBn44hue7PO8FrClXdXDIvKaRWn0xH" target="blank">Vectors</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/129I6GJKFFccEhcT4_EWoKYv7zlLIrmaS" target="blank">Three-dimensional Geometry</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1iYF_dL04-tNZO83Usf3kQEeD_dId8npK" target="blank">Linear Programming</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1nuBaPPrX3ylhRtE5cC0NsUL60vFdfJ0P" target="blank">Linear Programming</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1j9mo3tX26T0Lt9_lKcmmzTpNC3a7eK8M" target="blank">Probability</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18QwvVxvLV9hRnPOc838xvxhQ7-lHxWzJ" target="blank">Probability</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/12dosV1WPz1EzZerKOwe7TKZHb7olBcxq" target="blank">Previous Year Papers</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                           <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1-nAESgJK2eQgCvhXExzehyLW7LqiJMw4" target="blank" id="elements">XI Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1uma_fV9zkrzHRjTbWa0DuS7Ja4Nzx-Br" target="blank">Sets and Functions</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1qv3dGKt3_KjaulCeG2OLDKSIEF_h__T2" target="blank">Sets</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bxjoJ104PDklvIH_Hc4YLFlcepPDxw1u" target="blank">Relations and Functions</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1YiF6QTN6YGNz3GneJf33yfCJ3y2wtX_Q" target="blank">Trigonometric Functions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1RfV7EZsdYkkAv6S1Br5YQ-vGt2QTtGEk" target="blank">Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1TDkqqBTNiN9b3TRcNYDC2oPDnQyFXkgP" target="blank">Principle of Mathematical Induction</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1w6GRbym_zZPLwRwbYCD_HkSo5Y_QlGaw" target="blank">Complex Numbers and Quadratic Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/12PctMvWX0d7eT_BfExtj8g2ffNLAgBMA" target="blank">Linear Inequalities</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-2v6CRWFxLfThraR83xAgiPOc2z7hBC1" target="blank">Permutations and Combinations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1lDLjZOEMMy_0WvqZvs4cqg4FIZS4873i" target="blank">Binomial Theorem</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10GM0pz6Kt5eEiReumP3cfXVUQlWAQih4" target="blank">Sequence and Series</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1YIKkmSpHgHH-Z4H5WeMYTZmlF92Y_yJc" target="blank">Coordinate Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1AIQq1zGrYAvGwf67Xwj1hvuo3nkllsck" target="blank">Straight Lines</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10Z_TtuTxRFUPEuwbASDJn6AvT68A-BlJ" target="blank">Conic Sections</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dmcYpq_tYoFGsSeKvUZ9HqvfqiRPF6nH" target="blank">Introduction to Three-dimensional Geometry</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1XAMY1y_HFjmt7yOkz516RB9C9OeBeOIb" target="blank">Calculus</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1l8_4CmgyJxL7BT-N3cUka5qkWSlZaNw-"target="blank">Limits and Derivatives</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/17eB6U-VxPb2-N1y48V_s5EUQKjQjqzEx" target="blank">Mathematical Reasoning</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1C8Q0mZMcRXFU291mG-I0MzqpUQosY6pI" target="blank">Mathematical Reasoning</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1gCHiewJDSBgsqzWQGem_uvN8NuPOFPce" target="blank">Statistics and Probability</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1m3ObANVkQUO-1CeC7SCdbTUoFUDg630l" target="blank">Statistics</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1d5pOjKGIckHgxVsASv-R2Xj_4e8-nhT_" target="blank">Probability</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1bovXm1tYhxPf3lVjI-zBtCAahcr-Y3kT" target="blank">Previous Year Papers</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/19oOewHr3QC6V1gFbk9zIOQkCJpFMenR4" target="blank" id="elements">X Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/13_NAZTLKKwsgDMjiCiIlGg8lXMsCRKr_" target="blank">Number Systems</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14mYLg4HFECfgo2m4yhrL0FLG47twxkiO" target="blank">Real Numbers</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1VZQTM4-jgpBcv4hYOFzDh7OpBoBMbk8F" target="blank">Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/16N8bU9pi2Lm48BFUVnrspbO2idO3NAIe" target="blank">Polynomials</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1or5AZ5y8DfhcKIrI9DwG83bdm6tI9StX" target="blank">Pair of Linear Equations in Two Variables</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DCEB1POXQoy_B6ZHwpdpwO53JopYyWIO" target="blank">Quadratic Equations</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1fqKZ76lZ8xwbQy_mj7w760oroDP5M2Ob" target="blank">Arithmetic Progressions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1ZlC2A-5Mvuz76ozOy7Hxqt-SjMvB70x_" target="blank">Coordinate Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1CNeKq3x0fIlJEkRLtrLCi058FP175Jl_" target="blank">Lines (In Two Dimensions)</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1P-K6rX_146u5-_4Xg6ShU3r2TkDCBmSq" target="blank">Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1b4RScqEgAh6OsNKek8I_0k-1taLacM2B" target="blank">Triangles</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/17LyzTgdgNSTeEbcHPHBOUJnHDFvojrkw" target="blank">Circles</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1UslsZuQJ5OqhOM4kjVjA6nc77xh3TOO4" target="blank">Constructions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1SGI31qd37F1V2bjeC3EQgSh9unyAJ-wU" target="blank">Trigonometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/15uZ4ANrj-tQyA9FEDedtx3KdWF8J5nUm" target="blank">Introduction to Trogonometry</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1J2gZVJNS2uAV8nKdFsiyIcXif1gTqGKr" target="blank">Trigonometric Identities</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1w6XCh810dj3sfytIhJWjNAZI2msOK9h6" target="blank">Heights and Distances</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1AeYYSNT_Tk3ly5lCsVFTwt2Q54Coc5s0" target="blank">Mensuration</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1EIiwBb-SIEohCMakJvSXp6L-ZJsLYKNy" target="blank">Areas Related to Circles</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dxnNGWmOGlcaKUufManYzSd2sD7TxPIT" target="blank">Surface Areas and Volumes</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/17mhwg50pDpISqPH4jdbqyU6OFwYvs0Dg" target="blank">Statistics and Probability</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Y8pQ7T7T9sPGHLH-fZderVR1_atWUQvj" target="blank">Statistics</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DYCyUErVNFEEjzMkfuFJ9yRHrjWP0t4p" target="blank">Probability</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1gO6n872kwILissE1PJ2HtW849CMwKH4G" target="blank">Previous Year Papers</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+
+                         <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1osBtjii32SEfxWy65HLYpoHYzYdM-AyH" target="_blank" id="elements">IX Maths</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1Z3vxTbqKLKkk32wktBmlyykAIbBO-0xI" target="_blank">Number Systems</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1GjXlBlRPJTwBf2k958_lDs59ZBcyGnHR" target="_blank">Real Numbers</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1KRsjFvX3f_YiRc6WOR_GY5qdBOoxzhFh" target="_blank">Algebra</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-86oPm4AwBu4LDldLX2uIY8qg6Odafdy" target="_blank">Polynomials</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1AY5oSkWx5QZT0fcoquTtSgLSKfs17WjQ" target="_blank">Linear Equations in Two Variables</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1XgE3SxgPX0QuaCeisRwQrMlLSliv2QeU" target="_blank">Coordinate Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1n330cdD1sJDydjlwFBR2WAaCFtWBttAA" target="_blank">Coordinate Geometry</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1R4yIbvFZaqlZ_eLbKoqf-TcbaB_9hnue" target="_blank">Geometry</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1TX3w0ndY6KTRUEPP99-RCQCMCXLl7gVc" target="_blank">Introduction to Euclid's Geometry</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Kda-9VgHZY5nc_Rqyfe3SgUiv8nO0Gkb" target="_blank">Lines and Angles</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Q9ian-N-aDgbLoc_0eHY3686wbjN619u" target="_blank">Triangles</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1RCBz1WvyG26xypv3HFQ9ymuwu7TUQ8Kg" target="_blank">Quadrilaterals</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10yfXgfbzVG4GiEVU62ol_rpODvbjg7p9" target="_blank">Area</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1J47PhzmOvuKWbK6FeholN8EsS6LFN37P" target="_blank">Circles</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/12vQ5-rCG-JCIijqL7jfW7G4gr-OtFeY7" target="_blank">Constructions</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1cFeiy00JVLMbN94EhrMhX87jQ0w3S0qX" target="_blank">Mensuration</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1FCGttqLuEZ339pYaeIS_ZN50egPzk8vj" target="_blank">Areas</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1FwVRCimRbi0S9AkQWPvdIncYJfZeupoy" target="_blank">Surface Areas and Volumes</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1WJldOw897u4AtZceZR-YxEzStFjYLOm_" target="_blank">Statistics and Probability</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                                  <div class="cate-sub">
+                                    <ul class="cate-sub__list">
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1n1etLrM4ZmJHeokniJ9qKgq2pyFSLWaw" target="_blank">Statistics</a></li>
+                                      <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1IIshwu40kL45IXC46Nx1AMW9_tu5r9uH" target="_blank">Probability</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1EtjG7Tu-A-1sLBJX7inbwv3Zt_LNjpfh" target="blank">Previous Year Papers</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                         <li class="menu-main__item"><a class="menu-main__link " href="https://drive.google.com/drive/folders/1iWmoUIPTmGhiSVyFi9b7GExggEYo-oZ0" target="_blank" id="elements">Care For Career</a>
+                            <div class="dropdown-catagories dropdown-catagories--menu">
+                              <ul class="dropdown-catagories__list">
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://www.facebook.com/groups/261170104727090/" target="_blank">Visit our Group</a>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1d7Pjn9mHImlYS6KwqXNCCa9Y2lS0HwDM" target="_blank">Go To Placement Material</a>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1d7Pjn9mHImlYS6KwqXNCCa9Y2lS0HwDM" target="_blank">Podcasts</a>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1slE2BbCae1p-32C1ddWhfZdhzIR3RUeJ" target="_blank">Become Campus Ambassador</a>
+                                </li>
+                                <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://drive.google.com/drive/folders/1U9XpFMBUOw4edfE7ChLBXXAv2cBopJri" target="_blank">Become Campus Mentor</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                        </ul>
+                  </nav>
+                </div>
+              </div>
+
+
+              <div class="header__mobile hidden-lg hidden-md">
+                <div class="header-top">
+                  <div class="container">
+                    <div class="nav-right--notlogin nav-right--notlogin--mobile pull-right">
+                      <div class="nav-right__notifications"><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
+                      <button class="form-search__button--mobile" type="submit" data-toggle="collapse" data-target="#form-search-mobile"><i class="glyph-icon flaticon-search form-search__icon"></i></button>
+                      <button class="button-default nav-right__become" type="submit">become an Instructor</button>
+                      <div class="nav-right__signin"><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
+                    </div>
+                    <form class="navbar-form form-search--mobile" id="form-search-mobile">
+                      <div class="container">
+                        <div class="form-search__input-group">
+                          <input class="form-control form-search__input" type="text" placeholder="Search your course...">
+                          <div class="form-search__btn-group">
+                            <button class="btn form-search__button" type="submit"><i class="glyph-icon flaticon-search form-search__icon"></i></button>
+                          </div>
+                        </div>
+                        <button class="dropdown-toggle form-search__button form-search__button--close" type="submit" data-toggle="collapse" data-target="#form-search-mobile"><i class="glyph-icon flaticon-access-denied form-search__icon"></i></button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+                <nav class="navbar" id="header-mobile" data-spy="affix" data-offset-top="75">
+                  <div class="container">
+                    <div class="categories--mobile pull-left"><a class="dropdown-toggle categories--mobile__buttonsm" id="menu-categories" data-toggle="collapse" data-target="#dropdown-categories"><i class="glyph-icon flaticon-signs-1 categories--mobile__icon"></i></a></div>
+                    <button class="navbar-toggle nav-icon pull-right collapsed visible-sm visible-xs" id="menu-hamberger" data-toggle="collapse" data-target="#menu-main"><span class="bar"></span></button>
+                    <div class="logo--mobile text-center"><a class="logo__link" href="/"><img class="logo__image" src="../assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
+                  </div>
+                  <div class="menu-mobile">
+                        <ul class="menu-mobile__list ">
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">home</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="index.html">home 1</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="index-2.html">home 2</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">course</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="categories.html">course categories</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-listing.html">course list</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-grid.html">course grid</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-single.html">course single</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-detail.html">course details</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="search-result.html">course search result</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="instructor-details.html">instructor details</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">bundle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-bundle.html">course bundle</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="bundle-details.html">course bundle details</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">partner</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="partner-listing.html">partner list</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="partner-details.html">partner details</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">blog</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-grid.html">blog grid</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-details-sidebar.html">blog details with sidebar</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-details.html">blog details</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">pages</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="pricing-table.html">pricing table</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="contact.html">contact</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="coming-soon.html">coming soon</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="404.html">404 page</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">elements</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-submenu"><a class="dropdown-mobile__link" href="#">sub level 1</a><span class="glyph-icon flaticon-arrows-3 menu-mobile__icon"></span>
+                                <ul class="dropdown-menu dropdown-mobile">
+                                  <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 1.1</a></li>
+                                  <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 1.2</a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-mobile__link" href="#">sub level 2</a><span class="glyph-icon flaticon-arrows-3 menu-mobile__icon"></span>
+                                <ul class="dropdown-menu dropdown-mobile">
+                                  <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 2.1</a></li>
+                                  <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 2.2</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                  </div>
+                  <div class="menu-mobile-dropdown menu-mobile--categories">
+                        <ul class="menu-mobile__list ">
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Business</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Finance</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Industry</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Management</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Media</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Sales</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Design</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Design Thinking</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fashion</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Development</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Databases</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Mobie Apps</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Heath &amp; Fitness</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Dance</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fitness</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">IT &amp; Software</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">AI &amp; Big Data</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Hardware</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Language</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Chinese</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">English</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">French</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Lifestyle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Art &amp; Crafts</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Gaming</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Office Productivity</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                            <ul class="dropdown-menu dropdown-mobile">
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Apple</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Google</a></li>
+                              <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Oracle</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="button-default btn-ontop" id="on-top"><span class="glyph-icon flaticon-arrows-5"></span></div>
+            </header>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Bootstrap Sidebar</h3>
+                <strong>BS</strong>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-home"></i>
+                        Home
+                    </a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-briefcase"></i>
+                        About
+                    </a>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-copy"></i>
+                        Pages
+                    </a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-image"></i>
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="list-unstyled CTAs">
+                <li>
+                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                </li>
+                <li>
+                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="../assets/lib/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/lib/js/bootstrap.min.js"></script>
+    <script src="../assets/lib/slick/slick.min.js"></script>
+    <script src="../assets/js/wow.js"></script>
+    <script src="../assets/js/jquery-matchHeight.js"></script>
+    <script src="../assets/js/slicks.js"></script>
+    <script src="../assets/js/home.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
