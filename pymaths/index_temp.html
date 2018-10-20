@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PyMaths</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon.png">
+  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/logo_header.png">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font/flaticon/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
+  </head>
+
+  <body class="home">
+    <header class="header-content">
+
+        <div class="header-top hidden-sm hidden-xs" id="header-top">
+        <div class="container">
+          <nav class="navbar navbar-inverse header-top__top">
+            <div class="navbar-header"><a class="navbar-brand logo__link" href="http://pymaths.com/"><img class="logo__image" src="../assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
+            <div class="nav navbar-nav navbar-left categories"><a class="dropdown-toggle categories__button"><i class="glyph-icon flaticon-signs-1 categories__icon"></i><span class="categories__text">Competitive Exams</span></a>
+              <div class="dropdown-catagories">
+                    <ul class="dropdown-catagories__list ">
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="olympiadmaths.html" target="_blank">Olympiad</a>
+
+                        <!--
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Finance</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Industry</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Management</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Media</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Sales</a></li>
+                          </ul>
+                        </div>
+                        -->
+
+                      </li>
+
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="ntse.html" target="_blank">NTSE</a>
+
+                        <!--
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Design Thinking</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Fashion</a></li>
+                          </ul>
+                        </div>
+                      -->
+                      </li>
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="kvpy.html" target="_blank">KVPY</a>
+                      </li>
+                      <!--
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="http://swlabs.co/educef/html/index.html#">Blogs</a>
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Databases</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Mobie Apps</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                      -->
+
+                    </ul>
+
+              </div>
+            </div>
+
+            <form class="navbar-form navbar-left form-search">
+              <div class="form-search__input-group">
+                <input class="form-control form-search__input" type="text" placeholder="Search your course...">
+                <div class="form-search__btn-group">
+                  <button class="btn form-search__button" type="submit"><i class="glyph-icon flaticon-search form-search__icon"></i></button>
+                </div>
+              </div>
+            </form>
+
+            <!--
+            <div class="nav navbar-nav navbar-right nav-right nav-right--login">
+              <button class="btn btn-default button-default nav-right__instructor" type="submit">Revision Mode</button>
+              <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-bell nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a>
+                <div class="nav-right__profile"><i class="glyph-icon flaticon-profile-2 nav-right__profile__icon"></i><span class="nav-right__profile__status"></span>
+                  <div class="profile">
+                    <div class="profile__avarta"><img class="profile__image" src="./30w.jpg" alt=""></div><a class="profile__user-name" href="http://swlabs.co/educef/html/index.html#">Alex Sander</a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-profile profile__icon"></i><span class="profile__text">My profile</span></a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shield profile__icon"></i><span class="profile__text">My course</span></a><a class="btn btn-default button-default profile__btn" href="http://swlabs.co/educef/html/index.html#">Log out</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            -->
+
+            <!--
+            <div class="nav navbar-nav navbar-right nav-right--notlogin">
+              <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
+              <button class="btn btn-default button-default nav-right__become" type="submit">become an Instructor</button>
+              <div class="nav-right__signin"><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
+            </div>
+            -->
+
+          </nav>
+        </div>
+      </div>
+
+      <div class="bottom-header hidden-sm hidden-xs affix-top" id="scrollspy" data-spy="affix" data-offset-top="112">
+        <div class="container">
+          <div class="logo--menu"><a class="logo__link" href="http://pymaths.com/"><img class="logo__image" src="../assets/img/logo_header.png" alt="PyMaths"></a></div>
+          <nav class="menu-main">
+                <ul class="nav navbar-nav menu-main__list ">
+                  <li class="menu-main__item active"><a class="menu-main__link " href="engineeringmaths.html" target="_blank" id="elements">Engineering Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/realanalysis.html" target="_blank">Real Analysis</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1pciFSVCEmtgvo-AsTIdXVUTXlpP3fzHZ" target="_blank">Real Number System and Series & Sequences</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Whsi6Cm6JJw_RDksE-yMciMih4fDfT5U" target="_blank">Riemann Integral and Improper Integrals</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1YL6dElcPxd3WsnG4bsSAyLGG3vG-Ps5G" target="_blank">Fundamental Theorems of Integral Calculus</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1SwL6PmJIXo3d4g8ZrlbLt8GIRrtkz96m" target="_blank">Convergence and Continuity for Sequences and Series</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1EKCszDDPgbh66XUcvm7CsPaHO4XZo3PL" target="_blank">Differentiability and Integrability for Sequences and Series</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bupXMh9OMMZ9Kz7MLo-NV8i6JLWxBVnE" target="_blank">Partial Derivatives of Functions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/calculus.html" target="_blank">Calculus</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1sSRU1gEHOadglLEEBNgipOknMHqh8s82" target="_blank">Real Numbers</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DY_PFMX3T4-bDMqJ2wbzsCJsIwa4ltDe" target="_blank">Functions of Two or Three Variables</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1n6ic6zOEkkQYqGulJR6Zay9nbbfa8b_x" target="_blank">Definite and Indefinite Integrals</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/vectoranalysis.html" target="_blank">Vector Analysis</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1BpmmbnUuVbjrha3O7zco4ud6xi7v5X-m" target="_blank">Scalar and Vector Fields</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1G9FLX2Td8ednGj0l-4SYyhYVG6HNhOSA" target="_blank">Application to Geometry</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1LQhULgRvwexx4qIO62X4B4IsDXZVHgMa" target="_blank">Gauss and Stokes' Theorems and Green's Indentities</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/complexanalysis.html" target="_blank">Complex Analysis</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1CEwphqyQaD8Wt_elUwdWArd0HdvrLCvB" target="_blank">Analytic Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1O-kANPJEWn954Dn4aGAYWt4rSP4FVg8F" target="_blank">Cauchy-Riemann Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1U9lKacKqJA6VCcai6dC_Lj-oWLaGpCqi" target="_blank">Cauchy’s Theorem</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1mXCAaHIgAEvuo2kwM7D_SJOYKufS0vp9" target="_blank">Cauchy’s Integral Formula</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1uAuLPRjRbttdS_WTa832iNB8VM66-I4S" target="_blank">Power Series and Taylor's Series</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1xjWWmIgsI5PhEiBGJw8kTAUj-ALDIsw6" target="_blank">Singularities</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14kZ6duO0NJpxardzQ5I8GhhjnaS3DOJo" target="_blank">Laurent's Series</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bDemTkQeGck1H0LSQV2cjSN29tnVZW6X" target="_blank">Cauchy's Residue Theorem</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1tw9I-l6Phf47HYrYXjqmwZ_-uBYhBNGO" target="_blank">Contour Integration</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/analyticgeometry.html" target="_blank">Analytic Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1BM00x9CBNvDHisI5cpU4nFUXHeuyCpuU" target="_blank">Cartesian and Polar Coordinates in Three Dimensions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/17_b6eN2cjgpp9OoJ3WHmG5z4LLxeTo_l" target="_blank">Second-Degree Equations in Three Variables</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Uc-Fs5zOE_Nhs5lBXsBE8eItsMejFCsP" target="_blank">Reduction to Canonical forms</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1woPDIP42gUxjuES8_eL3vem2RmgPHhTA" target="_blank">Straight Lines</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1cVDcF45-3rTDmIjW6uQUgXEE8N9ELhUt" target="_blank">Shortest Distance between two Skew Lines</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/17_qdU17z3uOeWEkO18UkYtMkx2KzN05j" target="_blank">Plane, Sphere, Cone, Cylinder, Paraboloid, Ellipsoid, Hyperboloid of One & Two Sheets and their Properties</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/linearalgebra.html" target="_blank">Linear Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/16qa95TcFqZeGu1DB2f87munfxuW-f8Qv" target="_blank">Vector Spaces Over Real and Complex Planes</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JQYs77bZwwAxd1JMN2lb46HKZ4amnAm9" target="_blank">Linear Transformations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1v_LRMJci6_ACc6Qt3XoQe9ulupcT4Vbt" target="_blank">Algebra of Matrices</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/ordinarydifferentialequations.html" target="_blank">Ordinary Differential Equations</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DBq5mmC67oxahiaQvE_BgAv_MbvciiEl" target="_blank">Formulation of Differential Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-XsQU2JAxPDiIHLwR394dJlUFPKnHEI6" target="_blank">Equations of First Order and Their Solutions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1r65gviH580IhcDrI_VF91w23fMzMGoA-" target="_blank">Second and Higher Order Linear Equations With Constant Coefficients</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1cSbHj6LnLOn959xBs6r2bdEju-uFSS8H" target="_blank">Second order Linear Equations with Variable Coefficients</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1edI8Jee6IcXowHuCpfrDwRp9edxo08i6" target="_blank">Laplace and Inverse Laplace Transforms and their Properties</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1mR4TH2W1G25SdPwW7k0as7PCTU4JE2JF" target="_blank">Laplace Transforms of Elementary Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Kmk01nQuzGFo2eu-_XQklxwYTZRbjtDZ" target="_blank">Solving Differential Equations Using Laplace and Inverse Laplace Transforms</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/partialdifferentialequations.html" target="_blank">Partial Differential Equations</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1eo-RQDMBXC04nPdciu8_DclgWz6NW1Ib" target="_blank">Family of Surfaces in Three Dimensions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1VJHRlduwuXfqreirKSPKe_1gRGM5qBfr" target="_blank">Formulation of Partial Differential Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1LZC9ZiKpfvFmxGBVx2bSvlFclIY13m1n" target="_blank">Solution of Quasilinear Partial Differential Equations of the First Order</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/11jEImLAdlhC8Zbw4Z3eQIGyc5I6F1QQt" target="_blank">Cauchy’s Method of Characteristics</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bnOJho545a9r0fjOUeFd62zlsxKDvc45" target="_blank">Linear Partial Differential Equations of the Second Order with Constant Coefficients</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JVgOTAClKAVq-qswib1KzX1IorxDw6Uy" target="_blank">Canonical Form</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1GpMvcfoCx_rwySIN52auGCDl8CJtBh_V" target="_blank">Equation of a Vibrating String</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1i61SFvQuiKKxrBmBKRbY6gOJkIYSsWeZ" target="_blank">Heat Equation</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Y2S2Dzx9hoVE6TPlKyIu3nL33J5E1AeL" target="_blank">Laplace Equations and Their Solutions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/numericalmethods.html" target="_blank">Numerical Methods</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ct37gb6nvWkNgF4ETd3hCjxLip1wyGwP" target="_blank">Solution of Equations Using Various Numerical Methods</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14i05Ty0PQ9dJ_r7bCooEDfoZTbVIB6pN" target="_blank">Numerical Integration</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ExYgO_IGWsl154OnfkdXnQvaE9OPf3-Y" target="_blank">Numerical Solution of ODEs: Euler and Runga Kutta Methods</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18ZPIT6T1vBtQ9Q6VJYkLPQQYc89DErDT" target="_blank">Computer Programming</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1gM4dhNlkqxrwQ9h0GzXzZTufIJXQj0uE" target="_blank">Elements of Computer Systems</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/19stiwMxWtNqMuH7F7aktf4QUowE4yj9B" target="_blank">Representation of Integers and Real Numbers</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Kycjc5NiJHcvJ7kmy-nO8sdY2rCfCeM6" target="_blank">Algorithms and Flow Charts</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/linearprogramming.html" target="_blank">Linear Programming</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ATJsNyJ2tRGhXOoq4iB-LkFpiGybWgVV" target="_blank">Linear Programming Problems: Basic Solution, Basic Feasible Solution and Optimal Solution</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/188baqweHCnzhxCyeEI_4_GPz7QHEpgFX" target="_blank">Graphical Method and Simplex Method of Solutions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10EsDCC52mvK8pa1pYJO-YLTnucPLgU2z" target="_blank">Duality</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1_hJoTNwVAPDaIUYMJlCDo4kSxyaxsQX8" target="_blank">Transportation and Assignment Problems</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/algebra.html" target="_blank">Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Gr5ZLRozdsI1XHrcVJHYV8wjX4Jx--pB" target="_blank">Groups, Homomorphism of Groups and Basic Isomorphism Theorems</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14IylFbrOEpFOesc2odLA7WkBvrrAAJmC" target="_blank">Permutation Groups and Cayley’s Theorem</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/115-aeZgp7uuGCRl5xnCuBScJZAuEWXWH" target="_blank">Rings, Subrings and Ideals, Homomorphisms of Rings</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1j1OXgDPlVU8qnIJT_qQd3rGuM4GnGT9p" target="_blank">Integral Domains, Principal Ideal Domains, Euclidean Domains and Unique Factorization Domains</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dc12vFF_XsSzwYTPP_lHsx7qeQybHSH4" target="_blank">Fields and Quotient Fields</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="upscmaths.html" target="_blank" id="elements">UPSC Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/paperi.html" target="_blank">Paper I</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1xI76tDRYW0Kg4emNfzsGGiFFBCdwSQva" target="_blank">Linear Algebra</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1pYaXhA-rBEQqaRqFw3IvVtLDgVVS21Mn" target="_blank">Calculus</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18xijvgx8GFT6xtJi4tb23v1cPgRH83PH" target="_blank">Analytic Geometry</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1G6FC9qv2XVEFDIERGR-Lootbgnnt98kV" target="_blank">Ordinary Differential Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1eQzynAZR-DPj0piu4tKL-d-jQ06UTG9w" target="_blank">Dynamics, Statics and Hydrostatics</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1V6UIdZbX0gg-ss7qhgwXgaSXx85JMM-s" target="_blank">Vector Analysis</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/paperii.html" target="_blank">Paper II</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1GI8l_kyl5WfdzJMmbzBeRDOmQkPpcP8o" target="_blank">Algebra</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18hY-yzAibQswTOasV7wUnydC4sMieM7V" target="_blank">Real Analysis</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1rJhipj2qwP-TXaKmlP3ti4W4vm4RlEqd" target="_blank">Linear Programming</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1IIlymhtxwZehvhCpFe_WQfMpe0syUTb5" target="_blank">Partial Differential Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1MRu7hsjTpnBZ5Y69hu3N0NLbvxCCg5zL" target="_blank">Numerical Analysis and Computer Programming</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1jw-NnP34hgXc6eQH4wcWMqlcjyZd1LNk" target="_blank">Numerical Integration</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-bDxXsxgNvYosb8FbYK_8l9zqxIrdCiK" target="_blank">Mechanics and Fluid Dynamics</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="jeemaths.html" target="_blank" id="elements">JEE Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/algebra.html" target="_blank">Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JZiIk0wbfQX7359jU8rcjrxo6PJFSHFy" target="_blank">Complex Numbers</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1KYCuBZFBU3iO77CHF30wHd79G7p0grRR" target="_blank">Quadratic Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1x8UlBkCJdsydY8hrG-t_JKMp1ygioOJ0" target="_blank">Progressions and Series</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1wjndIPbF6viXyxWxKITpXbGT_HZv5tXh" target="_blank">Permutations and Combinations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1qkj2mA6ZJIhSGU2w6EClUaV9tr6hwJ-2" target="_blank">Matrices</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1X0RBF2IKLqYZU-xFfl3mZ3bYnJiEiH7y" target="_blank">Probability</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/trigonometry.html" target="_blank">Trigonometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1vcKoR2qZcZpnoHwaiFG_opx_y2IVMA4U" target="_blank">Trigonometric Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1ZCfcxBKAH3mS4uxM7VWu2OU8n-44NDWn" target="_blank">Triangle Problems</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1gGCjLDznujSFyrCXT--k-3_y3pQ5DFFx" target="_blank">Inverse Trigonometric Functions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/analyticalgeometry.html" target="_blank">Analytical Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1R6nndAmoHVn1kdRNhRNtPUpzDK_wwOlO" target="_blank">Two Points Problems</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/15H5N3FgVda0gBP1xdgjRY69S7Vm-4iZ_" target="_blank">Straight Lines</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1KvJ9iVpwf61f75aShOCVsm3ntNrCOpN6" target="_blank">Circle</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18BAtPya3H24KHaS2vWN8FRYmsUmBHega" target="_blank">Parabola, Ellipse and Hyperbola</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1k7I_pJ6lv5zAacpsrlmUcdD7hh66fsg9" target="_blank">Three-Dimensional Problems</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/differentialcalculus.html" target="_blank">Differential Calculus</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18AKhIBqmjeDzcSkP1b2_N7BGXb6ZP4H0" target="_blank">Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1kzYFBLVlpvdn9eyAZPcyqnH9Ry_c3er-" target="_blank">Limits and Continuity</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1JSyKgaJl0mqMJUEsUEv5WO8QlE3Xrr9m" target="_blank">Types and Properties of Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1FT3o4CYa5NUMUiwlGcYi-QnI_8ouNNGB" target="_blank">Derivatives of Functions Part 1</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1aPOXfNFSRrNzcjC7rBP_AQvgVkAYTrpi" target="_blank">Derivatives of Functions Part 2</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/integralcalculus.html" target="_blank">Integral Calculus</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dzXLZR-0CxvF2qS5mczFEwDtx_lY9ngH" target="_blank">Inverse of Differentiation</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1iGUYyytgvifLI3tExGq_Kep8Lx9uFTEm" target="_blank">Indefinite and Definite Integrals</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1rrBY2ml1gClj7Baek59AWyxTyQf5vBHb" target="_blank">Evaluation Techniques and Applications</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18QIjfgL697Ug-E3Txd65OuRx_fw9n0lG" target="_blank">Formation and Solution of Ordinary Differential Equations</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/vectors.html" target="_blank">Vectors</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dp-8oZ2H24xEGMUDSJu73QdNavwLYX_U" target="_blank">Addition of Vectors</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1tCIpDgBflycV0PKq2o6ac2h9DK1abFu3" target="_blank">Scalar Multiplication</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1W38ZYCW7mzsQnkqhJNdlIzfRshyQdfI-" target="_blank">Dot and Cross Products</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/107OPPxE04JTrl_qTMeoRwgn8W7_Hjc23" target="_blank">Scalar Triple Products</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1SBoZFJxNWXw25WoBfMOVI9NXQXGBaM4K" target="_blank">Geometrical Interpretations</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="xiimaths.html" target="_blank" id="elements">XII Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/relationsandfunctions.html" target="_blank">Relations and Functions</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1myZ_U8KQlPbdzx0B5ZVcWKuVDNcDk5nC" target="_blank">Relations and Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1iBMGXaQuQK1AX8Hv6pzAJQztZddZLRXk" target="_blank">Inverse Trigonometric Functions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/algebra.html" target="_blank">Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1vyfUs4EMpAvTu_ZdabI-6Me5DxVnFwbT" target="_blank">Matrices</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1msnmYCSUpgs3R5gwZoZze5QM4v4HLCqS" target="_blank">Determinants</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/calculus.html" target="_blank">Calculus</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1czGxm-7po6OmIx8vqeEobfwvYWavldtm" target="_blank">Continuity and Differentiability</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1VvJZSEmtim4tPf98blgHhGvKtq4_o0ce" target="_blank">Applications of Derivatives</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1S_V_r1vs8b48LzF9sSqdE71tR-KCInKl" target="_blank">Integrals</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1sCKBFwaIGjPVTXVizwe3poqohpR79srg" target="_blank">Applications of the Integrals</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1xNwR8EbDCZwZCJ4sGi5j2dMiyt2LhJxa" target="_blank">Differential Equations</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/vectorsandthree-dimensionalgeometry.html" target="_blank">Vectors and Three - Dimensional Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1LAKBn44hue7PO8FrClXdXDIvKaRWn0xH" target="_blank">Vectors</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/129I6GJKFFccEhcT4_EWoKYv7zlLIrmaS" target="_blank">Three-dimensional Geometry</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/linearprogramming.html" target="_blank">Linear Programming</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1nuBaPPrX3ylhRtE5cC0NsUL60vFdfJ0P" target="_blank">Linear Programming</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/probability.html" target="_blank">Probability</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/18QwvVxvLV9hRnPOc838xvxhQ7-lHxWzJ" target="_blank">Probability</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                   <li class="menu-main__item"><a class="menu-main__link " href="ximaths.html" target="_blank" id="elements">XI Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/setsandfunctions.html" target="_blank">Sets and Functions</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1qv3dGKt3_KjaulCeG2OLDKSIEF_h__T2" target="_blank">Sets</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1bxjoJ104PDklvIH_Hc4YLFlcepPDxw1u" target="_blank">Relations and Functions</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1YiF6QTN6YGNz3GneJf33yfCJ3y2wtX_Q" target="_blank">Trigonometric Functions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/algebra.html" target="_blank">Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1TDkqqBTNiN9b3TRcNYDC2oPDnQyFXkgP" target="_blank">Principle of Mathematical Induction</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1w6GRbym_zZPLwRwbYCD_HkSo5Y_QlGaw" target="_blank">Complex Numbers and Quadratic Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/12PctMvWX0d7eT_BfExtj8g2ffNLAgBMA" target="_blank">Linear Inequalities</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-2v6CRWFxLfThraR83xAgiPOc2z7hBC1" target="_blank">Permutations and Combinations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1lDLjZOEMMy_0WvqZvs4cqg4FIZS4873i" target="_blank">Binomial Theorem</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10GM0pz6Kt5eEiReumP3cfXVUQlWAQih4" target="_blank">Sequence and Series</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1AIQq1zGrYAvGwf67Xwj1hvuo3nkllsck" target="_blank">Straight Lines</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10Z_TtuTxRFUPEuwbASDJn6AvT68A-BlJ" target="_blank">Conic Sections</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dmcYpq_tYoFGsSeKvUZ9HqvfqiRPF6nH" target="_blank">Introduction to Three-dimensional Geometry</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/calculus.html" target="_blank">Calculus</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1l8_4CmgyJxL7BT-N3cUka5qkWSlZaNw-"target="_blank">Limits and Derivatives</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/mathematicalreasoning.html" target="_blank">Mathematical Reasoning</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1C8Q0mZMcRXFU291mG-I0MzqpUQosY6pI" target="_blank">Mathematical Reasoning</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/statisticsandprobability.html" target="_blank">Statistics and Probability</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1m3ObANVkQUO-1CeC7SCdbTUoFUDg630l" target="_blank">Statistics</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1d5pOjKGIckHgxVsASv-R2Xj_4e8-nhT_" target="_blank">Probability</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="xmaths.html" target="_blank" id="elements">X Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/numbersystems.html" target="_blank">Number Systems</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/14mYLg4HFECfgo2m4yhrL0FLG47twxkiO" target="_blank">Real Numbers</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/algebra.html" target="_blank">Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/16N8bU9pi2Lm48BFUVnrspbO2idO3NAIe" target="_blank">Polynomials</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1or5AZ5y8DfhcKIrI9DwG83bdm6tI9StX" target="_blank">Pair of Linear Equations in Two Variables</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DCEB1POXQoy_B6ZHwpdpwO53JopYyWIO" target="_blank">Quadratic Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1fqKZ76lZ8xwbQy_mj7w760oroDP5M2Ob" target="_blank">Arithmetic Progressions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1CNeKq3x0fIlJEkRLtrLCi058FP175Jl_" target="_blank">Lines (In Two Dimensions)</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/geometry.html" target="_blank">Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1b4RScqEgAh6OsNKek8I_0k-1taLacM2B" target="_blank">Triangles</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/17LyzTgdgNSTeEbcHPHBOUJnHDFvojrkw" target="_blank">Circles</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1UslsZuQJ5OqhOM4kjVjA6nc77xh3TOO4" target="_blank">Constructions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/trigonometry.html" target="_blank">Trigonometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/15uZ4ANrj-tQyA9FEDedtx3KdWF8J5nUm" target="_blank">Introduction to Trogonometry</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1J2gZVJNS2uAV8nKdFsiyIcXif1gTqGKr" target="_blank">Trigonometric Identities</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1w6XCh810dj3sfytIhJWjNAZI2msOK9h6" target="_blank">Heights and Distances</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/mensuration.html" target="_blank">Mensuration</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1EIiwBb-SIEohCMakJvSXp6L-ZJsLYKNy" target="_blank">Areas Related to Circles</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1dxnNGWmOGlcaKUufManYzSd2sD7TxPIT" target="_blank">Surface Areas and Volumes</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/statisticsandprobability.html" target="_blank">Statistics and Probability</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Y8pQ7T7T9sPGHLH-fZderVR1_atWUQvj" target="_blank">Statistics</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1DYCyUErVNFEEjzMkfuFJ9yRHrjWP0t4p" target="_blank">Probability</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                 <li class="menu-main__item"><a class="menu-main__link " href="ixmaths.html" target="_blank" id="elements">IX Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/numbersystems.html" target="_blank">Number Systems</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1GjXlBlRPJTwBf2k958_lDs59ZBcyGnHR" target="_blank">Real Numbers</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/algebra.html" target="_blank">Algebra</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1-86oPm4AwBu4LDldLX2uIY8qg6Odafdy" target="_blank">Polynomials</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1AY5oSkWx5QZT0fcoquTtSgLSKfs17WjQ" target="_blank">Linear Equations in Two Variables</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1n330cdD1sJDydjlwFBR2WAaCFtWBttAA" target="_blank">Coordinate Geometry</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/geometry.html" target="_blank">Geometry</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1TX3w0ndY6KTRUEPP99-RCQCMCXLl7gVc" target="_blank">Introduction to Euclid's Geometry</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Kda-9VgHZY5nc_Rqyfe3SgUiv8nO0Gkb" target="_blank">Lines and Angles</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1Q9ian-N-aDgbLoc_0eHY3686wbjN619u" target="_blank">Triangles</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1RCBz1WvyG26xypv3HFQ9ymuwu7TUQ8Kg" target="_blank">Quadrilaterals</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/10yfXgfbzVG4GiEVU62ol_rpODvbjg7p9" target="_blank">Area</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1J47PhzmOvuKWbK6FeholN8EsS6LFN37P" target="_blank">Circles</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/12vQ5-rCG-JCIijqL7jfW7G4gr-OtFeY7" target="_blank">Constructions</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/mensuration.html" target="_blank">Mensuration</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1FCGttqLuEZ339pYaeIS_ZN50egPzk8vj" target="_blank">Areas</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1FwVRCimRbi0S9AkQWPvdIncYJfZeupoy" target="_blank">Surface Areas and Volumes</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/statisticsnandprobability.html" target="_blank">Statistics and Probability</a>
+                          <!--
+                          <span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                          <div class="cate-sub">
+                            <ul class="cate-sub__list">
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1n1etLrM4ZmJHeokniJ9qKgq2pyFSLWaw" target="_blank">Statistics</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="https://drive.google.com/drive/folders/1IIshwu40kL45IXC46Nx1AMW9_tu5r9uH" target="_blank">Probability</a></li>
+                            </ul>
+                          </div>
+                        -->
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                 <li class="menu-main__item"><a class="menu-main__link " href="careforcareer.html" target="_blank" id="elements">Care For Career</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://www.facebook.com/groups/261170104727090/" target="_blank">Visit our Group</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#" target="_blank">Podcasts</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#" target="_blank">Blogs</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+          </nav>
+        </div>
+      </div>
+
+
+      <div class="header__mobile hidden-lg hidden-md">
+        <div class="header-top">
+          <div class="container">
+            <div class="nav-right--notlogin nav-right--notlogin--mobile pull-right">
+              <div class="nav-right__notifications"><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
+              <button class="form-search__button--mobile" type="submit" data-toggle="collapse" data-target="#form-search-mobile"><i class="glyph-icon flaticon-search form-search__icon"></i></button>
+              <button class="button-default nav-right__become" type="submit">become an Instructor</button>
+              <div class="nav-right__signin"><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
+            </div>
+            <form class="navbar-form form-search--mobile" id="form-search-mobile">
+              <div class="container">
+                <div class="form-search__input-group">
+                  <input class="form-control form-search__input" type="text" placeholder="Search your course...">
+                  <div class="form-search__btn-group">
+                    <button class="btn form-search__button" type="submit"><i class="glyph-icon flaticon-search form-search__icon"></i></button>
+                  </div>
+                </div>
+                <button class="dropdown-toggle form-search__button form-search__button--close" type="submit" data-toggle="collapse" data-target="#form-search-mobile"><i class="glyph-icon flaticon-access-denied form-search__icon"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <nav class="navbar" id="header-mobile" data-spy="affix" data-offset-top="75">
+          <div class="container">
+            <div class="categories--mobile pull-left"><a class="dropdown-toggle categories--mobile__buttonsm" id="menu-categories" data-toggle="collapse" data-target="#dropdown-categories"><i class="glyph-icon flaticon-signs-1 categories--mobile__icon"></i></a></div>
+            <button class="navbar-toggle nav-icon pull-right collapsed visible-sm visible-xs" id="menu-hamberger" data-toggle="collapse" data-target="#menu-main"><span class="bar"></span></button>
+            <div class="logo--mobile text-center"><a class="logo__link" href="/"><img class="logo__image" src="../assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
+          </div>
+          <div class="menu-mobile">
+                <ul class="menu-mobile__list ">
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="engineeringmaths.html">Engineering Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/realanalysis.html">Real Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/vectoranalysis.html">Vector Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/complexanalysis.html">Complex Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/analyticgeometry.html">Analytic Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/linearalgebra.html">Linear Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/ordinarydifferentialequations.html">Ordinary Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/ordinarydifferentialequations.html">Partial Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/numericalmethods.html">Numerical Methods</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/algebra.html">Algebra</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="upscmaths.html">UPSC Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/paperi.html">Paper I</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/paperii.html">Paper II</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="jeemaths.html">JEE Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/trigonometry.html">Trigonometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/analyticalgeometry.html">Analytical Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/differentialcalculus.html">Differential Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/integralcalculus.html">Integral Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/vectors.html">Vectors</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="xiimaths.html">XII Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/relationsandfunctions.html">Relations and Functions</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/vectorsandthree-dimensionalgeometry.html">Vectors and Three-Dimensional Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/probability.html">Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="ximaths.html">XI Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/setsandfunctions.html">Sets and Functions</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/mathematicalreasoning.html">Mathematical Reasoning</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="xmaths.html">X Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/numbersystems.html">Number Systems</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/geometry.html">Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/trigonometry.html">Trigonometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/mensuration.html">Mensuration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="ixmaths.html">IX Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/numbersystems.html">Number Systems</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/geometry.html">Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/mensuration.html">Mensuration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="careforcareer.html">Care for Career</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="https://www.facebook.com/groups/261170104727090/">Visit our Group</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Podcasts</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Blogs</a></li>
+                    </ul>
+                  </li>
+                </ul>
+          </div>
+          <div class="menu-mobile-dropdown menu-mobile--categories">
+                <ul class="menu-mobile__list ">
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="olympiadmaths.html">Olympiad</a>
+
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Finance</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Industry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Management</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Media</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Sales</a></li>
+                    </ul>
+                  -->
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="ntsemaths.html">NTSE</a>
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Design Thinking</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fashion</a></li>
+                    </ul>
+                  -->
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="kvpymaths.html">KVPY</a>
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Databases</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Mobie Apps</a></li>
+                    </ul>
+                  -->
+                  </li>
+
+                  <!--
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Heath &amp; Fitness</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Dance</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fitness</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">IT &amp; Software</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">AI &amp; Big Data</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Hardware</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Language</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Chinese</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">English</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">French</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Lifestyle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Art &amp; Crafts</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Gaming</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Office Productivity</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Apple</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Google</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Oracle</a></li>
+                    </ul>
+                  </li>
+                -->
+                </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="button-default btn-ontop" id="on-top"><span class="glyph-icon flaticon-arrows-5"></span></div>
+    </header>
+    <div class="modal fade signin-form" id="modal-signin" role="dialog">
+      <div class="modal-dialog signin-form__dialog">
+        <div class="signin-form__button-close hidden-lg hidden-md hidden-sm">
+          <button class="close signin-form__button-close__btn" type="button" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="signin-form__header"><a class="signin-form__header__logo" href="#"><img src="../assets/img/logo/Logo-form.png" alt=""></a>
+          <p class="signin-form__sub">Universal access to the world’s best education.</p>
+        </div>
+        <div class="modal-content signin-form__content">
+          <div class="modal-body signin-form__body">
+            <ul class="signin-form__tabs">
+              <li class="active signin-form__tabs__items"><a class="signin-form__tabs__link" data-toggle="tab" href="#sign-in">Sign In</a></li>
+              <li class="signin-form__tabs__items"><a class="signin-form__tabs__link" data-toggle="tab" href="#sign-up">Sign Up</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="sign-in">
+                <h3 class="signin-form__body__title">Log Into Your Account</h3>
+                <p class="signin-form__body__sub">Your student account is your portal to all the things: your classroom, projects, forums, career resources, and more!</p>
+                <form class="signin-form__form">
+                  <div class="signin-form__form__inputs">
+                    <input class="input-item" type="text" placeholder="Email">
+                    <input class="input-item" type="password" placeholder="Password">
+                  </div>
+                  <button class="btn-green list-link__btn">Sign In</button><a class="signin-form__link" href="#">Forgot your password?</a>
+                </form>
+                <div class="group-btn-socials">
+                  <p class="group-btn-socials__sub">or sign in with one of these services</p>
+                  <div class="btn-social btn-social--facebook"><i class="glyph-icon flaticon-social-1"></i><i>facebook</i></div>
+                  <div class="btn-social btn-social--twitter"><i class="glyph-icon flaticon-twitter-logo-silhouette"></i><i>twitter</i></div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="sign-up">
+                <h3 class="signin-form__body__title">Log Into Your Account</h3>
+                <p class="signin-form__body__sub">Your student account is your portal to all the things: your classroom, projects, forums, career resources, and more!</p>
+                <form class="signin-form__form">
+                  <div class="signin-form__form__inputs">
+                    <input class="input-item" type="text" placeholder="User name">
+                    <input class="input-item" type="email" placeholder="Email">
+                    <input class="input-item" type="password" placeholder="Password">
+                    <input class="input-item" type="password" placeholder="Confirm Password">
+                  </div>
+                  <button class="btn-green list-link__btn">Sign Up</button>
+                </form>
+                <div class="group-btn-socials">
+                  <p class="group-btn-socials__sub">or sign up with one of these services</p>
+                  <div class="btn-social btn-social--facebook"><i class="glyph-icon flaticon-social-1"></i><i>facebook</i></div>
+                  <div class="btn-social btn-social--twitter"><i class="glyph-icon flaticon-twitter-logo-silhouette"></i><i>twitter</i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="signin-form__footer"><a class="signin-form__footer__link" href="#">Having trouble logging in?</a></div>
+      </div>
+    </div>
+
+    <div class="design-sprint">
+      <div class="container design-sprint__list">
+        <div class="row design-sprint__content">
+          <div class="col-lg-4 col-md-4 col-sm-4 design-sprint__item">
+            <h1 class="design-sprint__item__title">Our Education Initiative</h1>
+            <p class="design-sprint__item__content">We want to provide quality education to all and assist students and professionals in their career growth and advancement through collaborative learning and support.</p>
+            <!--
+            <a class="btn button-default design-sprint__item__button" href="http://swlabs.co/educef/html/index.html#">enroll now</a>
+            -->
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 design-sprint__item-image">
+            <div class="design-sprint__wapper"><img class="design-sprint__wapper__image" src="../assets/img/mathematicsforengineeringupscandquant.jpg" alt="Product management"></div>
+            <div class="design-sprint__contents" style="height: 92px;"><a class="design-sprint__contents__title" href="https://www.facebook.com/groups/319388251960495/" target="_blank">Mathematics for Engineering, UPSC and Quant</a><a class="design-sprint__contents__link" href="https://www.facebook.com/groups/319388251960495/" target="_blank">Join Our Group</a></div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 design-sprint__item-image">
+            <div class="design-sprint__wapper"><img class="design-sprint__wapper__image" src="../assets/img/careforcareer.jpg" alt="Deep learning data analyst"></div>
+            <div class="design-sprint__contents" style="height: 92px;"><a class="design-sprint__contents__title" href="https://www.facebook.com/groups/261170104727090/" target="_blank">Care For Career</a><a class="design-sprint__contents__link" href="https://www.facebook.com/groups/261170104727090/" target="_blank">Join Our Group</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="list-icons">
+      <div class="container">
+            <div class="row list-icons__list">
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/01image.png" alt="home/01image.png"></a></div>
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/02image.png" alt="home/02image.png"></a></div>
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/03image.png" alt="home/03image.png"></a></div>
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/01image.png" alt="home/01image.png"></a></div>
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/02image.png" alt="home/02image.png"></a></div>
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/03image.png" alt="home/03image.png"></a></div>
+              <div class="list-icons__item"><a class="list-icons__link" href="#"><img class="list-icons__image" src="../assets/img/home/01image.png" alt="home/01image.png"></a></div>
+            </div>
+      </div>
+    </div>
+    -->
+
+    <section class="spy list-course" id="exploer">
+      <div class="container">
+        <div class="list-course__header">
+          <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s">top specializations</h2>
+          <div class="list-course__view-more"><a class="list-course__header__btn"><span class="list-course__header__text">view more</span></a>
+            <div class="list-course__header__icon list-course-icon-arrow-special"><span class="glyph-icon flaticon-arrows-3 list-course__header__icon-arrow"></span></div>
+          </div>
+        </div>
+        <div class="list-course__gird">
+          <div class="course specializations">
+                <div class="special courses__list ">
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/engineeringmaths.png" alt=""></div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1sRsOoeIOnVTUFss6hN8PNYMdwLHHe-t8" target="_blank">Engineering Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-0.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/upscmaths.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1nwahTy5Wnl0tFkPFWLy0qMXrYd_JdwLU" target="_blank">UPSC Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-1.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/jeemaths.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1GwZ9_UMFkqedRyhq22VGNDI0gtwAfFyg" target="_blank">JEE Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-2.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/xiimaths.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1-YR1noRDyIQS1LS_e6kkdG7w5HYYXl6I" target="_blank">XII Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-3.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/ximaths.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1-nAESgJK2eQgCvhXExzehyLW7LqiJMw4" target="_blank">XI Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-4.png" alt=""></span><span class="courses__content__author-name">Anthony Leath</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/xmaths.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/19oOewHr3QC6V1gFbk9zIOQkCJpFMenR4" target="_blank">X Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-5.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/ixmaths.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1osBtjii32SEfxWy65HLYpoHYzYdM-AyH" target="_blank">IX Maths</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-6.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/coverpages/careforcareer.png" alt=""></div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="https://drive.google.com/drive/folders/1iWmoUIPTmGhiSVyFi9b7GExggEYo-oZ0" target="_blank">Career Prep</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-11.png" alt=""></span><span class="courses__content__author-name">PyMaths</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">Join</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+    <div class="list-course spy" id="course">
+      <div class="container">
+        <div class="list-course__header">
+          <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s"> top rated courses</h2>
+          <div class="list-course__view-more"><a class="list-course__header__btn"><span class="list-course__header__text">view more</span></a>
+            <div class="list-course__header__icon list-course-icon-arrow-course-rate"><span class="glyph-icon flaticon-arrows-3 list-course__header__icon-arrow"></span></div>
+          </div>
+        </div>
+        <div class="list-course__gird">
+          <div class="course rated-courses">
+                <div class="rated-cou courses__list ">
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/0.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">neutal networks and for deep learning</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-0.png" alt=""></span><span class="courses__content__author-name">Anthony Leath</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$100</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/1.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Design effective advertising pointers</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Ryan Stewart</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$110</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/2.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Complete graphic design: Photomagic</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-2.png" alt=""></span><span class="courses__content__author-name">Jared Brooks</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$99</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/3.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Presents: The Yoga of Awakening</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-3.png" alt=""></span><span class="courses__content__author-name">Ryan Stewart</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$89</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/4.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">neutal networks and for deep learning</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-4.png" alt=""></span><span class="courses__content__author-name">Anthony Leath</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$100</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/5.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Design effective advertising pointers</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-5.png" alt=""></span><span class="courses__content__author-name">Ryan Stewart</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$110</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/6.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Complete graphic design: Photomagic</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-6.png" alt=""></span><span class="courses__content__author-name">Jared Brooks</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$99</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/7.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Presents: The Yoga of Awakening</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-7.png" alt=""></span><span class="courses__content__author-name">Ryan Stewart</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$89</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/8.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">neutal networks and for deep learning</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-8.png" alt=""></span><span class="courses__content__author-name">Anthony Leath</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">347</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$100</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/9.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Design effective advertising pointers</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-9.png" alt=""></span><span class="courses__content__author-name">Ryan Stewart</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$110</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/10.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Complete graphic design: Photomagic</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-10.png" alt=""></span><span class="courses__content__author-name">Jared Brooks</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$99</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="undefined courses__item">
+                    <div class="courses__wapper">
+                      <div class="col-equal courses__top">
+                        <div class="courses__top__wapper"><img class="courses__top__image" src="../assets/img/courses-image/11.jpg" alt=""></div>
+                        <div class="courses__top__bundle">bundle</div>
+                        <div class="courses__top__bt-seller">best seller</div>
+                        <div class="courses__hover">
+                          <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                        </div>
+                      </div>
+                      <div class="col-equal courses__content"><a class="courses__content__title" href="#">Presents: The Yoga of Awakening</a>
+                        <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="../assets/img/partner/partner-details-11.png" alt=""></span><span class="courses__content__author-name">Ryan Stewart</span></a>
+                          <div class="courses__col-right">
+                            <div class="rating-start" data-rating="5"></div>
+                          </div>
+                        </div>
+                        <div class="courses__content__info">
+                          <div class="courses__col-left">
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">200</span></div>
+                            <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">417</span></div>
+                          </div>
+                          <div class="courses__col-right courses__content__price">$89</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <div class="best-features event spy" id="partner">
+      <div class="container">
+        <div class="list-course__header">
+          <h2 class="list-course__header__title"> our best features</h2>
+        </div>
+        <div class="row">
+          <div class="item">
+            <div class="col-lg-5 col-md-5 item__left wow zoomInLeft"><img class="item__left__image" src="../assets/img/home/1.jpg" alt="">
+              <h3 class="item__left__title">Goal Oriented Collaborative Learning</h3>
+              <p class="item__left__content">
+                We believe that learning is fun when it is interactive and done in an engaging manner.
+              </p>
+              <p> On our platform, we try to understand concepts by relating
+                with the real life applications.
+              </p>
+            </div>
+            <div class="col-lg-7 col-md-7 item__right">
+              <div class="item__right__image-left"><img class="item__right__image" src="../assets/img/home/curated.jpg" alt=""></div>
+              <!--
+              <div class="item__right__image-right"><img class="item__right__image" src="../assets/img/home/04.png" alt=""></div>
+              -->
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-lg-5 col-md-5 item__left wow zoomInRight">
+              <!-- <img class="item__left__image" src="../assets/img/home/icon-02.png" alt=""> -->
+              <h3 class="item__left__title">Master the mathematical concepts</h3>
+              <p class="item__left__content">
+                Master the mathematical concepts required to help you in your academics or advance your career. Mathematics has huge applications in almost every aspect of life. So its worth spending some time and learn a thing or two about it.
+              </p>
+            </div>
+            <div class="col-lg-7 col-md-7 item__right">
+              <div class="item__right__image-left"><img class="item__right__image" src="../assets/img/home/mathsbg.jpg" alt=""></div>
+              <!-- <div class="item__right__image-right"><img class="item__right__image" src="../assets/img/home/mathsbg.jpg" alt=""></div> -->
+            </div>
+          </div>
+          <div class="item">
+            <div class="col-lg-5 col-md-5 item__left wow zoomInLeft">
+               <!-- <img class="item__left__image" src="../assets/img/home/icon-03.png" alt=""> -->
+              <h3 class="item__left__title">Highly Curated Courses</h3>
+              <p class="item__left__content">
+                Our courses and content is highly curated to help students learn the most in minimum of time.
+              </p>
+            </div>
+            <div class="col-lg-7 col-md-7 item__right">
+          <!--    <div class="item__right__image-left-3"><img class="item__right__image" src="../assets/img/home/curated.jpg" alt=""></div> -->
+              <div class="item__right__image-right-3"><img class="item__right__image" src="../assets/img/home/bookshelf.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="promotions spy" id="event">
+      <div class="container">
+        <div class="row promotions__list">
+          <div class="col-lg-6 col-md-6 col-sm-6 promotions__item"><a class="pro-item pro-item--left" href="#">
+              <div class="pro-item__item"><span class="glyph-icon flaticon-shield pro-item__icon"></span></div>
+              <div class="pro-item__item">
+                <div class="pro-item__title">Free Courses</div>
+                <p class="pro-item__subcontent">Refresh your knowledge of Graphic Design learning path. No prior knowledge is required.</p>
+              </div></a></div>
+          <div class="col-lg-6 col-md-6 col-sm-6 promotions__item"><a class="pro-item" href="#">
+              <div class="pro-item__item"><span class="glyph-icon flaticon-shield pro-item__icon"></span></div>
+              <div class="pro-item__item">
+                <div class="pro-item__title">Free Bundle</div>
+                <p class="pro-item__subcontent">Refresh your knowledge of Graphic Design learning path. No prior knowledge is required.</p>
+              </div></a></div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!--
+    <div class="list-course spy" id="membership">
+      <div class="container">
+        <div class="list-course__header">
+          <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s"> Recent Blog</h2>
+          <div class="list-course__view-more"><a class="list-course__header__btn"><span class="list-course__header__text">view more</span></a>
+            <div class="list-course__header__icon list-course-icon-arrow-recent-blog"><span class="glyph-icon flaticon-arrows-3 list-course__header__icon-arrow"></span></div>
+          </div>
+        </div>
+        <div class="blog">
+          <div class="blog-col">
+            <div class="blog-col__item">
+              <div class="blog__item">
+                <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="../assets/img/courses-image/1.jpg" alt=""></a></div>
+                <div class="blog__item__right">
+                  <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="#">Learn From Top Tutors in Every Subject And Our ProjectsLearn From Top Tutors in Every Subject And Our ProjectsLearn From Top Tutors in Every Subject And Our Projects</a>
+                  <div class="blog__item__infor"><a class="blog__item__author" href="#">Jonathan Jamp</a>
+                    <div class="col-left">
+                      <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span>347</span></div>
+                      <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span>347</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-col">
+            <div class="blog-col__item">
+              <div class="blog__item">
+                <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="../assets/img/courses-image/9.jpg" alt=""></a></div>
+                <div class="blog__item__right">
+                  <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="#">Learn From Top Tutors in Every Subject And Our Projects</a>
+                  <div class="blog__item__infor"><a class="blog__item__author" href="#">Jonathan Jamp</a>
+                    <div class="col-left">
+                      <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span>347</span></div>
+                      <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span>347</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blog-col">
+            <div class="blog-col__item">
+              <div class="blog__item">
+                <div class="blog__item__left"><a class="blog__item__link" href="#"><img class="blog__item__image" src="../assets/img/courses-image/10.jpg" alt=""></a></div>
+                <div class="blog__item__right">
+                  <div class="blog__item__date">June 25, 2018</div><a class="blog__item__title" href="#">Learn From Top Tutors in Every Subject And Our Projects</a>
+                  <div class="blog__item__infor"><a class="blog__item__author" href="#">Jonathan Jamp</a>
+                    <div class="col-left">
+                      <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span>347</span></div>
+                      <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span>347</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!--
+    <div class="form-subs spy" id="forum">
+      <div class="container">
+        <div class="row form-subs__content">
+          <div class="col-lg-6 col-md-6 col-sm-12 column-item">
+            <h2 class="form-subs__title wow fadeIn" data-wow-duration="1s" data-wow-delay="0.002s"> Subscribe Our Newsletter</h2>
+            <p class="form-subs__sub">For new awesome courses & special promotion campaign!</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 column-item">
+            <form class="form-subs__form">
+              <input class="form-subs__input" type="text" placeholder="Your email...">
+              <button class="btn btn-default button-default form-subs__button" type="submit">enroll now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+    <!--
+    <div class="testimotials spy" id="elements">
+      <div class="container">
+        <div class="list-course__header">
+          <h2 class="list-course__header__title wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.002s"> Testimotials</h2>
+        </div>
+        <div class="row">
+          <div class="testimotials__list">
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-2.png" alt="2"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-3.png" alt="3"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-4.png" alt="4"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-5.png" alt="5"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-6.png" alt="6"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-7.png" alt="7"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+                <div class="testimotials__item">
+                  <div class="glyph-icon flaticon-weather testimotials__icon"></div>
+                  <p class="testimotials__item__content">In our get creative course you will learn the fundamentals of design thinking and creative problem solving</p>
+                  <div class="testimotials__item__avatar"><img class="testimotials__item__image" src="../assets/img/partner-details/partner-details-8.png" alt="8"></div>
+                  <div class="testimotials__item__user">Jonathan Hampson</div>
+                  <div class="testimotials__item__prof">Amazon Professor</div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <footer class="footer">
+      <video id="video-background" playsinline autoplay muted loop preload="none">
+        <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&amp;profile_id=119&amp;oauth2_token_id=57447761" type="video/mp4">
+      </video>
+      <div class="container">
+        <div class="footer__top">
+          <div class="icon-video"><span class="glyph-icon flaticon-music icon-custom icon-video__icon"></span></div>
+          <h2 class="footer__top__title">Start Your New Goal & Make Life Better</h2>
+          <div class="footer__top__sub">Learn with us and enjoy the awesome experience of Online Collaborative Learning</div><a class="btn button-default design-sprint__item__button" href="#">enroll now</a>
+        </div>
+        <div class="row footer__content">
+          <div class="col-lg-5 col-md-5"><a class="logo__link footer__logo" href="/"><img class="logo__image" src="../assets/img/logo_footer.png" alt="Logo Educef"></a>
+            <p class="footer__item__sub">
+              Education Intiative<br />
+              We have a Simple Goal, Quality Education to All<br />
+              Join our Initiative
+            </p>
+                <div class="asocials">
+                  <ul class="asocials__list">
+                    <li class="asocials__item"><a class="asocials__link" href="#"><span class="glyph-icon icon-custom flaticon-social-media asocials__icon"></span></a></li>
+                    <li class="asocials__item"><a class="asocials__link" href="#"><span class="glyph-icon icon-custom flaticon-social-1 asocials__icon"></span></a></li>
+                    <li class="asocials__item"><a class="asocials__link" href="#"><span class="glyph-icon icon-custom flaticon-twitter-logo-silhouette asocials__icon"></span></a></li>
+                    <li class="asocials__item"><a class="asocials__link" href="#"><span class="glyph-icon icon-custom flaticon-google-plus-symbol asocials__icon"></span></a></li>
+                    <li class="asocials__item"><a class="asocials__link" href="#"><span class="glyph-icon icon-custom flaticon-social-4 asocials__icon"></span></a></li>
+                    <li class="asocials__item"><a class="asocials__link" href="#"><span class="glyph-icon icon-custom flaticon-pinterest-logotype asocials__icon"></span></a></li>
+                  </ul>
+                </div>
+          </div>
+          <div class="col-lg-7 col-md-7 footer__content__right">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
+                <h3 class="footer__item__title">System</h3>
+                    <ul class="footer-link__list">
+                      <li class="footer-link__item"><a class="footer-link__link ">Help center</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Support forum</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">affiliate</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Explore</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Pricing</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Social</a>
+                      </li>
+                    </ul>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
+                <h3 class="footer__item__title">more</h3>
+                    <ul class="footer-link__list">
+                      <li class="footer-link__item"><a class="footer-link__link ">About us</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Blog</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Service</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Sign in</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Sign up</a>
+                      </li>
+                      <li class="footer-link__item"><a class="footer-link__link ">Contact</a>
+                      </li>
+                    </ul>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
+                <h3 class="footer__item__title">get in touch</h3>
+                <div class="footer-link__link footer-link__link--contact">Contact us if you need help with anything</div>
+               <!-- <div class="footer-link__link footer-link__link--phone">(+ 01) 2675 2868</div>
+                <div class="footer-link__link footer-link__link--phone">(+ 01) 2120 286473</div>.
+                <div class="footer-link__link footer-link__link--phone">prateek96.4@gmail.com</div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">&copy; 2018 PyMaths</div>
+      </div>
+    </footer>
+    <script src="../assets/lib/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/lib/js/bootstrap.min.js"></script>
+    <script src="../assets/lib/slick/slick.min.js"></script>
+    <script src="../assets/js/wow.js"></script>
+    <script src="../assets/js/jquery-matchHeight.js"></script>
+    <script src="../assets/js/slicks.js"></script>
+    <script src="../assets/js/home.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <div class="positionfixed"></div>
+  </body>
+</html>
