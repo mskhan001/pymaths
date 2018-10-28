@@ -687,7 +687,8 @@ body {
 .breadcrumb-wapper .breadcrumb {
   background-color: #fff;
   padding: 0;
-  margin-bottom: 32px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .breadcrumb-wapper .breadcrumb__link {
