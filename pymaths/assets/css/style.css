@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*=============================================
 1. Modules in page
   1.1. Button in page
@@ -1738,7 +1738,7 @@ body {
 }
 
 .logo--menu {
-  margin-right: 10px;
+  margin-right: 30px;
   width: 0;
   vertical-align: middle;
   position: absolute;
@@ -1864,7 +1864,7 @@ body {
 }
 
 .dropdown-catagories__item {
-  position: relative;
+  position: static;
   padding: 7px 13px;
   -webkit-transition: border-left 0.5s ease;
   transition: border-left 0.5s ease;
@@ -1908,10 +1908,9 @@ body {
 }
 
 .cate-sub {
-  z-index: 999;
   position: absolute;
+  z-index: 999;
   left: 100%;
-  top:  0;
   min-width: 200px;
   border: 1px solid #e8e8e8;
   background-color: #fff;
@@ -2458,9 +2457,8 @@ body {
 
 .menu-main li.menu-main__item {
   position: relative;
-  margin: 0 15px;
+  margin: 0 28px;
   text-align: left;
-  display: inline-flex;
 }
 
 .menu-main li.menu-main__item:first-child {
@@ -6202,7 +6200,7 @@ body {
 }
 
 .list-syllabus--show {
-  max-height: 10000px;
+  max-height: 15000px;
   -webkit-transition: max-height 1.75s ease;
   transition: max-height 1.75s ease;
 }

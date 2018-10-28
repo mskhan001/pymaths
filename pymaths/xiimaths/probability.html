@@ -1,96 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Course single</title>
+    <title>Probability</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="assets/lib/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font/flaticon/flaticon.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon.png">
+  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/logo_header.png">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/font/flaticon/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../assets/lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/animate.css">
   </head>
-  <body class="course-single">
+
+  <body class="home">
     <header class="header-content">
-      <div class="header-top hidden-sm hidden-xs" id="header-top">
+
+        <div class="header-top hidden-sm hidden-xs" id="header-top">
         <div class="container">
           <nav class="navbar navbar-inverse header-top__top">
-            <div class="navbar-header"><a class="navbar-brand logo__link" href="/"><img class="logo__image" src="assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
-            <div class="nav navbar-nav navbar-left categories"><a class="dropdown-toggle categories__button"><i class="glyph-icon flaticon-signs-1 categories__icon"></i><span class="categories__text">categories</span></a>
+            <div class="navbar-header"><a class="navbar-brand logo__link" href="http://pymaths.com/"><img class="logo__image" src="../assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
+            <div class="nav navbar-nav navbar-left categories"><a class="dropdown-toggle categories__button"><i class="glyph-icon flaticon-signs-1 categories__icon"></i><span class="categories__text">Competitive Exams</span></a>
               <div class="dropdown-catagories">
                     <ul class="dropdown-catagories__list ">
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Business</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="../olympiadmaths.html" target="_blank">Olympiad</a>
+
+                        <!--
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
                         <div class="cate-sub">
                           <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Finance</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Industry</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Management</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Media</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Sales</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Finance</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Industry</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Management</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Media</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Sales</a></li>
+                          </ul>
+                        </div>
+                        -->
+
+                      </li>
+
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="../ntse.html" target="_blank">NTSE</a>
+
+                        <!--
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Design Thinking</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Fashion</a></li>
+                          </ul>
+                        </div>
+                      -->
+                      </li>
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="../kvpy.html" target="_blank">KVPY</a>
+                      </li>
+                      <!--
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="http://swlabs.co/educef/html/index.html#">Blogs</a>
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Databases</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Mobie Apps</a></li>
                           </ul>
                         </div>
                       </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Design</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Design Thinking</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Fashion</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Development</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Databases</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Mobie Apps</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Heath &amp; Fitness</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Dance</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Fitness</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">IT &amp; Software</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">AI &amp; Big Data</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Hardware</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Language</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Chinese</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">English</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">French</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Lifestyle</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Art &amp; Crafts</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Gaming</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Office Productivity</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Apple</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Google</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Oracle</a></li>
-                          </ul>
-                        </div>
-                      </li>
+                      -->
+
                     </ul>
+
               </div>
             </div>
+
             <form class="navbar-form navbar-left form-search">
               <div class="form-search__input-group">
                 <input class="form-control form-search__input" type="text" placeholder="Search your course...">
@@ -99,103 +81,189 @@
                 </div>
               </div>
             </form>
+
+            <!--
             <div class="nav navbar-nav navbar-right nav-right nav-right--login">
-              <button class="btn btn-default button-default nav-right__instructor" type="submit">Instructors</button>
-              <div class="nav-right__notifications"><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-bell nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a>
+              <button class="btn btn-default button-default nav-right__instructor" type="submit">Revision Mode</button>
+              <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-bell nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a>
                 <div class="nav-right__profile"><i class="glyph-icon flaticon-profile-2 nav-right__profile__icon"></i><span class="nav-right__profile__status"></span>
                   <div class="profile">
-                    <div class="profile__avarta"><img class="profile__image" src="assets/img/30w.jpg" alt=""></div><a class="profile__user-name" href="#">Alex Sander</a><a class="profile__course" href="#"><i class="glyph-icon flaticon-profile profile__icon"></i><span class="profile__text">My profile</span></a><a class="profile__course" href="#"><i class="glyph-icon flaticon-shield profile__icon"></i><span class="profile__text">My course</span></a><a class="btn btn-default button-default profile__btn" href="#">Log out</a>
+                    <div class="profile__avarta"><img class="profile__image" src="./30w.jpg" alt=""></div><a class="profile__user-name" href="http://swlabs.co/educef/html/index.html#">Alex Sander</a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-profile profile__icon"></i><span class="profile__text">My profile</span></a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shield profile__icon"></i><span class="profile__text">My course</span></a><a class="btn btn-default button-default profile__btn" href="http://swlabs.co/educef/html/index.html#">Log out</a>
                   </div>
                 </div>
               </div>
             </div>
+            -->
+
+            <!--
             <div class="nav navbar-nav navbar-right nav-right--notlogin">
-              <div class="nav-right__notifications"><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
+              <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
               <button class="btn btn-default button-default nav-right__become" type="submit">become an Instructor</button>
-              <div class="nav-right__signin"><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
+              <div class="nav-right__signin"><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
             </div>
+            -->
+
           </nav>
         </div>
       </div>
-      <div class="bottom-header hidden-sm hidden-xs" id="scrollspy" data-spy="affix" data-offset-top="112">
+
+      <div class="bottom-header hidden-sm hidden-xs affix-top" id="scrollspy" data-spy="affix" data-offset-top="112">
         <div class="container">
-          <div class="logo--menu"><a class="logo__link" href="/"><img class="logo__image" src="assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
+          <div class="logo--menu"><a class="logo__link" href="http://pymaths.com/"><img class="logo__image" src="../assets/img/logo_header.png" alt="PyMaths"></a></div>
           <nav class="menu-main">
                 <ul class="nav navbar-nav menu-main__list ">
-                  <li class="menu-main__item active"><a class="menu-main__link " href="#" id="home">home</a>
+                  <li class="menu-main__item active"><a class="menu-main__link " href="../engineeringmaths.html" target="_blank" id="elements">Engineering Maths</a>
                     <div class="dropdown-catagories dropdown-catagories--menu">
                       <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="index.html">home 1</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="index-2.html">home 2</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="course">course</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="categories.html">course categories</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-listing.html">course list</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-grid.html">course grid</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-single.html">course single</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-detail.html">course details</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="search-result.html">course search result</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="instructor-details.html">instructor details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="bundle">bundle</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-bundle.html">course bundle</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="bundle-details.html">course bundle details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="partner">partner</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="partner-listing.html">partner list</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="partner-details.html">partner details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="blog">blog</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="blog-grid.html">blog grid</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="blog-details-sidebar.html">blog details with sidebar</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="blog-details.html">blog details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="pages">pages</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="pricing-table.html">pricing table</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="contact.html">contact</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="coming-soon.html">coming soon</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="404.html">404 page</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="elements">elements</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#">sub level 1</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
-                          <div class="cate-sub">
-                            <ul class="cate-sub__list">
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 1.1</a></li>
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 1.2</a></li>
-                            </ul>
-                          </div>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/realanalysis.html" target="_blank">Real Analysis</a>
                         </li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#">sub level 2</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
-                          <div class="cate-sub">
-                            <ul class="cate-sub__list">
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 2.1</a></li>
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 2.2</a></li>
-                            </ul>
-                          </div>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/calculus.html" target="_blank">Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/vectoranalysis.html" target="_blank">Vector Analysis</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/complexanalysis.html" target="_blank">Complex Analysis</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/analyticgeometry.html" target="_blank">Analytic Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/linearalgebra.html" target="_blank">Linear Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/ordinarydifferentialequations.html" target="_blank">Ordinary Differential Equations</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/partialdifferentialequations.html" target="_blank">Partial Differential Equations</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/numericalmethods.html" target="_blank">Numerical Methods</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/linearprogramming.html" target="_blank">Linear Programming</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../engineeringmaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="../upscmaths.html" target="_blank" id="elements">UPSC Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../upscmaths/paperi.html" target="_blank">Paper I</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../upscmaths/paperii.html" target="_blank">Paper II</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../upscmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="../jeemaths.html" target="_blank" id="elements">JEE Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/trigonometry.html" target="_blank">Trigonometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/analyticalgeometry.html" target="_blank">Analytical Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/differentialcalculus.html" target="_blank">Differential Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/integralcalculus.html" target="_blank">Integral Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/vectors.html" target="_blank">Vectors</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../jeemaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="../xiimaths.html" target="_blank" id="elements">XII Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/relationsandfunctions.html" target="_blank">Relations and Functions</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/calculus.html" target="_blank">Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/vectorsandthree-dimensionalgeometry.html" target="_blank">Vectors and Three - Dimensional Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/linearprogramming.html" target="_blank">Linear Programming</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/probability.html" target="_blank">Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xiimaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                   <li class="menu-main__item"><a class="menu-main__link " href="../ximaths.html" target="_blank" id="elements">XI Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/setsandfunctions.html" target="_blank">Sets and Functions</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/calculus.html" target="_blank">Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/mathematicalreasoning.html" target="_blank">Mathematical Reasoning</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/statisticsandprobability.html" target="_blank">Statistics and Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ximaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="../xmaths.html" target="_blank" id="elements">X Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/numbersystems.html" target="_blank">Number Systems</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/geometry.html" target="_blank">Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/trigonometry.html" target="_blank">Trigonometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/mensuration.html" target="_blank">Mensuration</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/statisticsandprobability.html" target="_blank">Statistics and Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../xmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                 <li class="menu-main__item"><a class="menu-main__link " href="../ixmaths.html" target="_blank" id="elements">IX Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/numbersystems.html" target="_blank">Number Systems</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/geometry.html" target="_blank">Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/mensuration.html" target="_blank">Mensuration</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/statisticsnandprobability.html" target="_blank">Statistics and Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="../ixmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                 <li class="menu-main__item"><a class="menu-main__link " href="../careforcareer.html" target="_blank" id="elements">Care For Career</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://www.facebook.com/groups/261170104727090/" target="_blank">Visit our Group</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#" target="_blank">Podcasts</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#" target="_blank">Blogs</a>
                         </li>
                       </ul>
                     </div>
@@ -204,6 +272,8 @@
           </nav>
         </div>
       </div>
+
+
       <div class="header__mobile hidden-lg hidden-md">
         <div class="header-top">
           <div class="container">
@@ -226,79 +296,108 @@
             </form>
           </div>
         </div>
+
         <nav class="navbar" id="header-mobile" data-spy="affix" data-offset-top="75">
           <div class="container">
             <div class="categories--mobile pull-left"><a class="dropdown-toggle categories--mobile__buttonsm" id="menu-categories" data-toggle="collapse" data-target="#dropdown-categories"><i class="glyph-icon flaticon-signs-1 categories--mobile__icon"></i></a></div>
             <button class="navbar-toggle nav-icon pull-right collapsed visible-sm visible-xs" id="menu-hamberger" data-toggle="collapse" data-target="#menu-main"><span class="bar"></span></button>
-            <div class="logo--mobile text-center"><a class="logo__link" href="/"><img class="logo__image" src="assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
+            <div class="logo--mobile text-center"><a class="logo__link" href="/"><img class="logo__image" src="../assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
           </div>
           <div class="menu-mobile">
                 <ul class="menu-mobile__list ">
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">home</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../engineeringmaths.html">Engineering Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="index.html">home 1</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="index-2.html">home 2</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/realanalysis.html">Real Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/vectoranalysis.html">Vector Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/complexanalysis.html">Complex Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/analyticgeometry.html">Analytic Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/linearalgebra.html">Linear Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/ordinarydifferentialequations.html">Ordinary Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/ordinarydifferentialequations.html">Partial Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/numericalmethods.html">Numerical Methods</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../engineeringmaths/algebra.html">Algebra</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">course</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../upscmaths.html">UPSC Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="categories.html">course categories</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-listing.html">course list</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-grid.html">course grid</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-single.html">course single</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-detail.html">course details</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="search-result.html">course search result</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="instructor-details.html">instructor details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/paperi.html">Paper I</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/paperii.html">Paper II</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/previousyearpapers.html">Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">bundle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../jeemaths.html">JEE Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-bundle.html">course bundle</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="bundle-details.html">course bundle details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/trigonometry.html">Trigonometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/analyticalgeometry.html">Analytical Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/differentialcalculus.html">Differential Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/integralcalculus.html">Integral Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/vectors.html">Vectors</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../jeemaths/previousyearpapers.html">Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">partner</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../xiimaths.html">XII Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="partner-listing.html">partner list</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="partner-details.html">partner details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/relationsandfunctions.html">Relations and Functions</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/vectorsandthree-dimensionalgeometry.html">Vectors and Three-Dimensional Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/probability.html">Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xiimaths/previousyearpapers.html">Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">blog</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="x../imaths.html">XI Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-grid.html">blog grid</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-details-sidebar.html">blog details with sidebar</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-details.html">blog details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/setsandfunctions.html">Sets and Functions</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/mathematicalreasoning.html">Mathematical Reasoning</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ximaths/previousyearpapers.html">Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">pages</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../xmaths.html">X Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="pricing-table.html">pricing table</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="contact.html">contact</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="coming-soon.html">coming soon</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="404.html">404 page</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/numbersystems.html">Number Systems</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/geometry.html">Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/trigonometry.html">Trigonometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/mensuration.html">Mensuration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../xmaths/previousyearpapers.html">Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">elements</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../ixmaths.html">IX Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-submenu"><a class="dropdown-mobile__link" href="#">sub level 1</a><span class="glyph-icon flaticon-arrows-3 menu-mobile__icon"></span>
-                        <ul class="dropdown-menu dropdown-mobile">
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 1.1</a></li>
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 1.2</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-submenu"><a class="dropdown-mobile__link" href="#">sub level 2</a><span class="glyph-icon flaticon-arrows-3 menu-mobile__icon"></span>
-                        <ul class="dropdown-menu dropdown-mobile">
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 2.1</a></li>
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 2.2</a></li>
-                        </ul>
-                      </li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/numbersystems.html">Number Systems</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/geometry.html">Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/mensuration.html">Mensuration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="../ixmaths/previousyearpapers.html">Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../careforcareer.html">Care for Career</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="https://www.facebook.com/groups/261170104727090/">Visit our Group</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Podcasts</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Blogs</a></li>
                     </ul>
                   </li>
                 </ul>
           </div>
           <div class="menu-mobile-dropdown menu-mobile--categories">
                 <ul class="menu-mobile__list ">
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Business</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../olympiadmaths.html">Olympiad</a>
+
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Finance</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Industry</a></li>
@@ -306,50 +405,25 @@
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Media</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Sales</a></li>
                     </ul>
+                  -->
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Design</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../ntsemaths.html">NTSE</a>
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Design Thinking</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fashion</a></li>
                     </ul>
+                  -->
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Development</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="../kvpymaths.html">KVPY</a>
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Databases</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Mobie Apps</a></li>
                     </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Heath &amp; Fitness</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Dance</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fitness</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">IT &amp; Software</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">AI &amp; Big Data</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Hardware</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Language</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Chinese</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">English</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">French</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Lifestyle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Art &amp; Crafts</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Gaming</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Office Productivity</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Apple</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Google</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Oracle</a></li>
-                    </ul>
+                  -->
                   </li>
                 </ul>
           </div>
@@ -357,12 +431,14 @@
       </div>
       <div class="button-default btn-ontop" id="on-top"><span class="glyph-icon flaticon-arrows-5"></span></div>
     </header>
+
+
     <div class="modal fade signin-form" id="modal-signin" role="dialog">
       <div class="modal-dialog signin-form__dialog">
         <div class="signin-form__button-close hidden-lg hidden-md hidden-sm">
           <button class="close signin-form__button-close__btn" type="button" data-dismiss="modal">&times;</button>
         </div>
-        <div class="signin-form__header"><a class="signin-form__header__logo" href="#"><img src="assets/img/logo/Logo-form.png" alt=""></a>
+        <div class="signin-form__header"><a class="signin-form__header__logo" href="#"><img src="../assets/img/logo/Logo-form.png" alt=""></a>
           <p class="signin-form__sub">Universal access to the world’s best education.</p>
         </div>
         <div class="modal-content signin-form__content">
@@ -374,7 +450,7 @@
             <div class="tab-content">
               <div class="tab-pane fade in active" id="sign-in">
                 <h3 class="signin-form__body__title">Log Into Your Account</h3>
-                <p class="signin-form__body__sub">Your student account is your portal to all things Educef: your classroom, projects, forums, career resources, and more!</p>
+                <p class="signin-form__body__sub">Your student account is your portal to all the things: your classroom, projects, forums, career resources, and more!</p>
                 <form class="signin-form__form">
                   <div class="signin-form__form__inputs">
                     <input class="input-item" type="text" placeholder="Email">
@@ -390,7 +466,7 @@
               </div>
               <div class="tab-pane fade" id="sign-up">
                 <h3 class="signin-form__body__title">Log Into Your Account</h3>
-                <p class="signin-form__body__sub">Your student account is your portal to all things Educef: your classroom, projects, forums, career resources, and more!</p>
+                <p class="signin-form__body__sub">Your student account is your portal to all the things: your classroom, projects, forums, career resources, and more!</p>
                 <form class="signin-form__form">
                   <div class="signin-form__form__inputs">
                     <input class="input-item" type="text" placeholder="User name">
@@ -413,15 +489,14 @@
       </div>
     </div>
 
-
     <div class="bundle-content">
       <div class="container">
 
         <nav class="breadcrumb-wapper">
           <ul class="breadcrumb">
             <li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">home</a></li>
-            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">design</a></li>
-            <li class="breadcrumb__item active"><a class="breadcrumb__link active" href="#">graphic design specialization</a></li>
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">XII Maths</a></li>
+            <li class="breadcrumb__item active"><a class="breadcrumb__link active" href="#">Probability</a></li>
           </ul>
         </nav>
         <div class="row">
@@ -429,23 +504,23 @@
             <div class="list-link" id="menu-left">
                           <ul class="list-link__list">
                             <li class="list-link__item"><a class="list-link__link " href="#about">About the Course</a></li>
-                            <li class="list-link__item"><a class="list-link__link " href="#about">Course Overview</a></li>
-                            <li class="list-link__item"><a class="list-link__link " href="#course">Topics Covered</a></li>
-                            <li class="list-link__item"><a class="list-link__link " href="#creator">Analysis of Previous Year Papers</a></li>
+                            <li class="list-link__item"><a class="list-link__link " href="#overview">Course Overview</a></li>
+                            <li class="list-link__item"><a class="list-link__link " href="#syllabus">Topics Covered</a></li>
+                            <li class="list-link__item"><a class="list-link__link " href="#analysis">Analysis of Previous Year Papers</a></li>
                             <li class="list-link__item"><a class="list-link__link " href="#creator">Created By</a></li>
                             <!--<li class="list-link__item"><a class="list-link__link " href="#faq">Reviews</a></li> -->
                           </ul>
-              <div class="title-list list-link__title">High School (X) Maths</div><a class="btn-green list-link__btn" href="https://www.facebook.com/groups/1889374178036289/" target="_blank">facebook group</a>
+              <div class="title-list list-link__title">Class XII Maths</div><a class="btn-green list-link__btn" href="https://www.facebook.com/groups/1889374178036289/" target="_blank">facebook group</a>
             </div>
           </div>
           <div class="col-lg-9 col-md-9">
             <div class="bundle-header__about">
-              <h1 class="bundle-header__title">UPSC Maths Paper 1</h1>
-              <p>
-                This course covers all the topics of UPSC Optional Mathematics. These topics are helpful in many other competitive exams such as IFoS and GATE, and also covers Engineering Mathematics. Engineering Mathematics will be extrememly helpful in your career. It has applications in many fields including Data Science, Machine Learning, Artificial Intelligence, Software Development, Financial Modelling and much more. 
+              <h1 class="bundle-header__title">Probability</h1>
+              <p class="bundle-header__content">
+                This course covers all the topics of Class XII Mathematics. These topics form the foundation of Senior High School Mathematics and these combined together makes the base of engineering mathematics. Engineering Mathematics will be extrememly helpful in your career. It has applications in many fields including Data Science, Machine Learning, Artificial Intelligence, Software Development, Financial Modelling and much more.
               </p>
-              <p>
-                Based on the diverse applications of topics covered in this course, the target audience for this course will also include working professionals in the above-mentioned and relevant fields.
+              <p class="bundle-header__content">
+                Based on the diverse applications of topics covered in this course, the target audience for this course will also include working professionals in the above-mentioned fields and many more.
                 So, please let us know if you find our course helpful in your work or projects.
               </p>
             </div>
@@ -454,21 +529,11 @@
                             <div class="bundle__title">About the Course</div>
                             <div class="bundle__content">
                               <div class="bundle__content__sub">
-                                <p class="paragrap-content">In these course, we will cover seven units, namely, Number Systems, Algebra, Coordinate Geometry, Trigonometry, Mensuration, Statistics and Probability. The total marks covered by these topics are 80.</p>
-                                <p> 1) The unit Number System contains the chapter Real Numbers and covers 6 marks.
+                                <p class="paragrap-content">Class XII Mathematics covers seven units, namely Relationals and Functions, Algebra, Calculus, Vectors and Three-Dimensional Geometry, Linear Programming and Probability. The total marks covered by these topics are 80.</p>
+
+                                <p>  This unit Probability contains the chapter Probability and covers 10 marks.
                                 </p>
-                                <p> 2) The unit Algebra contains the chapters Polynomials, Pair of Linear Equations in Two Variables, Quadratic Equations, Arithmetic and Progressions, and covers 20 marks.
-                                </p>
-                                <p> 3) The unit Coordinate Geometry contains the chapter Lines in Two Dimensions and covers 6 marks.
-                                </p>
-                                <p> 4) The unit Geometry contains the chapters Triangles, Circles and Constructions, and covers 15 marks.
-                                </p>
-                                <p> 5) The unit Trigonometry contains the chapters Introduction to Trigonometry, Trigonometric Identities and Heights & Distances, and covers 12 marks.
-                                </p>
-                                <p> 6) The unit Mensuration contains the chapters Areas Related to Circles and Surface Areas & Volumes, and covers 10 marks.
-                                </p>
-                                <p> 7) The unit Statistics & Proabability contains the chapters Statistics and Probability, and covers 11 marks.
-                                </p>
+
                               </div>
                               <div class="detail">
 
@@ -485,29 +550,29 @@
                           </div>
 
 
-                          <div class="detail__block">
+                          <div class="detail__block" id="overview">
                                   <div class="bundle__title">Course Overview</div>
                                               <div class="detail__list">
                                                 <div class="row">
                                                   <div class="col-md-4 col-sm-4 detail__list__item">
-                                                    <div class="detail__list__wapper"><img class="detail__list__image" src="assets/img/courses-bundle/bundle-icon-1.png" alt="creater by"></div>
+                                                    <div class="detail__list__wapper"><img class="detail__list__image" src="../assets/img/courses-bundle/bundle-icon-1.png" alt="creater by"></div>
                                                     <div class="detail__list__content">
-                                                      <div class="detail__list__title">6 Units</div>
-                                                      <div class="detail__list__subs">This course has 6 units divided into 13 chapters. Chapters are further divided into lessons to cover the topics in a detailed and clear manner.</div>
+                                                      <div class="detail__list__title">8 Units</div>
+                                                      <div class="detail__list__subs">This course has 8 units divided into 16 chapters. Chapters are further divided into lessons to cover the topics in a detailed and clear manner.</div>
                                                     </div>
                                                   </div>
                                                   <div class="col-md-4 col-sm-4 detail__list__item">
-                                                    <div class="detail__list__wapper"><img class="detail__list__image" src="assets/img/courses-bundle/bundle-icon-2.png" alt="creater by"></div>
+                                                    <div class="detail__list__wapper"><img class="detail__list__image" src="../assets/img/courses-bundle/bundle-icon-2.png" alt="creater by"></div>
                                                     <div class="detail__list__content">
-                                                      <div class="detail__list__title">6 Term Exams and 13 Quizzes</div>
+                                                      <div class="detail__list__title">4 Terms Exams and 16 Quizzes</div>
                                                       <div class="detail__list__subs">These Exams and Quizzes are designed to help you practice and apply the skills you learn.</div>
                                                     </div>
                                                   </div>
                                                   <div class="col-md-4 col-sm-4 detail__list__item">
-                                                    <div class="detail__list__wapper"><img class="detail__list__image" src="assets/img/courses-bundle/bundle-icon-3.png" alt="creater by"></div>
+                                                    <div class="detail__list__wapper"><img class="detail__list__image" src="../assets/img/courses-bundle/bundle-icon-3.png" alt="creater by"></div>
                                                     <div class="detail__list__content">
                                                       <div class="detail__list__title">Previous Year problems</div>
-                                                      <div class="detail__list__subs">Some problems from previous years papers are solved to understand the pattern and trend of questions asked in the exam.</div>
+                                                      <div class="detail__list__subs">Previous 10 years papers are solved to understand the pattern and trend of questions asked in the exam.</div>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -518,268 +583,37 @@
                           <div class="bundle" id="syllabus">
                             <div class="bundle__title">Topics Covered</div>
                             <div class="bundle__content">
-                              
+
                               <div class="list-syllabus">
                                             <div class="list-brief-content">
-                                              
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__title">Unit 1: Relations and Functions</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Unit 1: Relations and Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">reading</a><span>·</span><a class="list-brief__item__content" href="#">Important Topics Covered</a></div>
-                                                </div>
-                                              </div>
 
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 1:</div>
-                                                  <div class="list-brief__top__title">Relations and Functions</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Types of Relations</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">One-to-One and Onto Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Composite Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Inverse of a Function</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Binary Operations</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 1</a><span>·</span><a class="list-brief__item__content" href="#">Relations and Functions</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 2:</div>
-                                                  <div class="list-brief__top__title">Inverse Trigonometric Functions</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Domain and Range</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Prinicipal Value Branch</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Graphs of Inverse Trigonometric Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Elementary Properties of Inverse Trigonometric Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 2</a><span>·</span><a class="list-brief__item__content" href="#">Inverse Trigonometric Functions</a></div>
-                                                </div>
-                                              </div>
+
 
                                               <div class="list-brief__top">
-                                                  <div class="list-brief__top__title">Unit 2: Algebra</div>
+                                                  <div class="list-brief__top__title">Unit : Probability</div>
                                               </div>
                                               <div class="list-brief__list">
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Algebra</a>
-                                                </div>
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">reading</a><span>·</span><a class="list-brief__item__content" href="#">Important Topics Covered</a></div>
-                                              </div>
-
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 3:</div>
-                                                  <div class="list-brief__top__title">Matrices</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Notations and Concepts</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Operation on Matrices</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Elementary Row and Column Operations</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 3</a><span>·</span><a class="list-brief__item__content" href="#">Matrices</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 4:</div>
-                                                  <div class="list-brief__top__title">Determinants</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Determinant of a Square Matrix</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Properties and Applications of Determinants</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Adjoint and Inverse of a Square Matrix</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Solutions of Systems of Linear Equations in Two or Three Variables</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 4</a><span>·</span><a class="list-brief__item__content" href="#">Determinants</a></div>
-                                                </div>
-                                              </div>
-                                              
-                                              <div class="list-brief__top">
-                                                  <div class="list-brief__top__title">Unit 3: Calculus</div>
-                                              </div>
-                                              <div class="list-brief__list">
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Calculus</a>
+                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Probability</a>
                                                 </div>
                                                 <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">reading</a><span>·</span><a class="list-brief__item__content" href="#">Important Topics Covered</a></div>
                                               </div>
                                               <div class="list-brief-content__item">
                                                 <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 5:</div>
-                                                  <div class="list-brief__top__title">Continuity and Differentiability</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Introduction</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Derivative of Composite Functions: Chain rule,</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Derivatives of
-                                                  Inverse Trigonometric Functions,</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Derivative of Implicit Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Exponential and
-                                                  Logarithmic Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Derivatives of Logarithmic and Exponential Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 7</a><span>·</span><a class="list-brief__item__content" href="#">Logarithmic Differentiation</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 8</a><span>·</span><a class="list-brief__item__content" href="#">Derivatives of Functions Expressed in Parametric Forms</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 9</a><span>·</span><a class="list-brief__item__content" href="#">Second Order Derivatives</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 10</a><span>·</span><a class="list-brief__item__content" href="#">Rolle's and Lagrange's Mean Value Theorems</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 11</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 5</a><span>·</span><a class="list-brief__item__content" href="#">Continuity and Differentiability</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 6:</div>
-                                                  <div class="list-brief__top__title">Applications of Derivatives</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Introduction</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Derivative of Composite Functions: Chain rule</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Derivatives of
-                                                  Inverse Trigonometric Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Derivative of Implicit Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Exponential and
-                                                  Logarithmic Functions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 6</a><span>·</span><a class="list-brief__item__content" href="#">Applications of Derivatives</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 7:</div>
-                                                  <div class="list-brief__top__title">Integrals</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Integrations as Inverse Process of Differentiation</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Integration by Substitution</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Integration by Partial Fractions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Integration by Parts</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Evalution of some Integrals of Standard Types</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Definite Integrals as a Limit of a Sum</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 7</a><span>·</span><a class="list-brief__item__content" href="#">Fundamental Theorem of Calculus</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 8</a><span>·</span><a class="list-brief__item__content" href="#">Basic Properties and Evaluation of Definite Integrals</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 7</a><span>·</span><a class="list-brief__item__content" href="#">Integrals</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 8:</div>
-                                                  <div class="list-brief__top__title">Applications of the Integrals</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Area under a Curve</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Area between the Curves</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 8</a><span>·</span><a class="list-brief__item__content" href="#">Applications of the Integrals</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 9:</div>
-                                                  <div class="list-brief__top__title">Differential Equations</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Definition: Order and Degree</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">General and Particular Solutions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Formation of Differential Equation</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Method of
-                                                  Separation of Variables</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Solutions of Homogeneous Differential Equations of First Order and First Degree</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 9</a><span>·</span><a class="list-brief__item__content" href="#">Applications of Derivatives</a></div>
-                                                </div>
-                                              </div>
-
-                                              <div class="list-brief__top">
-                                                  <div class="list-brief__top__title">Unit 4: Vectors and Three-Dimensional Geometry</div>
-                                              </div>
-                                              <div class="list-brief__list">
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Vectors and Three-Dimensional Geometry</a>
-                                                </div>
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">reading</a><span>·</span><a class="list-brief__item__content" href="#">Important Topics Covered</a></div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 10:</div>
-                                                  <div class="list-brief__top__title">Vectors</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Vectors and Scalars</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Types and Components of Vectors</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Addition of Vectors and Muliplication of a Vector by Scalar</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Scalar (Dot) Product of Vectors</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Vector (Cross) Product of Vectors</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Scalar Triple Product of Vectors.</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 10</a><span>·</span><a class="list-brief__item__content" href="#">Vectors</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 11:</div>
-                                                  <div class="list-brief__top__title">Three-Dimensional Geometry</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Direction Cosines and Direction Ratios of a Line joining Two Points</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Cartesian Equation and Vector Equation of a Line</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Coplanar and Skew Lines</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Shortest Distance between Two Lines</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Cartesian and Vector Equation of a Plane</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Coplanar and Skew Lines</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 7</a><span>·</span><a class="list-brief__item__content" href="#">Angle between (i) Two Lines, (ii) Two Planes, (iii) A Line and a Plane</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 8</a><span>·</span><a class="list-brief__item__content" href="#">Distance of a Point From a Plane</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 9</a><span>·</span><a class="list-brief__item__content" href="#">Some Real Life Problems and Applications</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 11</a><span>·</span><a class="list-brief__item__content" href="#">Three-Dimensional Geometry</a></div>
-                                                </div>
-                                              </div>
-
-                                              <div class="list-brief__top">
-                                                  <div class="list-brief__top__title">Unit 5: Linear Programming</div>
-                                              </div>
-                                              <div class="list-brief__list">
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Linear Programming</a>
-                                                </div>
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">reading</a><span>·</span><a class="list-brief__item__content" href="#">Important Topics Covered</a></div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 12:</div>
-                                                  <div class="list-brief__top__title">Linear Programming</div>
-                                                </div>
-                                                <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Introduction, Terminologies and Types of LP problems</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Formulation of LP problems</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Graphical Method of Solution for Problems in Two Variables</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Formulation of LP problems</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Feasible and Infeasible Regions and Solutions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Optimal Feasible Solutions</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 12</a><span>·</span><a class="list-brief__item__content" href="#">Linear Programming</a></div>
-                                                </div>
-                                              </div>
-                                              <div class="list-brief__top">
-                                                  <div class="list-brief__top__title">Unit 6: Probability</div>
-                                              </div>
-                                              <div class="list-brief__list">
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">video</a><span>·</span><a class="list-brief__item__content" href="#">Significance of Probability</a>
-                                                </div>
-                                                <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">reading</a><span>·</span><a class="list-brief__item__content" href="#">Important Topics Covered</a></div>
-                                              </div>
-                                              <div class="list-brief-content__item">
-                                                <div class="list-brief__top">
-                                                  <div class="list-brief__top__section">Chapter 13:</div>
+                                                  <div class="list-brief__top__section">Chapter 1 :</div>
                                                   <div class="list-brief__top__title">Probability</div>
                                                 </div>
                                                 <div class="list-brief__list">
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Conditional Probability</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Multiplication Theorem on Probability</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Indepdendent Events</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Total Probability</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Bayes' Theorem</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Random Variable and its Probability Distribution</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 7</a><span>·</span><a class="list-brief__item__content" href="#">Repeated Independent (Bernoulli) Trials and Binomial Distribution</a></div>
-                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 13</a><span>·</span><a class="list-brief__item__content" href="#">Probability</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 1</a><span>·</span><a class="list-brief__item__content" href="#">Introduction </a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 2</a><span>·</span><a class="list-brief__item__content" href="#">Conditional Probability</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 3</a><span>·</span><a class="list-brief__item__content" href="#">Multiplication Theorems on Probability</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 4</a><span>·</span><a class="list-brief__item__content" href="#">Independent Events</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 5</a><span>·</span><a class="list-brief__item__content" href="#">Bayes' Theorem</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 6</a><span>·</span><a class="list-brief__item__content" href="#">Random Variables and its Probability Distributions</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Lesson 7</a><span>·</span><a class="list-brief__item__content" href="#">Bernoulli Trials and Binomial Distribution</a></div>
+                                                  <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 1</a><span>·</span><a class="list-brief__item__content" href="#">Probability</a></div>
                                                 </div>
                                               </div>
-                                              
+
 
                                               <!--
                                               <div class="list-brief-content__item">
@@ -900,21 +734,21 @@
                             <div class="bundle__content">
                                           <div class="list_works">
                                             <div class="list_works__item">
-                                              <div class="list_works__wapper"><img class="list_works__image" src="assets/img/course-single/Icon-how-it-works-1.png" alt="How to works"></div>
+                                              <div class="list_works__wapper"><img class="list_works__image" src="../assets/img/course-single/Icon-how-it-works-1.png" alt="How to works"></div>
                                               <div class="list_works__content">
                                                 <div class="list_works__title">Coursework</div>
                                                 <div class="list_works__subs">Each course is like an interactive textbook, featuring pre-recorded videos, quizzes and projects.</div>
                                               </div>
                                             </div>
                                             <div class="list_works__item">
-                                              <div class="list_works__wapper"><img class="list_works__image" src="assets/img/course-single/Icon-how-it-works-2.png" alt="How to works"></div>
+                                              <div class="list_works__wapper"><img class="list_works__image" src="../assets/img/course-single/Icon-how-it-works-2.png" alt="How to works"></div>
                                               <div class="list_works__content">
                                                 <div class="list_works__title">Help from Your Peers</div>
                                                 <div class="list_works__subs">Connect with thousands of other learners and debate ideas, discuss course material, and get help mastering concepts.</div>
                                               </div>
                                             </div>
                                             <div class="list_works__item">
-                                              <div class="list_works__wapper"><img class="list_works__image" src="assets/img/course-single/Icon-how-it-works-3.png" alt="How to works"></div>
+                                              <div class="list_works__wapper"><img class="list_works__image" src="../assets/img/course-single/Icon-how-it-works-3.png" alt="How to works"></div>
                                               <div class="list_works__content">
                                                 <div class="list_works__title">Certificates</div>
                                                 <div class="list_works__subs">Earn official recognition for your work, and share your success with friends, colleagues, and employers.</div>
@@ -925,27 +759,27 @@
                           </div>
                           -->
 
-                          <div class="bundle__title">Analysis of Previous Year Papers</div>
+                          <div class="bundle__title" id="analysis">Analysis of Previous Year Papers</div>
                           <div class="bundle__content">
 
                           </div>
 
-                          <div class="detail__block">
+                          <div class="detail__block" id="creator">
                                   <div class="bundle__title">Created by</div>
                                   <div class="detail__about">
-                                    <div class="detail__wrapper-image"><img class="detail__image" src="assets/img/courses-bundle/creator.png" alt="creater by"></div>
+                                    <div class="detail__wrapper-image"><img class="detail__image" src="../assets/img/courses-bundle/creator.png" alt="creater by"></div>
                                     <div class="detail__title">Prateek Yadav</div>
                                   </div>
                           </div>
 
-                          
+
                           <!--
                           <div class="bundle" id="reviews">
                             <div class="bundle__title">Reviews</div>
                             <div class="bundle__content">
                                           <div class="reviews">
                                             <div class="reviews__item">
-                                              <div class="reviews__wapper"><img class="reviews__image" src="assets/img/30w.jpg" alt="How to works"></div>
+                                              <div class="reviews__wapper"><img class="reviews__image" src="../assets/img/30w.jpg" alt="How to works"></div>
                                               <div class="reviews__content">
                                                 <div class="reviews__info">
                                                   <div class="reviews__title">Agnes Reynolds</div>
@@ -960,7 +794,7 @@
                                               </div>
                                             </div>
                                             <div class="reviews__item">
-                                              <div class="reviews__wapper"><img class="reviews__image" src="assets/img/30w.jpg" alt="How to works"></div>
+                                              <div class="reviews__wapper"><img class="reviews__image" src="../assets/img/30w.jpg" alt="How to works"></div>
                                               <div class="reviews__content">
                                                 <div class="reviews__info">
                                                   <div class="reviews__title">Agnes Reynolds</div>
@@ -975,7 +809,7 @@
                                               </div>
                                             </div>
                                             <div class="reviews__item">
-                                              <div class="reviews__wapper"><img class="reviews__image" src="assets/img/30w.jpg" alt="How to works"></div>
+                                              <div class="reviews__wapper"><img class="reviews__image" src="../assets/img/30w.jpg" alt="How to works"></div>
                                               <div class="reviews__content">
                                                 <div class="reviews__info">
                                                   <div class="reviews__title">Agnes Reynolds</div>
@@ -1007,14 +841,14 @@
         <div class="footer__top">
           <div class="icon-video"><span class="glyph-icon flaticon-music icon-custom icon-video__icon"></span></div>
           <h2 class="footer__top__title">Start Your New Goal & Make Life Better</h2>
-          <div class="footer__top__sub">Try it Free for 30 days. No creadit card required</div><a class="btn button-default design-sprint__item__button" href="#">enroll now</a>
+          <div class="footer__top__sub">Learn with us and enjoy the awesome experience of Online Collaborative Learning</div><a class="btn button-default design-sprint__item__button" href="#">enroll now</a>
         </div>
         <div class="row footer__content">
-          <div class="col-lg-5 col-md-5"><a class="logo__link footer__logo" href="/"><img class="logo__image" src="assets/img/logo/Logo-footer.png" alt="Logo Educef"></a>
+          <div class="col-lg-5 col-md-5"><a class="logo__link footer__logo" href="/"><img class="logo__image" src="../assets/img/logo_footer.png" alt="Logo Educef"></a>
             <p class="footer__item__sub">
-              Education, Inc.<br />
-              3601 Seneca Street, New York City<br />
-              NY 10010, USA
+              Education Initiative<br />
+              We have a Simple Goal, Quality Education to All<br/>
+              Join our Initiative
             </p>
                 <div class="asocials">
                   <ul class="asocials__list">
@@ -1066,25 +900,25 @@
               <div class="col-lg-4 col-md-4 col-sm-4 footer__item">
                 <h3 class="footer__item__title">get in touch</h3>
                 <div class="footer-link__link footer-link__link--contact">Contact us if you need help with anything</div>
-                <div class="footer-link__link footer-link__link--phone">(+ 01) 2675 286897</div>
+                <!-- <div class="footer-link__link footer-link__link--phone">(+ 01) 2675 286897</div>
                 <div class="footer-link__link footer-link__link--phone">(+ 01) 2120 286473</div>
-                <div class="footer-link__link footer-link__link--phone">help@rubikthemes.com</div>
+                <div class="footer-link__link footer-link__link--phone">help@rubikthemes.com</div> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="footer__bottom">&copy; 2018 RubikThemes</div>
+        <div class="footer__bottom">&copy; 2018 PyMaths </div>
       </div>
     </footer>
-    <script src="assets/lib/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/lib/js/bootstrap.min.js"></script>
-    <script src="assets/lib/slick/slick.min.js"></script>
-    <script src="assets/js/jquery.sticky.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery-matchHeight.js"></script>
-    <script src="assets/js/slicks.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/course-bundle.js"></script>
+    <script src="../assets/lib/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/lib/js/bootstrap.min.js"></script>
+    <script src="../assets/lib/slick/slick.min.js"></script>
+    <script src="../assets/js/jquery.sticky.js"></script>
+    <script src="../assets/js/wow.js"></script>
+    <script src="../assets/js/jquery-matchHeight.js"></script>
+    <script src="../assets/js/slicks.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/course-bundle.js"></script>
     <div class="positionfixed"></div>
   </body>
 </html>

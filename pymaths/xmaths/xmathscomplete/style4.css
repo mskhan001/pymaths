@@ -24,6 +24,20 @@ a:focus {
     transition: all 0.3s;
 }
 
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
 
 .line {
     width: 100%;
@@ -49,6 +63,7 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
+    background: #7386D5;
     color: #fff;
     transition: all 0.3s;
 }
@@ -100,6 +115,7 @@ span {
 
 #sidebar .sidebar-header {
     padding: 20px;
+    background: #6d7fcc;
 }
 
 #sidebar .sidebar-header strong {
@@ -143,6 +159,12 @@ a[data-toggle="collapse"] {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
 }
 
 ul.CTAs {
