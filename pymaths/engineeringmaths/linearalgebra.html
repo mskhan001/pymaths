@@ -1,96 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Course single</title>
+    <title>PyMaths</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.ico">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="assets/lib/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/font/flaticon/flaticon.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/lib/slick/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
   </head>
-  <body class="course-single">
+
+  <body class="home">
     <header class="header-content">
-      <div class="header-top hidden-sm hidden-xs" id="header-top">
+
+        <div class="header-top hidden-sm hidden-xs" id="header-top">
         <div class="container">
           <nav class="navbar navbar-inverse header-top__top">
-            <div class="navbar-header"><a class="navbar-brand logo__link" href="/"><img class="logo__image" src="assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
-            <div class="nav navbar-nav navbar-left categories"><a class="dropdown-toggle categories__button"><i class="glyph-icon flaticon-signs-1 categories__icon"></i><span class="categories__text">categories</span></a>
+            <div class="navbar-header"><a class="navbar-brand logo__link" href="http://pymaths.com/"><img class="logo__image" src="assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
+            <div class="nav navbar-nav navbar-left categories"><a class="dropdown-toggle categories__button"><i class="glyph-icon flaticon-signs-1 categories__icon"></i><span class="categories__text">Competitive Exams</span></a>
               <div class="dropdown-catagories">
                     <ul class="dropdown-catagories__list ">
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Business</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="ifosmaths.html" target="_blank">IFoS Maths</a>
+
+                        <!--
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
                         <div class="cate-sub">
                           <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Finance</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Industry</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Management</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Media</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Sales</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Finance</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Industry</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Management</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Media</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Sales</a></li>
+                          </ul>
+                        </div>
+                        -->
+
+                      </li>
+
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="gatemaths.html" target="_blank">GATE Maths</a>
+
+                        <!--
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Design Thinking</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Fashion</a></li>
+                          </ul>
+                        </div>
+                      -->
+                      </li>
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="catquant.html" target="_blank">CAT Quant</a>
+                      </li>
+                      <!--
+                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="http://swlabs.co/educef/html/index.html#">Blogs</a>
+                        <span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
+                        <div class="cate-sub">
+                          <ul class="cate-sub__list">
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Databases</a></li>
+                            <li class="cate-sub__item"><a class="cate-sub__link" href="http://swlabs.co/educef/html/index.html#">Mobie Apps</a></li>
                           </ul>
                         </div>
                       </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Design</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Design Thinking</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Fashion</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Development</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Databases</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Mobie Apps</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Heath &amp; Fitness</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Dance</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Fitness</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">IT &amp; Software</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">AI &amp; Big Data</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Hardware</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Language</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Chinese</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">English</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">French</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Lifestyle</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Art &amp; Crafts</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Gaming</a></li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li class="dropdown-catagories__item"><a class="dropdown-catagories__link " href="#">Office Productivity</a><span class="glyph-icon flaticon-arrows-3 dropdown-catagories__icon"></span>
-                        <div class="cate-sub">
-                          <ul class="cate-sub__list">
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Apple</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Google</a></li>
-                            <li class="cate-sub__item"><a class="cate-sub__link" href="#">Oracle</a></li>
-                          </ul>
-                        </div>
-                      </li>
+                      -->
+
                     </ul>
+
               </div>
             </div>
+
             <form class="navbar-form navbar-left form-search">
               <div class="form-search__input-group">
                 <input class="form-control form-search__input" type="text" placeholder="Search your course...">
@@ -99,103 +81,236 @@
                 </div>
               </div>
             </form>
+
+
             <div class="nav navbar-nav navbar-right nav-right nav-right--login">
-              <button class="btn btn-default button-default nav-right__instructor" type="submit">Instructors</button>
-              <div class="nav-right__notifications"><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-bell nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a>
+              <button class="btn btn-default button-default nav-right__instructor" type="submit">Downloads</button>
+
+              <!--
+              <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-bell nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a>
                 <div class="nav-right__profile"><i class="glyph-icon flaticon-profile-2 nav-right__profile__icon"></i><span class="nav-right__profile__status"></span>
                   <div class="profile">
-                    <div class="profile__avarta"><img class="profile__image" src="assets/img/30w.jpg" alt=""></div><a class="profile__user-name" href="#">Alex Sander</a><a class="profile__course" href="#"><i class="glyph-icon flaticon-profile profile__icon"></i><span class="profile__text">My profile</span></a><a class="profile__course" href="#"><i class="glyph-icon flaticon-shield profile__icon"></i><span class="profile__text">My course</span></a><a class="btn btn-default button-default profile__btn" href="#">Log out</a>
+                    <div class="profile__avarta"><img class="profile__image" src="./30w.jpg" alt=""></div><a class="profile__user-name" href="http://swlabs.co/educef/html/index.html#">Alex Sander</a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-profile profile__icon"></i><span class="profile__text">My profile</span></a><a class="profile__course" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shield profile__icon"></i><span class="profile__text">My course</span></a><a class="btn btn-default button-default profile__btn" href="http://swlabs.co/educef/html/index.html#">Log out</a>
                   </div>
                 </div>
               </div>
+            -->
             </div>
+
+
+            <!--
             <div class="nav navbar-nav navbar-right nav-right--notlogin">
-              <div class="nav-right__notifications"><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
+              <div class="nav-right__notifications"><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-shapes nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a><a class="nav-right__item" href="http://swlabs.co/educef/html/index.html#"><i class="glyph-icon flaticon-commerce-1 nav-right__item__icon"></i><span class="nav-right__item__notification">02</span></a></div>
               <button class="btn btn-default button-default nav-right__become" type="submit">become an Instructor</button>
-              <div class="nav-right__signin"><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
+              <div class="nav-right__signin"><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-in">Sign in</a><span>|</span><a class="nav-right__signin__link" href="http://swlabs.co/educef/html/index.html#" data-toggle="modal" data-target="#modal-signin" data-modal-target="#sign-up">sign up</a></div>
             </div>
+          -->
+
           </nav>
         </div>
       </div>
-      <div class="bottom-header hidden-sm hidden-xs" id="scrollspy" data-spy="affix" data-offset-top="112">
+
+      <div class="bottom-header hidden-sm hidden-xs affix-top" id="scrollspy" data-spy="affix" data-offset-top="112">
         <div class="container">
-          <div class="logo--menu"><a class="logo__link" href="/"><img class="logo__image" src="assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
+          <div class="logo--menu"><a class="logo__link" href="http://pymaths.com/"><img class="logo__image" src="assets/img/logo_header.png" alt="PyMaths"></a></div>
           <nav class="menu-main">
                 <ul class="nav navbar-nav menu-main__list ">
-                  <li class="menu-main__item active"><a class="menu-main__link " href="#" id="home">home</a>
+                  <li class="menu-main__item active"><a class="menu-main__link " href="engineeringmaths.html" target="_blank" id="elements">Engineering Maths</a>
                     <div class="dropdown-catagories dropdown-catagories--menu">
                       <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="index.html">home 1</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="index-2.html">home 2</a></li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/realanalysis.html" target="_blank">Real Analysis</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/calculus.html" target="_blank">Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/vectoranalysis.html" target="_blank">Vector Analysis</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/complexanalysis.html" target="_blank">Complex Analysis</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/analyticgeometry.html" target="_blank">Analytic Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/linearalgebra.html" target="_blank">Linear Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/ordinarydifferentialequations.html" target="_blank">Ordinary Differential Equations</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/partialdifferentialequations.html" target="_blank">Partial Differential Equations</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/numericalmethods.html" target="_blank">Numerical Methods</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/linearprogramming.html" target="_blank">Linear Programming</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/abstractalgebra.html" target="_blank">Abstract Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="engineeringmaths/probabilityandstatistics.html" target="_blank">Probability and Statistics</a>
+                        </li>
                       </ul>
                     </div>
                   </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="course">course</a>
+                  <li class="menu-main__item"><a class="menu-main__link " href="upscmaths.html" target="_blank" id="elements">UPSC Maths</a>
                     <div class="dropdown-catagories dropdown-catagories--menu">
                       <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="categories.html">course categories</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-listing.html">course list</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-grid.html">course grid</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-single.html">course single</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-detail.html">course details</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="search-result.html">course search result</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="instructor-details.html">instructor details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="bundle">bundle</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="course-bundle.html">course bundle</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="bundle-details.html">course bundle details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="partner">partner</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="partner-listing.html">partner list</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="partner-details.html">partner details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="blog">blog</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="blog-grid.html">blog grid</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="blog-details-sidebar.html">blog details with sidebar</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="blog-details.html">blog details</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="pages">pages</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="pricing-table.html">pricing table</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="contact.html">contact</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="coming-soon.html">coming soon</a></li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link dropdown-catagories__link--full" href="404.html">404 page</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="menu-main__item "><a class="menu-main__link " href="#" id="elements">elements</a>
-                    <div class="dropdown-catagories dropdown-catagories--menu">
-                      <ul class="dropdown-catagories__list">
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#">sub level 1</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/syllabus.html" target="_blank">*Syllabus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/paperi.html" target="_blank">Paper I</a>
                           <div class="cate-sub">
                             <ul class="cate-sub__list">
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 1.1</a></li>
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 1.2</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/calculus.html">Calculus</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/linearalgebra.html">Linear Algebra</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/analyticgeometry.html">Analytic Geometry</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/ordinarydifferentialequations.html">Ordinary Differential Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/dynamicsstaticsandhydrostatics.html">Dynamics, Statics and Hydrostatics</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/vectoranalysis.html">Vector Analysis</a></li>
                             </ul>
                           </div>
                         </li>
-                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="#">sub level 2</a><span class="glyph-icon flaticon-arrows-3 menu-main__icon"></span>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/paperii.html" target="_blank">Paper II</a>
                           <div class="cate-sub">
                             <ul class="cate-sub__list">
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 2.1</a></li>
-                              <li class="cate-sub__item"><a class="cate-sub__link" href="#">sub level 2.2</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/algebra.html">Algebra</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/realanalysis.html">Real Analysis</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/linearprogramming.html">Linear Programming</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/partialdifferentialequations.html">Partial Differential Equations</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/numericalanalysisandcomputerprogramming.html">Numerical Analysis and Computer Programming</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/numericalintegration.html">Numerical Integration</a></li>
+                              <li class="cate-sub__item"><a class="cate-sub__link" href="upscmaths/mechanicsandfluiddynamics.html">Mechanics and Fluid Dynamics</a></li>
                             </ul>
                           </div>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="upscmaths/previousyearpapers.html" target="_blank">Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="jeemaths.html" target="_blank" id="elements">JEE Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/syllabus.html" target="_blank">*Syllabus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/trigonometry.html" target="_blank">Trigonometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/analyticalgeometry.html" target="_blank">Analytical Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/differentialcalculus.html" target="_blank">Differential Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/integralcalculus.html" target="_blank">Integral Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/vectors.html" target="_blank">Vectors</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/jeemathscomplete.html" target="_blank">JEE Maths Complete</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="jeemaths/previousyearpapers.html" target="_blank">*Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="xiimaths.html" target="_blank" id="elements">XII Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/syllabus.html" target="_blank">*Syllabus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/relationsandfunctions.html" target="_blank">Relations and Functions</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/calculus.html" target="_blank">Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/vectorsandthree-dimensionalgeometry.html" target="_blank">Vectors and Three - Dimensional Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/linearprogramming.html" target="_blank">Linear Programming</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/probability.html" target="_blank">Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/xiimathscomplete.html" target="_blank">XII Maths Complete</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xiimaths/previousyearpapers.html" target="_blank">*Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                   <li class="menu-main__item"><a class="menu-main__link " href="ximaths.html" target="_blank" id="elements">XI Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/syllabus.html" target="_blank">*Syllabus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/setsandfunctions.html" target="_blank">Sets and Functions</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/calculus.html" target="_blank">Calculus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/mathematicalreasoning.html" target="_blank">Mathematical Reasoning</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/statisticsandprobability.html" target="_blank">Statistics and Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/ximathscomplete.html" target="_blank">XI Maths Complete</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ximaths/previousyearpapers.html" target="_blank">*Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="menu-main__item"><a class="menu-main__link " href="xmaths.html" target="_blank" id="elements">X Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/syllabus.html" target="_blank">*Syllabus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/numbersystems.html" target="_blank">Number Systems</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/geometry.html" target="_blank">Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/trigonometry.html" target="_blank">Trigonometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/mensuration.html" target="_blank">Mensuration</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/statisticsandprobability.html" target="_blank">Statistics and Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/xmathscomplete.html" target="_blank">X Maths Complete</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="xmaths/previousyearpapers.html" target="_blank">*Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                 <li class="menu-main__item"><a class="menu-main__link " href="ixmaths.html" target="_blank" id="elements">IX Maths</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/numbersystems.html" target="_blank">*Syllabus</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/numbersystems.html" target="_blank">Number Systems</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/algebra.html" target="_blank">Algebra</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/coordinategeometry.html" target="_blank">Coordinate Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/geometry.html" target="_blank">Geometry</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/mensuration.html" target="_blank">Mensuration</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/statisticsnandprobability.html" target="_blank">Statistics and Probability</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/ixmathscomplete.html" target="_blank">IX Maths Complete</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="ixmaths/previousyearpapers.html" target="_blank">*Previous Year Papers</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                 <li class="menu-main__item"><a class="menu-main__link " href="careforcareer.html" target="_blank" id="elements">Care For Career</a>
+                    <div class="dropdown-catagories dropdown-catagories--menu">
+                      <ul class="dropdown-catagories__list">
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="https://www.facebook.com/groups/261170104727090/" target="_blank">Visit our Group</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="careforcareer/podcasts" target="_blank">Podcasts</a>
+                        </li>
+                        <li class="dropdown-catagories__item "><a class="dropdown-catagories__link" href="careforcareer/blogs.html" target="_blank">Blogs</a>
                         </li>
                       </ul>
                     </div>
@@ -204,6 +319,8 @@
           </nav>
         </div>
       </div>
+
+
       <div class="header__mobile hidden-lg hidden-md">
         <div class="header-top">
           <div class="container">
@@ -226,79 +343,133 @@
             </form>
           </div>
         </div>
+
         <nav class="navbar" id="header-mobile" data-spy="affix" data-offset-top="75">
           <div class="container">
             <div class="categories--mobile pull-left"><a class="dropdown-toggle categories--mobile__buttonsm" id="menu-categories" data-toggle="collapse" data-target="#dropdown-categories"><i class="glyph-icon flaticon-signs-1 categories--mobile__icon"></i></a></div>
             <button class="navbar-toggle nav-icon pull-right collapsed visible-sm visible-xs" id="menu-hamberger" data-toggle="collapse" data-target="#menu-main"><span class="bar"></span></button>
-            <div class="logo--mobile text-center"><a class="logo__link" href="/"><img class="logo__image" src="assets/img/logo/Logo-header.png" alt="Logo Educef"></a></div>
+            <div class="logo--mobile text-center"><a class="logo__link" href="/"><img class="logo__image" src="assets/img/logo_header.png" alt="Logo PyMaths"></a></div>
           </div>
           <div class="menu-mobile">
                 <ul class="menu-mobile__list ">
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">home</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="engineeringmaths.html">Engineering Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="index.html">home 1</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="index-2.html">home 2</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/realanalysis.html">Real Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/vectoranalysis.html">Vector Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/complexanalysis.html">Complex Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/analyticgeometry.html">Analytic Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/linearalgebra.html">Linear Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/ordinarydifferentialequations.html">Ordinary Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/ordinarydifferentialequations.html">Partial Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/numericalmethods.html">Numerical Methods</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/abstractlgebra.html">Abstract Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="engineeringmaths/probabilityandstatistics.html">Probability and Statistics</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">course</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="upscmaths.html">UPSC Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="categories.html">course categories</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-listing.html">course list</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-grid.html">course grid</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-single.html">course single</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-detail.html">course details</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="search-result.html">course search result</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="instructor-details.html">instructor details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/syllabus.html">*Syllabus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/linearalgebra.html">Linear Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/analyticgeometry.html">Analytic Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/ordinarydifferentialequations.html">Ordinary Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/dynamicsstaticsandhydrostatics.html">Dynamics, Statics and Hydrostatics</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/vectoranalysis.html">Vector Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/realanalysis.html">Real Analysis</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/partialdifferentialequations.html">Partial Differential Equations</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/numericalanalysisandcomputerprogramming.html">Numerical Analysis and Computer Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/numericalintegration.html">Numerical Integration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/mechanicsandfluiddynamics.html">Mechanics and Fluid Dynamics</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/papericomplete.html">Paper I Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/paperiicomplete.html">Paper II Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="upscmaths/previousyearpapers.html">*Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">bundle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="jeemaths.html">JEE Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="course-bundle.html">course bundle</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="bundle-details.html">course bundle details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/syllabus.html">*Syllabus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/trigonometry.html">Trigonometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/analyticalgeometry.html">Analytical Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/differentialcalculus.html">Differential Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/integralcalculus.html">Integral Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/vectors.html">Vectors</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/jeemathscomplete.html">JEE Maths Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="jeemaths/previousyearpapers.html">*Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">partner</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="xiimaths.html">XII Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="partner-listing.html">partner list</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="partner-details.html">partner details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/syllabus.html">*Syllabus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/relationsandfunctions.html">Relations and Functions</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/vectorsandthree-dimensionalgeometry.html">Vectors and Three-Dimensional Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/linearprogramming.html">Linear Programming</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/probability.html">Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/xiimaths.html">XII Maths Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xiimaths/previousyearpapers.html">*Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">blog</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="ximaths.html">XI Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-grid.html">blog grid</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-details-sidebar.html">blog details with sidebar</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="blog-details.html">blog details</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/syllabus.html">*Syllabus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/setsandfunctions.html">Sets and Functions</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/calculus.html">Calculus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/mathematicalreasoning.html">Mathematical Reasoning</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/ximathscomplete.html">XI Maths Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ximaths/previousyearpapers.html">*Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">pages</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="xmaths.html">X Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="pricing-table.html">pricing table</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="contact.html">contact</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="coming-soon.html">coming soon</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="404.html">404 page</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/syllabus.html">*Syllabus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/numbersystems.html">Number Systems</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/geometry.html">Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/trigonometry.html">Trigonometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/mensuration.html">Mensuration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/xmathscomplete.html">X Maths Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="xmaths/previousyearpapers.html">*Previous Year Papers</a></li>
                     </ul>
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">elements</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="ixmaths.html">IX Maths</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-submenu"><a class="dropdown-mobile__link" href="#">sub level 1</a><span class="glyph-icon flaticon-arrows-3 menu-mobile__icon"></span>
-                        <ul class="dropdown-menu dropdown-mobile">
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 1.1</a></li>
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 1.2</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-submenu"><a class="dropdown-mobile__link" href="#">sub level 2</a><span class="glyph-icon flaticon-arrows-3 menu-mobile__icon"></span>
-                        <ul class="dropdown-menu dropdown-mobile">
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 2.1</a></li>
-                          <li class="dropdown-mobile__item"><a class="dropdown-mobile__link" href="#">sub level 2.2</a></li>
-                        </ul>
-                      </li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/syllabus.html">*Syllabus</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/numbersystems.html">Number Systems</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/algebra.html">Algebra</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/coordinategeometry.html">Coordinate Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/geometry.html">Geometry</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/mensuration.html">Mensuration</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/statisticsandprobability.html">Statistics & Probability</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/ixmathscomplete.html">IX Maths Complete</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="ixmaths/previousyearpapers.html">*Previous Year Papers</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="careforcareer.html">Care for Career</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                    <ul class="dropdown-menu dropdown-mobile">
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="https://www.facebook.com/groups/261170104727090/">Visit our Group</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="careforcareer/podcasts">Podcasts</a></li>
+                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="careforcareer/blogs">Blogs</a></li>
                     </ul>
                   </li>
                 </ul>
           </div>
           <div class="menu-mobile-dropdown menu-mobile--categories">
                 <ul class="menu-mobile__list ">
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Business</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="ifosmaths.html">IFoS Maths</a>
+
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Finance</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Industry</a></li>
@@ -306,50 +477,25 @@
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Media</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Sales</a></li>
                     </ul>
+                  -->
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Design</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="gatemaths.html">GATE Maths</a>
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Design Thinking</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fashion</a></li>
                     </ul>
+                  -->
                   </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Development</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
+                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="catquant.html">CAT Quant</a>
+                    <!--
+                    <span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
                     <ul class="dropdown-menu dropdown-mobile">
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Databases</a></li>
                       <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Mobie Apps</a></li>
                     </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Heath &amp; Fitness</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Dance</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Fitness</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">IT &amp; Software</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">AI &amp; Big Data</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Hardware</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Language</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Chinese</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">English</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">French</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Lifestyle</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Art &amp; Crafts</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Gaming</a></li>
-                    </ul>
-                  </li>
-                  <li class="menu-mobile__item"><a class="menu-mobile__link" href="#">Office Productivity</a><span class="dropdown-toggle glyph-icon flaticon-arrows-3 menu-mobile__icon" data-toggle="dropdown" onClick="void(0)"></span>
-                    <ul class="dropdown-menu dropdown-mobile">
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Apple</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Google</a></li>
-                      <li class="dropdown-mobile__item "><a class="dropdown-mobile__link" href="#">Oracle</a></li>
-                    </ul>
+                  -->
                   </li>
                 </ul>
           </div>
@@ -357,6 +503,9 @@
       </div>
       <div class="button-default btn-ontop" id="on-top"><span class="glyph-icon flaticon-arrows-5"></span></div>
     </header>
+
+
+
     <div class="modal fade signin-form" id="modal-signin" role="dialog">
       <div class="modal-dialog signin-form__dialog">
         <div class="signin-form__button-close hidden-lg hidden-md hidden-sm">
@@ -442,7 +591,7 @@
             <div class="bundle-header__about">
               <h1 class="bundle-header__title">UPSC Maths Paper 1</h1>
               <p>
-                This course covers all the topics of UPSC Optional Mathematics. These topics are helpful in many other competitive exams such as IFoS and GATE, and also covers Engineering Mathematics. Engineering Mathematics will be extrememly helpful in your career. It has applications in many fields including Data Science, Machine Learning, Artificial Intelligence, Software Development, Financial Modelling and much more. 
+                This course covers all the topics of UPSC Optional Mathematics. These topics are helpful in many other competitive exams such as IFoS and GATE, and also covers Engineering Mathematics. Engineering Mathematics will be extrememly helpful in your career. It has applications in many fields including Data Science, Machine Learning, Artificial Intelligence, Software Development, Financial Modelling and much more.
               </p>
               <p>
                 Based on the diverse applications of topics covered in this course, the target audience for this course will also include working professionals in the above-mentioned and relevant fields.
@@ -518,10 +667,10 @@
                           <div class="bundle" id="syllabus">
                             <div class="bundle__title">Topics Covered</div>
                             <div class="bundle__content">
-                              
+
                               <div class="list-syllabus">
                                             <div class="list-brief-content">
-                                              
+
                                               <div class="list-brief-content__item">
                                                 <div class="list-brief__top">
                                                   <div class="list-brief__top__title">Unit 1: Relations and Functions</div>
@@ -595,7 +744,7 @@
                                                   <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 4</a><span>·</span><a class="list-brief__item__content" href="#">Determinants</a></div>
                                                 </div>
                                               </div>
-                                              
+
                                               <div class="list-brief__top">
                                                   <div class="list-brief__top__title">Unit 3: Calculus</div>
                                               </div>
@@ -779,7 +928,7 @@
                                                   <div class="list-brief__item"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i><a class="list-brief__item__kind" href="#">Quiz 13</a><span>·</span><a class="list-brief__item__content" href="#">Probability</a></div>
                                                 </div>
                                               </div>
-                                              
+
 
                                               <!--
                                               <div class="list-brief-content__item">
@@ -938,7 +1087,7 @@
                                   </div>
                           </div>
 
-                          
+
                           <!--
                           <div class="bundle" id="reviews">
                             <div class="bundle__title">Reviews</div>
