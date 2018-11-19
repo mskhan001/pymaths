@@ -1,0 +1,174 @@
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>{{title}}</h3>
+            </div>
+
+        </div>
+        <div class="modal fade bs-example-modal-sm-single" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                        </button>
+                        <h4 class="modal-title">Add New Download</h4>
+                    </div>
+                    <form data-parsley-validate class="form-horizontal form-label-left" method="POST" action="/admin/download" autocomplete="off" enctype="multipart/form-data">
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label class="col-md-12 col-sm-12 col-xs-12" for="grade-name">Grade<span class="required">*</span>
+                                </label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <select name="grade" id="" class="form-control" required>
+                                        <option value="">Choose</option>
+                                        {{#each grades}}
+                                        <option value="{{_id}}">{{name}}</option>
+                                        {{/each}}
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-12 col-sm-12 col-xs-12" for="grade-name">Course<span class="required">*</span>
+                                </label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <select name="course" id="" class="form-control" required>
+                                        <option value="">Choose</option>
+                                        {{#each courses}}
+                                        <option value="{{_id}}">{{name}}</option>
+                                        {{/each}}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group" id="type_row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                <label class="" style="display: block;" for="grade-name">Model Type<span class="required">*</span></label>
+                                <input type="radio" name="modeltype" value="syllabus" class="paper_type"> Syllabus
+                                <input type="radio" name="modeltype" value="previousyear" class="paper_type"> Previous Years
+                            </div>
+                            </div>
+
+                            <div class="form-group" id="year_row">
+                                <label class="col-md-12 col-sm-12 col-xs-12" for="">Year<span class="required">*</span>
+                                </label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <select name="year" id="" class="form-control">
+                                        <option value="">Choose</option>
+                                        {{#each years}}
+                                        <option value="{{_id}}">{{year}}</option>
+                                        {{/each}}
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="paper_type_row">
+                                <label class="col-md-12 col-sm-12 col-xs-12" for="">Paper Type<span class="required">*</span>
+                                </label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <select name="papertype" id="" class="form-control">
+                                        <option value="">Choose</option>
+                                        <option value="paper">Paper PDF</option>
+                                        <option value="solutions">Solutions PDF</option>
+                                        <option value="paperwithsolutions">Paper with Solutions PDF</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-12 col-sm-12 col-xs-12" for="name">Input File<span class="required">*</span>
+                                </label>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <input type="file" name="file" required>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm-single">Add Grade</button>
+                        <div class="clearfix"></div>
+                        
+                    </div>
+                    <div class="x_content">
+                        {{#if pages}}
+                        <p>{{totalCount}} record(s) found</p>
+                        {{/if}}
+                        <table class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Grade</th>
+                                    <th>Course</th>
+                                    <th>Model Type</th>
+                                    <th>Year</th>
+                                    <th>Paper Type</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{#each downloads}}
+                                <tr>
+                                    <td>{{formatDate createdDate 'MMM Do YYYY'}}</td>
+                                    <td>{{grade.name}}</td>
+                                    <td>{{course.name}}</td>
+                                    <td>{{modelType}}</td>
+                                    <td>{{year.year}}</td>
+                                    <td>{{paperType}}</td>
+                                    <td>
+                                        <a href="/admin/downloads/{{_id}}/download" class="btn btn-primary btn-xs"><i class="fa fa-download"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs delete_appl" data-id="{{_id}}"><i class="fa fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                                {{else}}
+                                <tr>
+                                    <td>No Records Found</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+
+                        {{#if pages}}
+                            <ul class="pagination text-center pull-right">
+                                {{#isPageOne current}}
+                                    <li class="disabled"><a>First</a></li>
+                                {{else}}
+                                    <li><a href="/admin/downloads?page=1">First</a></li>
+                                {{/isPageOne}}
+
+                                {{#each pageArr}}
+                                    <li><a href="/admin/downloads?page={{this}}">{{this}}</a></li>
+                                {{/each}}
+
+                                {{#bothEqual current pages}}
+                                    <li class="disabled"><a>Last</a></li>
+                                {{else}}
+                                    <li><a href="/admin/downloads?page={{pages}}">Last</a></li>
+                                {{/bothEqual}}
+                            </ul>
+                        {{/if}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

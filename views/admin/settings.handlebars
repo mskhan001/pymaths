@@ -1,0 +1,196 @@
+<!-- page content -->
+<div class="right_col" role="main">
+
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>{{title}}</h3>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2><i class="fa fa-align-left"></i> Grade List</h2>
+                    <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target=".bs-example-modal-sm-single">Add Grade</button>
+                        <div class="modal fade bs-example-modal-sm-single" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                        </button>
+                                        <h4 class="modal-title">Add New Grade</h4>
+                                    </div>
+                                    <form data-parsley-validate class="form-horizontal form-label-left" method="POST" action="/admin/settings/grade" autocomplete="off">
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-12 col-sm-12 col-xs-12" for="grade-name">Grade Name <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <input type="text" id="grade-name" required="required" class="form-control col-md-7 col-xs-12 capitalize" name="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                    </form>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Grade Name</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {{#each grades}}
+                        <tr>
+                          <td>{{name}} </td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <td>No Grades Added</td>
+                        </tr>
+                        {{/each}}
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2><i class="fa fa-align-left"></i> Course List</h2>
+                    <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target=".bs-example-modal-sm-single-course">Add Course</button>
+                        <div class="modal fade bs-example-modal-sm-single-course" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                        </button>
+                                        <h4 class="modal-title">Add New Course</h4>
+                                    </div>
+                                    <form data-parsley-validate class="form-horizontal form-label-left" method="POST" action="/admin/settings/course" autocomplete="off">
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-12 col-sm-12 col-xs-12" for="course-name">Course Name <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <input type="text" id="course-name" required="required" class="form-control col-md-7 col-xs-12 capitalize" name="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                    </form>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Course Name</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {{#each courses}}
+                        <tr>
+                          <td>{{name}} </td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <td>No Courses Added</td>
+                        </tr>
+                        {{/each}}
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2><i class="fa fa-align-left"></i> Years List</h2>
+                    <button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target=".bs-example-modal-sm-single-year">Add Year</button>
+                        <div class="modal fade bs-example-modal-sm-single-year" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                                        </button>
+                                        <h4 class="modal-title">Add New Year</h4>
+                                    </div>
+                                    <form data-parsley-validate class="form-horizontal form-label-left" method="POST" action="/admin/settings/year" autocomplete="off">
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label class="control-label col-md-12 col-sm-12 col-xs-12" for="course-name">Year <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <input type="number" id="year-name" required="required" class="form-control col-md-7 col-xs-12 capitalize" name="year">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                    </form>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Years</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {{#each years}}
+                        <tr>
+                          <td>{{year}} </td>
+                        </tr>
+                        {{else}}
+                        <tr>
+                            <td>No Years Added</td>
+                        </tr>
+                        {{/each}}
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /page content -->

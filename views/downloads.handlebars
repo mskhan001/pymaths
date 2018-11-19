@@ -1,0 +1,196 @@
+<div class="container">
+	<div class="sc-contact-page">
+      <div class="container">
+      	<div class="contact-page__breadcrumb">
+          <div class="breadcrumb-wapper">
+            <ul class="breadcrumb">
+              <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">Home</a></li>
+              <li class="breadcrumb__item active"><a class="breadcrumb__link active" href="#">Downloads</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-page__wrapper">
+          <div class="cotact-page__box">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="contact-page__box__left">
+                  <div class="contact-header-l">
+                    <h4 class="title-text">Download Papers</h4>
+                    <p class="content-text">Ad aperiam aspernatur atque aut consequatur distinctio earum ex fuga fugit hic impedit iure libero minima molestiae nihil obcaecati officia perferendis.</p>
+                  </div>
+                  <div class="contact-form-l">
+                    <form class="contact-form" action="/downloads" method="POST">
+                      <div class="contact-form__group-name">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <label class="sr-only" for="Grade">Grade</label>
+                              <select name="grade" id="grade_select" class="form-control">
+                              	<option value="">Grade</option>
+								{{#each grades}}
+								<option value="{{_id}}">{{name}}</option>
+								{{else}}
+								<option value="">No Grades Found</option>
+								{{/each}}
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="contact-form__group-name">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <label class="sr-only" for="Course">Course</label>
+                              <select name="course" id="course_select" class="form-control">
+                              	<option value="">Course</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="contact-form__group-name">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <label class="sr-only" for="modeltype">Model Type</label>
+                              <br>
+								<input type="radio" name="modeltype" value="syllabus" class="modeltypeinput"> Syllabus
+								<br>
+								<input type="radio" name="modeltype" value="previousyear" class="modeltypeinput"> Previous Years
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="contact-form__group-name" id="no_paper_para">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <p style="color: red">No Previous Years Found</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="contact-form__group-name" id="year_field">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <label class="sr-only" for="firstName">Year</label>
+                              <select name="year" id="year_select" class="form-control">
+                              	<option value="">Year</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="contact-form__group-name" id="paper_type_field">
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <label class="sr-only" for="firstName"></label>
+                              <select name="paper_type" id="paper_type_select" class="form-control">
+                              	<option value="">Paper Type (PDF)</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                 
+                      <button class="btn button-normal-02 contact-form__button" type="submit" id="downloads_submit">SUBMIT</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="contact-page__box__right">
+                  <div class="contact-information-r">
+                    <h4 class="title-text">Some Information</h4>
+                    <div class="contact-information__wrapper">
+                      <ul class="contact-information">
+                        <li>We Are very Good</li>
+                        <li>We Are very Good</li>
+                        <li>We Are very Good</li>
+                        <li>We Are very Good</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- <h1>
+		Downloads Heading
+	</h1>
+
+	<br>
+	<br>
+	<br>
+
+	<form action="/downloads" style="width: 50%; margin: 0 auto;" method="POST">
+		<div class="form-row">
+			<label for="Grade">Grade</label>
+			<select name="grade" id="grade_select" class="form-control">
+				<option value="">Select any..</option>
+				{{#each grades}}
+				<option value="{{_id}}">{{name}}</option>
+				{{else}}
+				<option value="">No Grades Found</option>
+				{{/each}}
+			</select>
+		</div>
+
+		<br>
+
+		<div class="form-row">
+			<label for="Course">Course</label>
+			<select name="course" id="course_select" class="form-control">
+				<option value="">Select any..</option>
+			</select>
+		</div>
+
+		<br>
+
+		<div class="form-row">
+			<label for="modeltype">Model Type</label>
+			<br>
+			<input type="radio" name="modeltype" value="syllabus" class="modeltypeinput"> Syllabus
+			<br>
+			<input type="radio" name="modeltype" value="previousyear" class="modeltypeinput"> Previous Years
+		</div>
+
+		<br>
+
+		<div class="form-row" id="year_field">
+			<label for="year">Year</label>
+			<select name="year" id="year_select" class="form-control">
+				<option value="">Select any..</option>
+			</select>
+		</div>
+
+		<div class="form-row" id="no_paper_para">
+			<p style="color: red;">No Previous Years Found</p>
+		</div>
+
+		<br>
+
+		<div class="form-row" id="paper_type_field">
+			<label for="paper_type">Paper Type</label>
+			<select name="paper_type" id="paper_type_select" class="form-control">
+				<option value="">Select any..</option>
+			</select>
+		</div>
+
+		<br>
+
+		<div class="form-row">
+			<input type="submit" value="Submit" id="downloads_submit">
+		</div>
+
+		<br>
+		<br>
+		<br>
+	</form> -->
+</div>

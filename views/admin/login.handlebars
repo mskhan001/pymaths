@@ -1,0 +1,33 @@
+{{> admin/_head}}
+    {{> _msg}}
+    <div class="login_wrapper">
+        <div class="animate form login_form">
+            <section class="login_content">
+                <form method="POST" action="/admin/auth">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1>Administrator Login</h1>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username" name="username" required autofocus/>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="password" name="password" required=/>
+                            </div>
+                            <div class="text-center form-group">
+                                <button type="submit" class="btn btn-default submit">Log in</button>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="separator">
+                                <div class="clearfix"></div>
+                                <br />
+                                <div class="text-center">
+                                    <p>© 2018 All Rights Reserved. Pymaths.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+{{> admin/_scripts}}

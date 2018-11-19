@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'pymaths',
-    script: './index.js'
+    script: './app.js'
   }],
   deploy: {
     production: {
