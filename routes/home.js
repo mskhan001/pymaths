@@ -269,6 +269,23 @@ router.get('/ajax/downloads/:gval/:cval/:year/:modeltype/papertype', function(re
 
 
 
+router.get('/engineeringmaths/realanalysis', function(req, res, next){
+
+  res.render('front-end/realanalysis');
+
+})
+
+
+router.get('/engineeringmaths/calculus', function(req, res, next){
+
+  res.render('front-end/calculus');
+
+})  
+
+
+
+
+
 
 module.exports = router;
 
