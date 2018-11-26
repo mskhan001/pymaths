@@ -44,7 +44,7 @@ const uploadFileDownload = multer({
 
 // show home
 router.get('/', function(req, res, next){
-	res.render('index');
+	res.render('front-end/index');
 })
 
 // show home
@@ -59,7 +59,7 @@ router.get('/downloads', function(req, res, next){
     for(var x=0; x<grades.length; x++){
       getName(grades[x], x, function(){
         if(num.length == grades.length){
-          res.render('downloads', {
+          res.render('front-end/downloads', {
             grades: num
           })
         }
@@ -267,21 +267,93 @@ router.get('/ajax/downloads/:gval/:cval/:year/:modeltype/papertype', function(re
   })
 })
 
+router.get('/engineeringmaths', function(req, res, next){
 
-
-router.get('/engineeringmaths/realanalysis', function(req, res, next){
-
-  res.render('front-end/realanalysis');
+  res.render('front-end/engineeringmaths/engineeringmaths');
 
 })
 
 
+router.get('/engineeringmaths/realanalysis', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/realanalysis');
+
+})
+
 router.get('/engineeringmaths/calculus', function(req, res, next){
 
-  res.render('front-end/calculus');
+  res.render('front-end/engineeringmaths/calculus');
 
 })  
 
+router.get('/engineeringmaths/algebra', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/algebra');
+
+})  
+
+
+router.get('/engineeringmaths/analyticgeometry', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/analyticgeometry');
+
+})  
+
+
+router.get('/engineeringmaths/complexanalysis', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/complexanalysis');
+
+})  
+
+
+router.get('/engineeringmaths/engineeringmathscomplete', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/engineeringmathscomplete');
+
+})  
+
+
+router.get('/engineeringmaths/linearalgebra', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/linearalgebra');
+
+})  
+
+
+router.get('/engineeringmaths/linearprogramming', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/linearprogramming');
+
+})  
+
+
+router.get('/engineeringmaths/numericalmethods', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/numericalmethods');
+
+})  
+
+
+router.get('/engineeringmaths/ordinarydifferentialquations', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/ordinarydifferentialquations');
+
+})  
+
+
+router.get('/engineeringmaths/partialdifferentialquations', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/partialdifferentialquations');
+
+})  
+
+
+router.get('/engineeringmaths/vectoranalysis', function(req, res, next){
+
+  res.render('front-end/engineeringmaths/vectoranalysis');
+
+})  
 
 
 
