@@ -18,13 +18,13 @@ const Years = mongoose.model('Years');
 const config = require('../config/config');
 
 //bucket cred
-const s3 = new aws.S3({ 
-    "accessKeyId": config.accessAwsKey, 
-    "secretAccessKey": config.secretAwsKey, 
+const s3 = new aws.S3({
+    "accessKeyId": config.accessAwsKey,
+    "secretAccessKey": config.secretAwsKey,
     "region": config.awsRegion
 })
 
-//init 
+//init
 const uploadFileDownload = multer({
     storage: multerS3({
         s3: s3,
@@ -49,7 +49,7 @@ router.get('/', function(req, res, next){
 
 // show home
 router.get('/downloads', function(req, res, next){
-	 
+
   Download.find({})
   .distinct('grade')
   .then(function(grades){
@@ -82,7 +82,7 @@ router.get('/downloads', function(req, res, next){
         console.log(err);
       })
     }
-    
+
   })
   .catch(function(err){
     console.log(err);
@@ -126,27 +126,27 @@ router.post('/downloads', function(req, res, next){
 
 router.get('/asset', function(request, response){
   var params = {
-    Bucket: "rkrshellapp", 
+    Bucket: "rkrshellapp",
     Key: "pymaths/1542378117991-AppFlow.pdf"
   };
    s3.getObject(params, function(err, data) {
    if (err) {
-      console.log(err, err.stack); 
+      console.log(err, err.stack);
 
     }// an error occurred
    else {
     var doc = new jsPDF()
-      
+
       let org = data.Body.toString('utf-8');
       fs.readFile(org, function (err,dataa){
          response.contentType("application/pdf");
          response.send(dataa);
       });
     }          // successful response
-  
+
  });
   // var tempFile="https://rkrshellapp.s3.amazonaws.com/pymaths/1542378117991-AppFlow.pdf";
-  
+
 });
 
 router.get('/ajax/downloads/:val/grade', function(req, res, next){
@@ -210,7 +210,7 @@ router.get('/ajax/downloads/syllabus/:gval/:cval/course', function(req, res, nex
 })
 
 router.get('/ajax/downloads/:gval/:cval/:modeltype/course', function(req, res, next){
-  
+
   Download.find({
     grade: req.params.gval,
     course: req.params.cval,
@@ -267,99 +267,286 @@ router.get('/ajax/downloads/:gval/:cval/:year/:modeltype/papertype', function(re
   })
 })
 
+
 router.get('/engineeringmaths', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/engineeringmaths');
-
+  res.render('front-end/engineeringmaths');
 })
-
 
 router.get('/engineeringmaths/realanalysis', function(req, res, next){
-
   res.render('front-end/engineeringmaths/realanalysis');
-
+})
+router.get('/engineeringmaths/calculus', function(req, res, next){
+  res.render('front-end/engineeringmaths/calculus');
+})
+router.get('/engineeringmaths/algebra', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra');
+})
+router.get('/engineeringmaths/analyticgeometry', function(req, res, next){
+  res.render('front-end/engineeringmaths/analyticgeometry');
+})
+router.get('/engineeringmaths/complexanalysis', function(req, res, next){
+  res.render('front-end/engineeringmaths/complexanalysis');
+})
+router.get('/engineeringmaths/engineeringmathscomplete', function(req, res, next){
+  res.render('front-end/engineeringmaths/engineeringmathscomplete');
+})
+router.get('/engineeringmaths/linearalgebra', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra');
+})
+router.get('/engineeringmaths/linearprogramming', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearprogramming');
+})
+router.get('/engineeringmaths/numericalmethods', function(req, res, next){
+  res.render('front-end/engineeringmaths/numericalmethods');
+})
+router.get('/engineeringmaths/ordinarydifferentialquations', function(req, res, next){
+  res.render('front-end/engineeringmaths/ordinarydifferentialquations');
+})
+router.get('/engineeringmaths/partialdifferentialquations', function(req, res, next){
+  res.render('front-end/engineeringmaths/partialdifferentialquations');
+})
+router.get('/engineeringmaths/vectoranalysis', function(req, res, next){
+  res.render('front-end/engineeringmaths/vectoranalysis');
+})
+router.get('/engineeringmaths/probabilityandstatistics', function(req, res, next){
+  res.render('front-end/engineeringmaths/probabilityandstatistics');
 })
 
-router.get('/engineeringmaths/calculus', function(req, res, next){
+router.get('/upscmaths', function(req, res, next){
+  res.render('front-end/upscmaths');
+})
 
-  res.render('front-end/engineeringmaths/calculus');
-
-})  
-
-router.get('/engineeringmaths/algebra', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/algebra');
-
-})  
-
-
-router.get('/engineeringmaths/analyticgeometry', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/analyticgeometry');
-
-})  
-
-
-router.get('/engineeringmaths/complexanalysis', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/complexanalysis');
-
-})  
-
-
-router.get('/engineeringmaths/engineeringmathscomplete', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/engineeringmathscomplete');
-
-})  
-
-
-router.get('/engineeringmaths/linearalgebra', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/linearalgebra');
-
-})  
-
-
-router.get('/engineeringmaths/linearprogramming', function(req, res, next){
-
-  res.render('front-end/engineeringmaths/linearprogramming');
-
-})  
+router.get('/ximaths/syllabus', function(req, res, next){
+  res.render('front-end/ximaths/syllabus');
+})
+router.get('/upscmaths/syllabus', function(req, res, next){
+  res.render('front-end/upscmaths/syllabus');
+})
+router.get('/upscmaths/calculus', function(req, res, next){
+  res.render('front-end/upscmaths/calculus');
+})
+router.get('/upscmaths/algebra', function(req, res, next){
+  res.render('front-end/upscmaths/algebra');
+})
+router.get('/upscmaths/analyticgeometry', function(req, res, next){
+  res.render('front-end/upscmaths/analyticgeometry');
+})
+router.get('/upscmaths/complexanalysis', function(req, res, next){
+  res.render('front-end/upscmaths/complexanalysis');
+})
+router.get('/upscmaths/upscmathscomplete', function(req, res, next){
+  res.render('front-end/upscmaths/upscmathscomplete');
+})
+router.get('/upscmaths/linearalgebra', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra');
+})
+router.get('/upscmaths/linearprogramming', function(req, res, next){
+  res.render('front-end/upscmaths/linearprogramming');
+})
+router.get('/upscmaths/numericalmethods', function(req, res, next){
+  res.render('front-end/upscmaths/numericalmethods');
+})
+router.get('/upscmaths/ordinarydifferentialquations', function(req, res, next){
+  res.render('front-end/upscmaths/ordinarydifferentialquations');
+})
+router.get('/upscmaths/partialdifferentialquations', function(req, res, next){
+  res.render('front-end/upscmaths/partialdifferentialquations');
+})
+router.get('/upscmaths/vectoranalysis', function(req, res, next){
+  res.render('front-end/upscmaths/vectoranalysis');
+})
 
 
-router.get('/engineeringmaths/numericalmethods', function(req, res, next){
+router.get('/jeemaths', function(req, res, next){
+  res.render('front-end/jeemaths');
+})
 
-  res.render('front-end/engineeringmaths/numericalmethods');
+router.get('/jeemaths/syllabus', function(req, res, next){
+  res.render('front-end/jeemaths/syllabus');
+})
+router.get('/jeemaths/algebra', function(req, res, next){
+  res.render('front-end/jeemaths/algebra');
+})
+router.get('/jeemaths/trigonometry', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry');
+})
+router.get('/jeemaths/analyticalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry');
+})
+router.get('/jeemaths/differentialcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus');
+})
+router.get('/jeemaths/integralcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus');
+})
+router.get('/jeemaths/vectors', function(req, res, next){
+  res.render('front-end/jeemaths/vectors');
+})
+router.get('/jeemaths/jeemathscomplete', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete');
+})
+router.get('/jeemaths/previousyearpapers', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers');
+})
 
-})  
+
+router.get('/xiimaths', function(req, res, next){
+  res.render('front-end/xiimaths');
+})
+
+router.get('/xiimaths/syllabus', function(req, res, next){
+  res.render('front-end/xiimaths/syllabus');
+})
+router.get('/xiimaths/relationsandfunctions', function(req, res, next){
+  res.render('front-end/xiimaths/relationsandfunctions');
+})
+
+router.get('/xiimaths/algebra', function(req, res, next){
+  res.render('front-end/xiimaths/algebra');
+})
+
+router.get('/xiimaths/vectorsandthreedimensionalgeometry', function(req, res, next){
+  res.render('front-end/xiimaths/vectorsandthreedimensionalgeometry');
+})
+router.get('/xiimaths/linearprogramming', function(req, res, next){
+  res.render('front-end/xiimaths/linearprogramming');
+})
+router.get('/xiimaths/probability', function(req, res, next){
+  res.render('front-end/xiimaths/probability');
+})
+router.get('/xiimaths/statisticsandprobability', function(req, res, next){
+  res.render('front-end/xiimaths/statisticsandprobability');
+})
+router.get('/xiimaths/xiimathscomplete', function(req, res, next){
+  res.render('front-end/xiimaths/xiimathscomplete');
+})
+router.get('/xiimaths/previousyearpapers', function(req, res, next){
+  res.render('front-end/xiimaths/previousyearpapers');
+})
 
 
-router.get('/engineeringmaths/ordinarydifferentialquations', function(req, res, next){
 
-  res.render('front-end/engineeringmaths/ordinarydifferentialquations');
+router.get('/ximaths', function(req, res, next){
+  res.render('front-end/ximaths');
+})
 
-})  
+router.get('/ximaths/syllabus', function(req, res, next){
+  res.render('front-end/ximaths/syllabus');
+})
+
+router.get('/ximaths/setsandfunctions', function(req, res, next){
+  res.render('front-end/ximaths/setsandfunctions');
+})
+
+router.get('/ximaths/algebra', function(req, res, next){
+  res.render('front-end/ximaths/algebra');
+})
+
+router.get('/ximaths/coordinategeometry', function(req, res, next){
+  res.render('front-end/ximaths/coordinategeometry');
+})
+router.get('/ximaths/calculus', function(req, res, next){
+  res.render('front-end/ximaths/calculus');
+})
+router.get('/ximaths/mathematicalreasoning', function(req, res, next){
+  res.render('front-end/ximaths/mathematicalreasoning');
+})
+router.get('/ximaths/statisticsandprobability', function(req, res, next){
+  res.render('front-end/ximaths/statisticsandprobability');
+})
+router.get('/ximaths/ximathscomplete', function(req, res, next){
+  res.render('front-end/ximaths/ximathscomplete');
+})
+router.get('/ximaths/previousyearpapers', function(req, res, next){
+  res.render('front-end/ximaths/previousyearpapers');
+})
 
 
-router.get('/engineeringmaths/partialdifferentialquations', function(req, res, next){
+router.get('/xmaths', function(req, res, next){
+  res.render('front-end/xmaths');
+})
 
-  res.render('front-end/engineeringmaths/partialdifferentialquations');
+router.get('/xmaths/syllabus', function(req, res, next){
+  res.render('front-end/xmaths/syllabus');
+})
 
-})  
+router.get('/xmaths/numbersystems', function(req, res, next){
+  res.render('front-end/xmaths/numbersystems');
+})
+router.get('/xmaths/algebra', function(req, res, next){
+  res.render('front-end/xmaths/algebra');
+})
+router.get('/xmaths/coordinategeometry', function(req, res, next){
+  res.render('front-end/xmaths/coordinategeometry');
+})
+router.get('/xmaths/geometry', function(req, res, next){
+  res.render('front-end/xmaths/geometry');
+})
+router.get('/xmaths/trigonometry', function(req, res, next){
+  res.render('front-end/xmaths/trigonometry');
+})
+router.get('/xmaths/mensuration', function(req, res, next){
+  res.render('front-end/xmaths/mensuration');
+})
+router.get('/xmaths/statisticsandprobability', function(req, res, next){
+  res.render('front-end/xmaths/statisticsandprobability');
+})
+router.get('/xmaths/xmathscomplete', function(req, res, next){
+  res.render('front-end/xmaths/xmathscomplete');
+})
+router.get('/xmaths/previousyearpapers', function(req, res, next){
+  res.render('front-end/xmaths/previousyearpapers');
+})
 
 
-router.get('/engineeringmaths/vectoranalysis', function(req, res, next){
+router.get('/ixmaths', function(req, res, next){
+  res.render('front-end/ixmaths');
+})
 
-  res.render('front-end/engineeringmaths/vectoranalysis');
+router.get('/ixmaths/syllabus', function(req, res, next){
+  res.render('front-end/ixmaths/syllabus');
+})
+router.get('/ixmaths/numbersystems', function(req, res, next){
+  res.render('front-end/ixmaths/numbersystems');
+})
+router.get('/ixmaths/algebra', function(req, res, next){
+  res.render('front-end/ixmaths/algebra');
+})
+router.get('/ixmaths/coordinategeometry', function(req, res, next){
+  res.render('front-end/ixmaths/coordinategeometry');
+})
+router.get('/ixmaths/geometry', function(req, res, next){
+  res.render('front-end/ixmaths/geometry');
+})
+router.get('/ixmaths/mensuration', function(req, res, next){
+  res.render('front-end/ixmaths/mensuration');
+})
+router.get('/ixmaths/statisticsandprobability', function(req, res, next){
+  res.render('front-end/ixmaths/statisticsandprobability');
+})
+router.get('/xmaths/xmathscomplete', function(req, res, next){
+  res.render('front-end/ixmaths/ixmathscomplete');
+})
+router.get('/ixmaths/previousyearpapers', function(req, res, next){
+  res.render('front-end/ixmaths/previousyearpapers');
+})
 
-})  
+router.get('/careforcareer', function(req, res, next){
+  res.render('front-end/careforcareer');
+})
 
+router.get('/careforcareer/visitourgroup', function(req, res, next){
+  res.render('https://www.facebook.com/groups/261170104727090/');
+})
 
+router.get('/careforcareer/blogs', function(req, res, next){
+  res.render('front-end/careforcareer/blogs');
+})
+
+router.get('/careforcareer/podcasts', function(req, res, next){
+  res.render('front-end/careforcareer/podcasts');
+})
 
 
 
 module.exports = router;
-
-
-

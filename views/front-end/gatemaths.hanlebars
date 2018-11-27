@@ -1,0 +1,418 @@
+
+
+
+
+
+    <div class="modal fade signin-form" id="modal-signin" role="dialog">
+      <div class="modal-dialog signin-form__dialog">
+        <div class="signin-form__button-close hidden-lg hidden-md hidden-sm">
+          <button class="close signin-form__button-close__btn" type="button" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="signin-form__header"><a class="signin-form__header__logo" href="#"><img src="assets/img/logo/Logo-form.png" alt=""></a>
+          <p class="signin-form__sub">Universal access to the world’s best education.</p>
+        </div>
+        <div class="modal-content signin-form__content">
+          <div class="modal-body signin-form__body">
+            <ul class="signin-form__tabs">
+              <li class="active signin-form__tabs__items"><a class="signin-form__tabs__link" data-toggle="tab" href="#sign-in">Sign In</a></li>
+              <li class="signin-form__tabs__items"><a class="signin-form__tabs__link" data-toggle="tab" href="#sign-up">Sign Up</a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="sign-in">
+                <h3 class="signin-form__body__title">Log Into Your Account</h3>
+                <p class="signin-form__body__sub">Your student account is your portal to all the things: your classroom, projects, forums, career resources, and more!</p>
+                <form class="signin-form__form">
+                  <div class="signin-form__form__inputs">
+                    <input class="input-item" type="text" placeholder="Email">
+                    <input class="input-item" type="password" placeholder="Password">
+                  </div>
+                  <button class="btn-green list-link__btn">Sign In</button><a class="signin-form__link" href="#">Forgot your password?</a>
+                </form>
+                <div class="group-btn-socials">
+                  <p class="group-btn-socials__sub">or sign in with one of these services</p>
+                  <div class="btn-social btn-social--facebook"><i class="glyph-icon flaticon-social-1"></i><i>facebook</i></div>
+                  <div class="btn-social btn-social--twitter"><i class="glyph-icon flaticon-twitter-logo-silhouette"></i><i>twitter</i></div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="sign-up">
+                <h3 class="signin-form__body__title">Log Into Your Account</h3>
+                <p class="signin-form__body__sub">Your student account is your portal to all the things: your classroom, projects, forums, career resources, and more!</p>
+                <form class="signin-form__form">
+                  <div class="signin-form__form__inputs">
+                    <input class="input-item" type="text" placeholder="User name">
+                    <input class="input-item" type="email" placeholder="Email">
+                    <input class="input-item" type="password" placeholder="Password">
+                    <input class="input-item" type="password" placeholder="Confirm Password">
+                  </div>
+                  <button class="btn-green list-link__btn">Sign Up</button>
+                </form>
+                <div class="group-btn-socials">
+                  <p class="group-btn-socials__sub">or sign up with one of these services</p>
+                  <div class="btn-social btn-social--facebook"><i class="glyph-icon flaticon-social-1"></i><i>facebook</i></div>
+                  <div class="btn-social btn-social--twitter"><i class="glyph-icon flaticon-twitter-logo-silhouette"></i><i>twitter</i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="signin-form__footer"><a class="signin-form__footer__link" href="#">Having trouble logging in?</a></div>
+      </div>
+    </div>
+
+    <div class="list-catag">
+      <div class="container">
+        <nav class="breadcrumb-wapper">
+          <ul class="breadcrumb">
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">home</a></li>
+            <li class="breadcrumb__item active"><a class="breadcrumb__link active" href="#">GATE Maths</a></li>
+          </ul>
+        </nav>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 column-left">
+                        <div class="column-left__item">
+                          <h1 class="column-left__title">GATE Maths</h1>
+                          <div class="select list-selector"><a class="column-left__button-drop" href="#list-catagories" data-toggle="collapse" id="btn-list-catagories"><span class="column-left__button-drop__text" id="select-text">Categories</span><span class="glyph-icon flaticon-arrows-2 column-left__icon"></span></a>
+                            <div class="list-catagories list-catagories" id="list-catagories">
+                                          <ul class="list-catagories__list">
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Overview</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Linear Algebra</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Calculus</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Vector Calculus</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Complex Variables</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Ordinary Differential Equations (ODEs)</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Partial Differential Equations (PDEs)</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Probability and Statistics</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Previous Year Papers</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">Numerical Methods</a>
+                                            </li>
+                                            <li class="list-catagories__item"><a class="list-catagories__link ">GATE Maths Complete</a>
+                                            </li>
+                                          </ul><a class="column-left__link" href="https://www.facebook.com/groups/1889374178036289/">Join us on FB</a>
+                            </div>
+                          </div>
+                        </div>
+          </div>
+          <div class="col-lg-9 col-md-9 column-right">
+
+                        <div class="row courses__list ">
+
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">20 Hours</div>
+                                <div class="courses__top__bt-seller">80 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Overview</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">14 Hours</div>
+                                <div class="courses__top__bt-seller">7 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Linear Algebra</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">40 Hours</div>
+                                <div class="courses__top__bt-seller">20 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Caclulus</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">12 Hours</div>
+                                <div class="courses__top__bt-seller">6 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Vector Calculus</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">30 Hours</div>
+                                <div class="courses__top__bt-seller">15 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Complex Variables</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">24 Hours</div>
+                                <div class="courses__top__bt-seller">12 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">ODEs</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">20 Hours</div>
+                                <div class="courses__top__bt-seller">10 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">PDEs</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">22 Hours</div>
+                                <div class="courses__top__bt-seller">11 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Probability & Stats </a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">22 Hours</div>
+                                <div class="courses__top__bt-seller">11 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Numerical Methods</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">20 Hours</div>
+                                <div class="courses__top__bt-seller">80 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">Previous Year Papers</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 courses__item">
+                            <div class="courses__wapper">
+                              <div class="col-equal courses__top">
+                                <div class="courses__top__wapper"><img class="courses__top__image" src="assets/img/courses-image/0.jpg" alt=""></div>
+                                <div class="courses__top__bundle">12 Weeks</div>
+                                <div class="courses__top__bt-seller">80 Marks</div>
+                                <div class="courses__hover">
+                                  <div class="courses__hover-content"><span class="courses__hover-content__item"><span class="glyph-icon flaticon-shapes courses__hover-content__icon"></span></span><span class="courses__hover-content__item"><span class="glyph-icon flaticon-interface courses__hover-content__icon"></span></span></div>
+                                </div>
+                              </div>
+                              <div class="col-equal courses__content"><a class="courses__content__title" href="#">GATE Maths Complete</a>
+                                <div class="courses__content__author"><a class="courses__col-left" href="#"><span class="courses__content__avatar"><img class="courses__content__image" src="assets/img/partner-details/partner-details-1.png" alt=""></span><span class="courses__content__author-name">Prateek Yadav</span></a>
+                                  <div class="courses__col-right">
+                                    <div class="rating-start" data-rating="5"></div>
+                                  </div>
+                                </div>
+                                <div class="courses__content__info">
+                                  <div class="courses__col-left">
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-shapes icon-custom"></span></span><span class="courses__content__number">349</span></div>
+                                    <div class="col-left__item"><span class="courses__content__icon"><span class="glyph-icon flaticon-profile-1 icon-custom"></span></span><span class="courses__content__number">2678</span></div>
+                                  </div>
+                                  <div class="courses__col-right courses__content__price">Free</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+            <!--
+            <div class="pagination-wrapper">
+                          <nav aria-label="Page navigation example">
+                            <ul class="pagination pagination__list">
+                              <li class="page-item pagination__item"><a class="page-link pagination__link " href="#">prev</a></li>
+                              <li class="page-item pagination__item"><a class="page-link pagination__link active" href="#">1</a></li>
+                              <li class="page-item pagination__item"><a class="page-link pagination__link " href="#">2</a></li>
+                              <li class="page-item pagination__item"><a class="page-link pagination__link " href="#">3</a></li>
+                              <li class="page-item pagination__item"><a class="page-link pagination__link " href="#">...</a></li>
+                              <li class="page-item pagination__item"><a class="page-link pagination__link " href="#">next</a></li>
+                            </ul>
+                          </nav>
+            </div>
+          -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  
