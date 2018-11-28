@@ -4373,18 +4373,18 @@ body {
 }
 
 .list-catag {
-  margin-top: 100px;
+  margin-top: 35px;
 }
 
 @media (max-width: 768px) {
   .list-catag {
-    margin-top: 50px;
+    margin-top: 35px;
   }
 }
 
 @media (max-width: 479px) {
   .list-catag {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 }
 
@@ -4526,7 +4526,7 @@ body {
 }
 
 .list-catagories__item {
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 }
 
 .list-catagories .active {

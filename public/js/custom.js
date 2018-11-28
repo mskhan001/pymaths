@@ -152,6 +152,29 @@ $(document).ready(function(){
 		$('#downloads_submit').prop('disabled', false);
 	})
 
+	function fixDiv() {
+	    var $cache = $('.list-catag .row .column-left__item');
+	    console.log($(document).height());
+	    console.log($(window).scrollTop());
+	    if($(window).scrollTop() > $(document).height() - 1300){
+	    	$cache.css({
+	        'position': 'relative',
+	        'top': 'auto'
+	      });
+	    } else if ($(window).scrollTop() > 120)
+	      $cache.css({
+	        'position': 'fixed',
+	        'top': '100px'
+	      });
+	    else 
+	      $cache.css({
+	        'position': 'relative',
+	        'top': 'auto'
+	      });
+	  }
+	$(window).scroll(fixDiv);
+	fixDiv();
+
 })
 
 
