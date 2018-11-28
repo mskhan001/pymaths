@@ -23,6 +23,7 @@ const fs = require('fs');
 const multerS3 = require('multer-s3');
 const aws = require('aws-sdk');
 const MongoStore = require('connect-mongo')(session);
+const sslRedirect = require('heroku-ssl-redirect');
 
 
 //require config
@@ -80,6 +81,7 @@ app.use(passport.session());
 app.use('/assets', express.static(path.join(__dirname, 'public')));
 // app.use(favicon(path.join(__dirname, 'public', 'logoS.png')));
 app.use(flash());
+app.use(sslRedirect());
 
 //global consts
 app.use(function(req, res, next){
