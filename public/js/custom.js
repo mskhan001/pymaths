@@ -3,6 +3,10 @@ $(document).ready(function(){
 	//alerts
 	setTimeout(function(){ $('.alert_cvr').fadeOut() }, 5000);
 
+	$('.list-syllabus__view-more').on('click', function(){
+		$('.list-syllabus').addClass('list-syllabus--show');
+	})
+
 	$('#downloads_submit').prop('disabled', true);
 
 	$('#grade_select').on('change', function(){
@@ -154,8 +158,6 @@ $(document).ready(function(){
 
 	function fixDiv() {
 	    var $cache = $('.list-catag .row .column-left__item');
-	    console.log($(document).height());
-	    console.log($(window).scrollTop());
 	    if($(window).scrollTop() > $(document).height() - 1300){
 	    	$cache.css({
 	        'position': 'relative',
