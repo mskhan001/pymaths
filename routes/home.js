@@ -516,7 +516,7 @@ router.get('/ixmaths/mensuration', function(req, res, next){
 router.get('/ixmaths/statisticsandprobability', function(req, res, next){
   res.render('front-end/ixmaths/statisticsandprobability');
 })
-router.get('/xmaths/xmathscomplete', function(req, res, next){
+router.get('/ixmaths/ixmathscomplete', function(req, res, next){
   res.render('front-end/ixmaths/ixmathscomplete');
 })
 router.get('/ixmaths/previousyearpapers', function(req, res, next){
@@ -528,7 +528,7 @@ router.get('/careforcareer', function(req, res, next){
 })
 
 router.get('/careforcareer/visitourgroup', function(req, res, next){
-  res.render('https://www.facebook.com/groups/261170104727090/');
+  res.redirect('https://www.facebook.com/groups/261170104727090/');
 })
 
 router.get('/careforcareer/blogs', function(req, res, next){
