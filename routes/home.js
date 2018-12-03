@@ -316,9 +316,6 @@ router.get('/upscmaths', function(req, res, next){
   res.render('front-end/upscmaths');
 })
 
-router.get('/ximaths/syllabus', function(req, res, next){
-  res.render('front-end/ximaths/syllabus');
-})
 router.get('/upscmaths/syllabus', function(req, res, next){
   res.render('front-end/upscmaths/syllabus');
 })
@@ -429,19 +426,15 @@ router.get('/xiimaths/previousyearpapers', function(req, res, next){
 router.get('/ximaths', function(req, res, next){
   res.render('front-end/ximaths');
 })
-
 router.get('/ximaths/syllabus', function(req, res, next){
   res.render('front-end/ximaths/syllabus');
 })
-
 router.get('/ximaths/setsandfunctions', function(req, res, next){
   res.render('front-end/ximaths/setsandfunctions');
 })
-
 router.get('/ximaths/algebra', function(req, res, next){
   res.render('front-end/ximaths/algebra');
 })
-
 router.get('/ximaths/coordinategeometry', function(req, res, next){
   res.render('front-end/ximaths/coordinategeometry');
 })
@@ -469,7 +462,6 @@ router.get('/xmaths', function(req, res, next){
 router.get('/xmaths/syllabus', function(req, res, next){
   res.render('front-end/xmaths/syllabus');
 })
-
 router.get('/xmaths/numbersystems', function(req, res, next){
   res.render('front-end/xmaths/numbersystems');
 })
