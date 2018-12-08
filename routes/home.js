@@ -373,6 +373,12 @@ router.get('/jeemaths/analyticalgeometry', function(req, res, next){
 router.get('/jeemaths/differentialcalculus', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus');
 })
+router.get('/jeemaths/differentialcalculus/startnow', function(req, res, next){
+  res.render('front-end/jeemaths/start_now_differentialcalculus');
+})
+router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/intro');
+})
 router.get('/jeemaths/integralcalculus', function(req, res, next){
   res.render('front-end/jeemaths/integralcalculus');
 })
