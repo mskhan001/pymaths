@@ -319,39 +319,49 @@ router.get('/upscmaths', function(req, res, next){
 router.get('/upscmaths/syllabus', function(req, res, next){
   res.render('front-end/upscmaths/syllabus');
 })
+router.get('/upscmaths/linearalgebra', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra');
+})
 router.get('/upscmaths/calculus', function(req, res, next){
   res.render('front-end/upscmaths/calculus');
-})
-router.get('/upscmaths/algebra', function(req, res, next){
-  res.render('front-end/upscmaths/algebra');
 })
 router.get('/upscmaths/analyticgeometry', function(req, res, next){
   res.render('front-end/upscmaths/analyticgeometry');
 })
-router.get('/upscmaths/complexanalysis', function(req, res, next){
-  res.render('front-end/upscmaths/complexanalysis');
-})
-router.get('/upscmaths/upscmathscomplete', function(req, res, next){
-  res.render('front-end/upscmaths/upscmathscomplete');
-})
-router.get('/upscmaths/linearalgebra', function(req, res, next){
-  res.render('front-end/upscmaths/linearalgebra');
-})
-router.get('/upscmaths/linearprogramming', function(req, res, next){
-  res.render('front-end/upscmaths/linearprogramming');
-})
-router.get('/upscmaths/numericalmethods', function(req, res, next){
-  res.render('front-end/upscmaths/numericalmethods');
-})
 router.get('/upscmaths/ordinarydifferentialquations', function(req, res, next){
   res.render('front-end/upscmaths/ordinarydifferentialquations');
 })
-router.get('/upscmaths/partialdifferentialquations', function(req, res, next){
-  res.render('front-end/upscmaths/partialdifferentialquations');
+router.get('/upscmaths/dynamicsstaticsandhydrostatics', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsstaticsandhydrostatics');
 })
 router.get('/upscmaths/vectoranalysis', function(req, res, next){
   res.render('front-end/upscmaths/vectoranalysis');
 })
+router.get('/upscmaths/algebra', function(req, res, next){
+  res.render('front-end/upscmaths/algebra');
+})
+router.get('/upscmaths/realanalysis', function(req, res, next){
+  res.render('front-end/upscmaths/realanalysis');
+})
+router.get('/upscmaths/complexanalysis', function(req, res, next){
+  res.render('front-end/upscmaths/complexanalysis');
+})
+router.get('/upscmaths/linearprogramming', function(req, res, next){
+  res.render('front-end/upscmaths/linearprogramming');
+})
+router.get('/upscmaths/partialdifferentialquations', function(req, res, next){
+  res.render('front-end/upscmaths/partialdifferentialquations');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming');
+})
+router.get('/upscmaths/numericalintegration', function(req, res, next){
+  res.render('front-end/upscmaths/numericalintegration');
+})
+router.get('/upscmaths/upscmathscomplete', function(req, res, next){
+  res.render('front-end/upscmaths/upscmathscomplete');
+})
+
 
 
 router.get('/jeemaths', function(req, res, next){
