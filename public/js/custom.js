@@ -157,7 +157,7 @@ $(document).ready(function(){
 	})
 
 	function fixDiv() {
-	    var $cache = $('.list-catag .row .column-left__item');
+	    var $cache = $('.list-catag .row .column-left__item', '.sidebar-left #menu-left');
 	    if($(window).scrollTop() > $(document).height() - 1300){
 	    	$cache.css({
 	        'position': 'relative',
@@ -176,6 +176,28 @@ $(document).ready(function(){
 	  }
 	$(window).scroll(fixDiv);
 	fixDiv();
+
+	function fixDiv1() {
+	    var $cache = $('.sidebar-left #menu-left');
+	    if($(window).scrollTop() > $(document).height() - 1300){
+	    	$cache.css({
+	        'position': 'relative',
+	        'top': 'auto'
+	      });
+	    } else if ($(window).scrollTop() > 120)
+	      $cache.css({
+	        'position': 'fixed',
+	        'top': '100px',
+	        'max-width': '270px'
+	      });
+	    else 
+	      $cache.css({
+	        'position': 'relative',
+	        'top': 'auto'
+	      });
+	 }
+	$(window).scroll(fixDiv1);
+	fixDiv1();
 
 })
 

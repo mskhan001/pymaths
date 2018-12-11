@@ -4649,7 +4649,7 @@ body {
 }
 
 .courseListing {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 @media (max-width: 768px) {
@@ -10726,10 +10726,12 @@ body {
 /*==========================
 =            5.            =
 ==========================*/
-.learning-table-course-detail {
-  margin-bottom: 100px;
+.learning-table-course-detail{
+  margin-bottom: 50px;
 }
-
+.recom_courses_cvr {
+  margin-bottom: 80px;
+}
 .learning-table-course-detail .learning-table-header .title-text {
   font-size: 50px;
   letter-spacing: -0.3px;
@@ -10738,7 +10740,10 @@ body {
 }
 
 .learning-table-course-detail .learning-table-menu {
-  margin-top: 40px;
+  margin-top: 0px;
+}
+.learning-table a{
+  color: #42495b;
 }
 
 @media (max-width: 768px) {
