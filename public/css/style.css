@@ -11203,3 +11203,25 @@ body {
 #paper_type_field{
   display: none;
 }
+.form-search__input-group{
+  position: relative;
+  overflow: visible;
+}
+.search_drop_cvr{
+    position: absolute;
+    top: 33px;
+    width: 100%;
+    z-index: 2;
+    display: none;
+}
+.search_drop_cvr .dropdown-catagories__item{
+  padding: 0px;
+  background-color: #fff;
+}
+.search_drop_cvr .dropdown-catagories__link{
+  padding: 7px 13px;
+}
+
+
+
+

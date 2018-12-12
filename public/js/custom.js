@@ -199,6 +199,20 @@ $(document).ready(function(){
 	$(window).scroll(fixDiv1);
 	fixDiv1();
 
+
+	$("#searchInput").on("keyup", function() {
+		$(".search_drop_cvr").css("display", "block");
+	    var value = $(this).val().toLowerCase();
+	    $(".search_drop_cvr li a").filter(function() {
+	      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+	    });
+	});
+
+
+	$("#searchInput").focusout(function(){
+	    $(".search_drop_cvr").css("display", "none");
+	});
+
 })
 
 
