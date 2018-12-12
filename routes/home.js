@@ -275,42 +275,82 @@ router.get('/engineeringmaths', function(req, res, next){
 router.get('/engineeringmaths/realanalysis', function(req, res, next){
   res.render('front-end/engineeringmaths/realanalysis');
 })
+router.get('/engineeringmaths/realanalysis/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/realanalysis/coursestart');
+})
 router.get('/engineeringmaths/calculus', function(req, res, next){
   res.render('front-end/engineeringmaths/calculus');
+})
+router.get('/engineeringmaths/calculus/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/calculus/coursestart');
 })
 router.get('/engineeringmaths/algebra', function(req, res, next){
   res.render('front-end/engineeringmaths/algebra');
 })
+router.get('/engineeringmaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/coursestart');
+})
 router.get('/engineeringmaths/analyticgeometry', function(req, res, next){
   res.render('front-end/engineeringmaths/analyticgeometry');
+})
+router.get('/engineeringmaths/analyticgeometry/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/analyticgeometry/coursestart');
 })
 router.get('/engineeringmaths/complexanalysis', function(req, res, next){
   res.render('front-end/engineeringmaths/complexanalysis');
 })
+router.get('/engineeringmaths/complexanalysis/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/complexanalysis/coursestart');
+})
 router.get('/engineeringmaths/engineeringmathscomplete', function(req, res, next){
   res.render('front-end/engineeringmaths/engineeringmathscomplete');
+})
+router.get('/engineeringmaths/engineeringmathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/engineeringmathscomplete/coursestart');
 })
 router.get('/engineeringmaths/linearalgebra', function(req, res, next){
   res.render('front-end/engineeringmaths/linearalgebra');
 })
+router.get('/engineeringmaths/linearalgebra/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra/coursestart');
+})
 router.get('/engineeringmaths/linearprogramming', function(req, res, next){
   res.render('front-end/engineeringmaths/linearprogramming');
+})
+router.get('/engineeringmaths/linearprogramming/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearprogramming/coursestart');
 })
 router.get('/engineeringmaths/numericalmethods', function(req, res, next){
   res.render('front-end/engineeringmaths/numericalmethods');
 })
+router.get('/engineeringmaths/numericalmethods/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/numericalmethods/coursestart');
+})
 router.get('/engineeringmaths/ordinarydifferentialquations', function(req, res, next){
   res.render('front-end/engineeringmaths/ordinarydifferentialquations');
+})
+router.get('/engineeringmaths/ordinarydifferentialquations/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/ordinarydifferentialquations/coursestart');
 })
 router.get('/engineeringmaths/partialdifferentialquations', function(req, res, next){
   res.render('front-end/engineeringmaths/partialdifferentialquations');
 })
+router.get('/engineeringmaths/partialdifferentialquations/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/partialdifferentialquations/coursestart');
+})
 router.get('/engineeringmaths/vectoranalysis', function(req, res, next){
   res.render('front-end/engineeringmaths/vectoranalysis');
+})
+router.get('/engineeringmaths/vectoranalysis/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/vectoranalysis/coursestart');
 })
 router.get('/engineeringmaths/probabilityandstatistics', function(req, res, next){
   res.render('front-end/engineeringmaths/probabilityandstatistics');
 })
+router.get('/engineeringmaths/probabilityandstatistics/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/probabilityandstatistics/coursestart');
+})
+
 
 router.get('/upscmaths', function(req, res, next){
   res.render('front-end/upscmaths');
@@ -322,46 +362,93 @@ router.get('/upscmaths/syllabus', function(req, res, next){
 router.get('/upscmaths/linearalgebra', function(req, res, next){
   res.render('front-end/upscmaths/linearalgebra');
 })
+router.get('/upscmaths/linearalgebra/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra/coursestart');
+})
 router.get('/upscmaths/calculus', function(req, res, next){
   res.render('front-end/upscmaths/calculus');
+})
+router.get('/upscmaths/calculus/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/calculus/coursestart');
 })
 router.get('/upscmaths/analyticgeometry', function(req, res, next){
   res.render('front-end/upscmaths/analyticgeometry');
 })
+router.get('/upscmaths/analyticgeometry/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/analyticgeometry/coursestart');
+})
 router.get('/upscmaths/ordinarydifferentialquations', function(req, res, next){
   res.render('front-end/upscmaths/ordinarydifferentialquations');
+})
+router.get('/upscmaths/ordinarydifferentialquations/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/ordinarydifferentialquations/coursestart');
 })
 router.get('/upscmaths/dynamicsstaticsandhydrostatics', function(req, res, next){
   res.render('front-end/upscmaths/dynamicsstaticsandhydrostatics');
 })
+router.get('/upscmaths/dynamicsstaticsandhydrostatics/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsstaticsandhydrostatics/coursestart');
+})
 router.get('/upscmaths/vectoranalysis', function(req, res, next){
   res.render('front-end/upscmaths/vectoranalysis');
+})
+router.get('/upscmaths/vectoranalysis/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/vectoranalysis/coursestart');
 })
 router.get('/upscmaths/algebra', function(req, res, next){
   res.render('front-end/upscmaths/algebra');
 })
+router.get('/upscmaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/algebra/coursestart');
+})
 router.get('/upscmaths/realanalysis', function(req, res, next){
   res.render('front-end/upscmaths/realanalysis');
+})
+router.get('/upscmaths/realanalysis/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/realanalysis/coursestart');
 })
 router.get('/upscmaths/complexanalysis', function(req, res, next){
   res.render('front-end/upscmaths/complexanalysis');
 })
+router.get('/upscmaths/complexanalysis/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/complexanalysis/coursestart');
+})
 router.get('/upscmaths/linearprogramming', function(req, res, next){
   res.render('front-end/upscmaths/linearprogramming');
+})
+router.get('/upscmaths/linearprogramming/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/linearprogramming/coursestart');
 })
 router.get('/upscmaths/partialdifferentialquations', function(req, res, next){
   res.render('front-end/upscmaths/partialdifferentialquations');
 })
+router.get('/upscmaths/partialdifferentialquations/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/partialdifferentialquations/coursestart');
+})
 router.get('/upscmaths/numericalanalysisandcomputerprogramming', function(req, res, next){
   res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/coursestart');
 })
 router.get('/upscmaths/numericalintegration', function(req, res, next){
   res.render('front-end/upscmaths/numericalintegration');
 })
+router.get('/upscmaths/numericalintegration/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/numericalintegration/coursestart');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/coursestart');
+})
 router.get('/upscmaths/upscmathscomplete', function(req, res, next){
   res.render('front-end/upscmaths/upscmathscomplete');
 })
-
+router.get('/upscmaths/upscmathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/upscmathscomplete/coursestart');
+})
 
 
 router.get('/jeemaths', function(req, res, next){
@@ -374,32 +461,53 @@ router.get('/jeemaths/syllabus', function(req, res, next){
 router.get('/jeemaths/algebra', function(req, res, next){
   res.render('front-end/jeemaths/algebra');
 })
+router.get('/jeemaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/coursestart');
+})
 router.get('/jeemaths/trigonometry', function(req, res, next){
   res.render('front-end/jeemaths/trigonometry');
+})
+router.get('/jeemaths/trigonometry/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/coursestart');
 })
 router.get('/jeemaths/analyticalgeometry', function(req, res, next){
   res.render('front-end/jeemaths/analyticalgeometry');
 })
+router.get('/jeemaths/analyticalgeometry/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/coursestart');
+})
 router.get('/jeemaths/differentialcalculus', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus');
 })
-router.get('/jeemaths/differentialcalculus/startnow', function(req, res, next){
-  res.render('front-end/jeemaths/start_now_differentialcalculus');
-})
-router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
-  res.render('front-end/jeemaths/intro');
+router.get('/jeemaths/differentialcalculus/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/coursestart');
 })
 router.get('/jeemaths/integralcalculus', function(req, res, next){
   res.render('front-end/jeemaths/integralcalculus');
 })
+router.get('/jeemaths/integralcalculus/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/coursestart');
+})
 router.get('/jeemaths/vectors', function(req, res, next){
   res.render('front-end/jeemaths/vectors');
+})
+router.get('/jeemaths/vectors/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/coursestart');
 })
 router.get('/jeemaths/jeemathscomplete', function(req, res, next){
   res.render('front-end/jeemaths/jeemathscomplete');
 })
+router.get('/jeemaths/jeemathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/coursestart');
+})
 router.get('/jeemaths/previousyearpapers', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers');
+})
+router.get('/jeemaths/previousyearpapers/coursestart', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/coursestart');
+})
+router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/intro');
 })
 
 
@@ -436,7 +544,6 @@ router.get('/xiimaths/xiimathscomplete', function(req, res, next){
 router.get('/xiimaths/previousyearpapers', function(req, res, next){
   res.render('front-end/xiimaths/previousyearpapers');
 })
-
 
 
 router.get('/ximaths', function(req, res, next){
