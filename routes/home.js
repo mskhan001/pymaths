@@ -302,12 +302,6 @@ router.get('/engineeringmaths/complexanalysis', function(req, res, next){
 router.get('/engineeringmaths/complexanalysis/coursestart', function(req, res, next){
   res.render('front-end/engineeringmaths/complexanalysis/coursestart');
 })
-router.get('/engineeringmaths/engineeringmathscomplete', function(req, res, next){
-  res.render('front-end/engineeringmaths/engineeringmathscomplete');
-})
-router.get('/engineeringmaths/engineeringmathscomplete/coursestart', function(req, res, next){
-  res.render('front-end/engineeringmaths/engineeringmathscomplete/coursestart');
-})
 router.get('/engineeringmaths/linearalgebra', function(req, res, next){
   res.render('front-end/engineeringmaths/linearalgebra');
 })
@@ -326,17 +320,17 @@ router.get('/engineeringmaths/numericalmethods', function(req, res, next){
 router.get('/engineeringmaths/numericalmethods/coursestart', function(req, res, next){
   res.render('front-end/engineeringmaths/numericalmethods/coursestart');
 })
-router.get('/engineeringmaths/ordinarydifferentialquations', function(req, res, next){
-  res.render('front-end/engineeringmaths/ordinarydifferentialquations');
+router.get('/engineeringmaths/ordinarydifferentialequations', function(req, res, next){
+  res.render('front-end/engineeringmaths/ordinarydifferentialequations');
 })
 router.get('/engineeringmaths/ordinarydifferentialquations/coursestart', function(req, res, next){
   res.render('front-end/engineeringmaths/ordinarydifferentialquations/coursestart');
 })
-router.get('/engineeringmaths/partialdifferentialquations', function(req, res, next){
-  res.render('front-end/engineeringmaths/partialdifferentialquations');
+router.get('/engineeringmaths/partialdifferentialequations', function(req, res, next){
+  res.render('front-end/engineeringmaths/partialdifferentialequations');
 })
-router.get('/engineeringmaths/partialdifferentialquations/coursestart', function(req, res, next){
-  res.render('front-end/engineeringmaths/partialdifferentialquations/coursestart');
+router.get('/engineeringmaths/partialdifferentialequations/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/partialdifferentialequations/coursestart');
 })
 router.get('/engineeringmaths/vectoranalysis', function(req, res, next){
   res.render('front-end/engineeringmaths/vectoranalysis');
@@ -567,8 +561,8 @@ router.get('/ximaths/calculus', function(req, res, next){
 router.get('/ximaths/mathematicalreasoning', function(req, res, next){
   res.render('front-end/ximaths/mathematicalreasoning');
 })
-router.get('/ximaths/statisticsandprobability', function(req, res, next){
-  res.render('front-end/ximaths/statisticsandprobability');
+router.get('/ximaths/probabilityandstatistics', function(req, res, next){
+  res.render('front-end/ximaths/probabilityandstatistics');
 })
 router.get('/ximaths/ximathscomplete', function(req, res, next){
   res.render('front-end/ximaths/ximathscomplete');
