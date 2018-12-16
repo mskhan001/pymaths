@@ -210,7 +210,10 @@ $(document).ready(function(){
 
 
 	$("#searchInput").focusout(function(){
-	    $(".search_drop_cvr").css("display", "none");
+		setTimeout(function(){
+			$(".search_drop_cvr").css("display", "none");
+		}, 1000)
+	    
 	});
 
 })
