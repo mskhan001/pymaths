@@ -11221,7 +11221,14 @@ body {
 .search_drop_cvr .dropdown-catagories__link{
   padding: 7px 13px;
 }
-
-
-
+.video_page .menu-main__icon::before{
+  font-size: 12px;
+  margin-left: 0px;
+}
+.video_page .nav-right__instructor{
+  font-size: 13px;
+}
+.intro-course-content.video_page{
+  padding: 50px 0px;
+}
 
