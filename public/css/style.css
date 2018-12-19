@@ -11249,5 +11249,12 @@ body {
   text-align: center;
   font-size: 14px;
   margin-bottom: 10px;
+  background-color: #7e7575;
 }
-
+.video_page .brief-course__top__bundle:hover{
+  color: #eee;
+  opacity: 0.8;
+}
+.video_page .has_border_lft{
+  border-left: 1px solid #eee;
+}
