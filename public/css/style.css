@@ -11221,7 +11221,40 @@ body {
 .search_drop_cvr .dropdown-catagories__link{
   padding: 7px 13px;
 }
-
-
-
-
+.video_page .menu-main__icon::before{
+  font-size: 12px;
+  margin-left: 0px;
+}
+.video_page .nav-right__instructor{
+  font-size: 13px;
+}
+.intro-course-content.video_page{
+  padding: 50px 0px;
+}
+.video_page .list-catagories__item a{
+  color: #42495b;
+  padding: 10px 10px 10px 10px;
+  display: block;
+}
+.video_page .list-catagories__item.active a,
+.video_page .list-catagories__item a:hover{
+  color: #1bab7d;
+  font-weight: bold;
+  padding: 10px 10px 10px 15px;
+  border-left: 2px solid #1bab7d;
+}
+.video_page .brief-course__top__bundle{
+  padding: 13px 15px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  background-color: #7e7575;
+}
+.video_page .brief-course__top__bundle:hover{
+  color: #eee;
+  opacity: 0.8;
+}
+.video_page .has_border_lft{
+  border-left: 1px solid #eee;
+}
