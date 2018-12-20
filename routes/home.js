@@ -515,11 +515,12 @@ router.get('/xiimaths/syllabus', function(req, res, next){
 router.get('/xiimaths/relationsandfunctions', function(req, res, next){
   res.render('front-end/xiimaths/relationsandfunctions');
 })
-
 router.get('/xiimaths/algebra', function(req, res, next){
   res.render('front-end/xiimaths/algebra');
 })
-
+router.get('/xiimaths/calculus', function(req, res, next){
+  res.render('front-end/xiimaths/calculus');
+})
 router.get('/xiimaths/vectorsandthreedimensionalgeometry', function(req, res, next){
   res.render('front-end/xiimaths/vectorsandthreedimensionalgeometry');
 })
@@ -561,8 +562,8 @@ router.get('/ximaths/calculus', function(req, res, next){
 router.get('/ximaths/mathematicalreasoning', function(req, res, next){
   res.render('front-end/ximaths/mathematicalreasoning');
 })
-router.get('/ximaths/probabilityandstatistics', function(req, res, next){
-  res.render('front-end/ximaths/probabilityandstatistics');
+router.get('/ximaths/statisticsandprobability', function(req, res, next){
+  res.render('front-end/ximaths/statisticsandprobability');
 })
 router.get('/ximaths/ximathscomplete', function(req, res, next){
   res.render('front-end/ximaths/ximathscomplete');
