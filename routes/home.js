@@ -290,6 +290,70 @@ router.get('/engineeringmaths/algebra', function(req, res, next){
 router.get('/engineeringmaths/algebra/coursestart', function(req, res, next){
   res.render('front-end/engineeringmaths/algebra/coursestart');
 })
+
+router.get('/engineeringmaths/algebra/grouptheory', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory');
+})
+router.get('/engineeringmaths/algebra/grouptheory/groups', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/groups');
+})
+router.get('/engineeringmaths/algebra/grouptheory/subgroups', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/subgroups');
+})
+router.get('/engineeringmaths/algebra/grouptheory/normalsubgroups', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/normalsubgroups');
+})
+router.get('/engineeringmaths/algebra/grouptheory/homomorphismofgroups', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/homomorphismofgroups');
+})
+router.get('/engineeringmaths/algebra/grouptheory/quotientgroups', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/quotientgroups');
+})
+router.get('/engineeringmaths/algebra/grouptheory/isomorphism', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/isomorphism');
+})
+router.get('/engineeringmaths/algebra/algebra/grouptheory/sylowsgroup', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/sylowsgroup');
+})
+router.get('/engineeringmaths/algebra/algebra/grouptheory/permutationgroups', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/permutationgroups');
+})
+router.get('/engineeringmaths/algebra/grouptheory/cayleystheorem', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/cayleystheorem');
+})
+router.get('/engineeringmaths/algebra/grouptheory/quiz1grouptheory', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/grouptheory/quiz1grouptheory');
+})
+
+router.get('/engineeringmaths/algebra/ringsidealsanddomains', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/ringsidealsanddomains');
+})
+router.get('/engineeringmaths/algebra/ringsidealsanddomains/ringsandideals', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/ringsidealsanddomains/ringsandideals');
+})
+router.get('/engineeringmaths/algebra/ringsidealsanddomains/principalidealdomains', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/ringsidealsanddomains/principalidealdomains');
+})
+router.get('/engineeringmaths/algebra/ringsidealsanddomains/uniquefactorizationdomains', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/ringsidealsanddomains/uniquefactorizationdomains');
+})
+router.get('/engineeringmaths/algebra/ringsidealsanddomains/quiz2ringsidealsanddomains', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/ringsidealsanddomains/quiz2ringsidealsanddomains');
+})
+
+router.get('/engineeringmaths/algebra/fields', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/fields');
+})
+router.get('/engineeringmaths/algebra/field/fieldextensions', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/fields/fieldextensions');
+})
+router.get('/engineeringmaths/algebra/fields/finitefields', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/fields/finitefields');
+})
+router.get('/engineeringmaths/algebra/fields/quiz3fields', function(req, res, next){
+  res.render('front-end/engineeringmaths/algebra/fields/quiz3fields');
+})
+
 router.get('/engineeringmaths/analyticgeometry', function(req, res, next){
   res.render('front-end/engineeringmaths/analyticgeometry');
 })
@@ -458,6 +522,18 @@ router.get('/jeemaths/algebra', function(req, res, next){
 router.get('/jeemaths/algebra/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/algebra/coursestart');
 })
+router.get('/jeemaths/algebra/functions', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/functions');
+})
+router.get('/jeemaths/algebra/limitsandderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/limitsandderivatives');
+})
+router.get('/jeemaths/algebra/continuityanddifferentiability', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/continuityanddifferentiability');
+})
+router.get('/jeemaths/algebra/applicationsofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/applicationsofderivatives');
+})
 router.get('/jeemaths/trigonometry', function(req, res, next){
   res.render('front-end/jeemaths/trigonometry');
 })
@@ -501,7 +577,7 @@ router.get('/jeemaths/previousyearpapers/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers/coursestart');
 })
 router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
-  res.render('front-end/jeemaths/intro');
+  res.render('front-end/jeemaths/introduction');
 })
 
 

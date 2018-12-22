@@ -2,9 +2,10 @@
     <div class="container">
       <nav class="breadcrumb-wapper">
         <ul class="breadcrumb">
-          <li class="breadcrumb__item"><a class="breadcrumb__link" href="index.html">home</a></li>
+          <li class="breadcrumb__item"><a class="breadcrumb__link" href="/">home</a></li>
           <li class="breadcrumb__item"><a class="breadcrumb__link" href="/engineeringmaths">Engineering Maths</a></li>
-          <li class="breadcrumb__item active"><a class="breadcrumb__link active" href="/engineeringmaths/algebra">Algebra</a></li>
+          <li class="breadcrumb__item active"><a class="breadcrumb__link" href="/engineeringmaths/algebra">Algebra</a></li>
+          <li class="breadcrumb__item active"><a class="breadcrumb__link active" href="/engineeringmaths/algebra/coursestart">Start Course</a></li>
         </ul>
       </nav>
         <div class="row">
@@ -16,16 +17,13 @@
                         <div class="list-catagories list-catagories" id="list-catagories">
                             <ul class="list-catagories__list">
                                 <li class="list-catagories__item">
-                                  1. Functions
+                                  1. Group Theory
                                 </li>
                                 <li class="list-catagories__item">
-                                  2. Limits & Derivatives
+                                  2. Rings, Ideals & Domains
                                 </li>
                                 <li class="list-catagories__item">
-                                  3. Continuity & Differentiality
-                                </li>
-                                <li class="list-catagories__item">
-                                  4. Application of Derivatives
+                                  3. Fields
                                 </li>
                             </ul>
                         </div>
@@ -38,61 +36,40 @@
                     <div class="faqs" id="faqs">
                         <div class="panel faqs__item">
                             <div class="faqs__heading">
-                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter1" aria-expanded="true">Chapter 1. Functions<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
+                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter1" aria-expanded="false">Chapter 1. Group Theory<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
                             </div>
-                            <div class="panel-collapse collapse in" id="chapter1">
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Introduction<span class="pull-right">10 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Types of Relations and Functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Real-valued functions of a Real variable, Into, Onto and One-to-One functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Sum, Difference, Product, and Quotient of two functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Composite Functions, Absolute value, Polynomial, Rational, Trigonometric, Exponential and Logarithmic Functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Even and Odd functions and Inverse of a function<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Continuity of Composite functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Quiz 1: Functions<span class="pull-right">30 minutes</span></div>
-                            </div>
-                        </div>
-                        <div class="panel faqs__item">
-                            <div class="faqs__heading">
-                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter2" aria-expanded="false">Chapter 2. Limits and Derivatives<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
-                            </div>
-                            <div class="panel-collapse collapse in" id="chapter2">
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Introduction<span class="pull-right">10 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Limits<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Limits of Trignometric Functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Intuitive idea of Derivatives<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Derivatives<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Quiz 2: Limits and Derivatives<span class="pull-right">30 minutes</span></div>
+                            <div class="panel-collapse collapse" id="chapter1">
+                                <a class="list-brief__item__kind" href= "grouptheory/groups"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="grouptheory/groups">Lesson 1: Groups</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2: Subgroups</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3: Normal Subgroups</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 4: Homomorphism of Groups</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 5: Quotient Groups</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 6: Isomorphism</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 7: Sylow's Group</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 8: Permutation Groups</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 9: Cayley's Theorem</a><span class="pull-right">10 minutes</span></div></a>
+                                <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Quiz 1: Group Theory</a><span class="pull-right">10 minutes</span></div></a>
                             </div>
                         </div>
                         <div class="panel faqs__item">
                             <div class="faqs__heading">
-                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter3" aria-expanded="false">Chapter 3. Continuity and Differentiability<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
+                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter2" aria-expanded="false">Chapter 2. Rings, Ideals & Domains<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
                             </div>
-                            <div class="panel-collapse collapse in" id="chapter3">
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Introduction<span class="pull-right">10 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Continuity<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Differentiability<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Exponential and Logarithmic Functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Logarithmic Differentiation<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Derivatives of Functions in Parametric Forms<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Second Order Dervatives<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>L’Hospital Rule of evaluation of Limits of functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Quiz 3: Continuity and Differentiability<span class="pull-right">30 minutes</span></div>
+                            <div class="panel-collapse collapse" id="chapter2">
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1: Rings & Ideals</a><span class="pull-right">10 minutes</span></div></a>
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2: Principal Ideal Domains</a><span class="pull-right">10 minutes</span></div></a>
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 3: Unique Factorization Domains</a><span class="pull-right">10 minutes</span></div></a>
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Quiz 2: Rings, Ideals & Domains</a><span class="pull-right">10 minutes</span></div></a>
                             </div>
                         </div>
                         <div class="panel faqs__item">
                             <div class="faqs__heading">
-                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter4" aria-expanded="false">Chapter 4. Application of Derivatives<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
+                                <h4 class="faqs__title"><a class="faqs__link" data-toggle="collapse" data-parent="#faqs" href="#chapter3" aria-expanded="false">Chapter 3. Fields<span class="glyph-icon flaticon-arrows-3 faqs__icon"></span></a></h4>
                             </div>
-                            <div class="panel-collapse collapse in" id="chapter4">
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Introduction<span class="pull-right">10 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Rate of Change of Derivatives<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Chain Rule, Derivatives of Polynomial, Rational, Trigonometric, Inverse Trigonometric, Exponential and Logarithmic functions<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Derivatives of Implicit functions, Derivatives up to Order two, Geometrical Interpretation of the Derivative<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Tangents and Normals, Increasing and Decreasing functions, Maximum and Minimum values of a function<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Rolle’s Theorem and Lagrange’s Mean Value Theorem<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Approximations<span class="pull-right">30 minutes</span></div>
-                                <div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-sheet"></i>Quiz 4: Application of Derivatives<span class="pull-right">30 minutes</span></div>
+                            <div class="panel-collapse collapse" id="chapter3">
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 1: Field Extensions</a><span class="pull-right">10 minutes</span></div></a>
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Lesson 2: Finite Fields</a><span class="pull-right">10 minutes</span></div></a>
+                              <a class="list-brief__item__kind" href= "#"><div class="faqs__body"><i class="glyph-icon list-brief__item__icon flaticon-interface-1"></i><a class="list-brief__item__kind" href="#">Quiz 3: Fields</a><span class="pull-right">10 minutes</span></div></a>
                             </div>
                         </div>
                     </div>
@@ -113,8 +90,8 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="Algebra">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">Algebra</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/realanalysis">Real Analysis</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/realanalysis">Start Course</a>
                   </div>
                 </div>
                 <div class="undefined courses__item">
@@ -122,8 +99,8 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="Trigonometry">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">Trigonometry</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/calculus">Calculus</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/calculus">Start Course</a>
                   </div>
                 </div>
                 <div class="undefined courses__item">
@@ -131,8 +108,8 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="Analytical Geometry">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">Analytical Geometry</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/vectoranalysis">Vector Analysis</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/vectoranalysis">Start Course</a>
                   </div>
                 </div>
                 <div class="undefined courses__item">
@@ -140,8 +117,8 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="Differential Calculus">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">Differential Calculus</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/complexanalysis">Complex Analysis</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/complexanalysis">Start Course</a>
                   </div>
                 </div>
                 <div class="undefined courses__item">
@@ -149,8 +126,8 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="Integral Calculus">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">Integral Calculus</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/analyticgeometry">Analytic Geometry</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/analyticgeometry">Start Course</a>
                   </div>
                 </div>
                 <div class="undefined courses__item">
@@ -158,8 +135,8 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Complete">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">JEE Maths Complete</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/linearalgebra">Linear Algebra</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/linearalgebra">Start Course</a>
                   </div>
                 </div>
                 <div class="undefined courses__item">
@@ -167,8 +144,53 @@
                     <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Papers">
                   </div>
                   <div class="design-sprint__contents" style="height: 92px;">
-                    <a class="design-sprint__contents__title" href="#">JEE Maths Papers</a>
-                    <a class="design-sprint__contents__link" href="#">Enroll now</a>
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/ordinarydifferentialequations">Ordinary Differential Equations</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/ordinarydifferentialequations">Start Course</a>
+                  </div>
+                </div>
+                <div class="undefined courses__item">
+                  <div class="design-sprint__wapper">
+                    <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Papers">
+                  </div>
+                  <div class="design-sprint__contents" style="height: 92px;">
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/partialdifferentialequations">Partial Differential Equations</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/partialdifferentialequations">Start Course</a>
+                  </div>
+                </div>
+                <div class="undefined courses__item">
+                  <div class="design-sprint__wapper">
+                    <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Papers">
+                  </div>
+                  <div class="design-sprint__contents" style="height: 92px;">
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/numericalmethods">Numerical Methods</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/numericalmethods">Start Course</a>
+                  </div>
+                </div>
+                <div class="undefined courses__item">
+                  <div class="design-sprint__wapper">
+                    <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Papers">
+                  </div>
+                  <div class="design-sprint__contents" style="height: 92px;">
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/linearprogramming">Linear Programming</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/linearprogramming">Start Course</a>
+                  </div>
+                </div>
+                <div class="undefined courses__item">
+                  <div class="design-sprint__wapper">
+                    <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Papers">
+                  </div>
+                  <div class="design-sprint__contents" style="height: 92px;">
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/algebra">Algebra</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/algebra">Start Course</a>
+                  </div>
+                </div>
+                <div class="undefined courses__item">
+                  <div class="design-sprint__wapper">
+                    <img class="design-sprint__wapper__image" src="/assets/img/mathematicsforengineeringupscandquant.jpg" alt="JEE Maths Papers">
+                  </div>
+                  <div class="design-sprint__contents" style="height: 92px;">
+                    <a class="design-sprint__contents__title" href="/engineeringmaths/probabilityandstatistics">Probability and Statistics</a>
+                    <a class="design-sprint__contents__link" href="/engineeringmaths/probabilityandstatistics">Start Course</a>
                   </div>
                 </div>
               </div>
