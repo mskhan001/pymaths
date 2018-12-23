@@ -550,6 +550,7 @@ router.get('/jeemaths/analyticalgeometry', function(req, res, next){
 router.get('/jeemaths/analyticalgeometry/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/analyticalgeometry/coursestart');
 })
+
 router.get('/jeemaths/differentialcalculus', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus');
 })
@@ -559,18 +560,109 @@ router.get('/jeemaths/differentialcalculus/coursestart', function(req, res, next
 router.get('/jeemaths/differentialcalculus/functions', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus/functions');
 })
-router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
-  res.render('front-end/jeemaths/differentialcalculus/introduction');
+router.get('/jeemaths/differentialcalculus/functions/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/introduction');
+})
+router.get('/jeemaths/differentialcalculus/functions/typesofrelationsandfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/typesofrelationsandfunctions');
+})
+router.get('/jeemaths/differentialcalculus/functions/realvaluedfunctionsofarealvariableintoontoandonetoonefunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/realvaluedfunctionsofarealvariableintoontoandonetoonefunctions');
+})
+router.get('/jeemaths/differentialcalculus/functions/sumdifferenceproductandquotientoftwofunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/sumdifferenceproductandquotientoftwofunctions');
+})
+router.get('/jeemaths/differentialcalculus/functions/compositefunctionsabsolutevaluepolynomialrationaltrigonometricexponentialandlogarithmicfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/compositefunctionsabsolutevaluepolynomialrationaltrigonometricexponentialandlogarithmicfunctions');
+})
+router.get('/jeemaths/differentialcalculus/functions/evenandoddfunctionsandinverseofafunction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/evenandoddfunctionsandinverseofafunction');
+})
+router.get('/jeemaths/differentialcalculus/functions/continuityofcompositefunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/continuityofcompositefunctions');
+})
+router.get('/jeemaths/differentialcalculus/functions/quiz1functions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions/quiz1functions');
 })
 router.get('/jeemaths/differentialcalculus/limitsandderivatives', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives');
 })
+router.get('/jeemaths/differentialcalculus/limitsandderivatives/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives/introduction');
+})
+router.get('/jeemaths/differentialcalculus/limitsandderivatives/limits', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives/limits');
+})
+router.get('/jeemaths/differentialcalculus/limitsandderivatives/limitsoftrigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives/limitsoftrigonometricfunctions');
+})
+router.get('/jeemaths/differentialcalculus/limitsandderivatives/intuitiveideaofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives/intuitiveideaofderivatives');
+})
+router.get('/jeemaths/differentialcalculus/limitsandderivatives/derivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives/derivatives');
+})
+router.get('/jeemaths/differentialcalculus/limitsandderivatives/quiz2limitsandderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives/quiz2limitsandderivatives');
+})
 router.get('/jeemaths/differentialcalculus/continuityanddifferentiability', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/inroduction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/inroduction');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/continuity', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/continuity');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/differentiability', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/differentiability');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/exponentialandlogarithmicfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/exponentialandlogarithmicfunctions');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/logarithmicdifferentiation', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/logarithmicdifferentiation');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/derivativesoffunctionsinparametricforms', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/derivativesoffunctionsinparametricforms');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/secondorderderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/secondorderderivatives');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/lhospitalruleofevaluationoflimitsoffunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/lhospitalruleofevaluationoflimitsoffunctions');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability/quiz3continuityanddifferentiability', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability/quiz3continuityanddifferentiability');
 })
 router.get('/jeemaths/differentialcalculus/applicationsofderivatives', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives');
 })
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/introduction');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/rateofchangeofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/rateofchangeofderivatives');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/chainrulederivativesofpolynomialrationaltrigonometricinversetrigonometricexponentialandlogarithmicfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/chainrulederivativesofpolynomialrationaltrigonometricinversetrigonometricexponentialandlogarithmicfunctions');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/derivativesofimplicitfunctionsderivativesuptoordertwogeometricalinterpretationofthederivative', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/derivativesofimplicitfunctionsderivativesuptoordertwogeometricalinterpretationofthederivative');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/tangentsandnormalsincreasinganddecreasingfunctionsmaximumandminimumvaluesofafunction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/tangentsandnormalsincreasinganddecreasingfunctionsmaximumandminimumvaluesofafunction');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/rollestheoremandlagrangesmeanvaluetheorem', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/rollestheoremandlagrangesmeanvaluetheorem');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/approximations', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/approximations');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives/quiz4applicationsofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives/quiz4applicationsofderivatives');
+})
+
 router.get('/jeemaths/integralcalculus', function(req, res, next){
   res.render('front-end/jeemaths/integralcalculus');
 })
