@@ -525,15 +525,19 @@ router.get('/jeemaths/algebra/coursestart', function(req, res, next){
 router.get('/jeemaths/algebra/functions', function(req, res, next){
   res.render('front-end/jeemaths/algebra/functions');
 })
+
 router.get('/jeemaths/algebra/limitsandderivatives', function(req, res, next){
   res.render('front-end/jeemaths/algebra/limitsandderivatives');
 })
+
 router.get('/jeemaths/algebra/continuityanddifferentiability', function(req, res, next){
   res.render('front-end/jeemaths/algebra/continuityanddifferentiability');
 })
+
 router.get('/jeemaths/algebra/applicationsofderivatives', function(req, res, next){
   res.render('front-end/jeemaths/algebra/applicationsofderivatives');
 })
+
 router.get('/jeemaths/trigonometry', function(req, res, next){
   res.render('front-end/jeemaths/trigonometry');
 })
@@ -551,6 +555,21 @@ router.get('/jeemaths/differentialcalculus', function(req, res, next){
 })
 router.get('/jeemaths/differentialcalculus/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus/coursestart');
+})
+router.get('/jeemaths/differentialcalculus/functions', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/functions');
+})
+router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/introduction');
+})
+router.get('/jeemaths/differentialcalculus/limitsandderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/limitsandderivatives');
+})
+router.get('/jeemaths/differentialcalculus/continuityanddifferentiability', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/continuityanddifferentiability');
+})
+router.get('/jeemaths/differentialcalculus/applicationsofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/differentialcalculus/applicationsofderivatives');
 })
 router.get('/jeemaths/integralcalculus', function(req, res, next){
   res.render('front-end/jeemaths/integralcalculus');
@@ -576,9 +595,6 @@ router.get('/jeemaths/previousyearpapers', function(req, res, next){
 router.get('/jeemaths/previousyearpapers/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers/coursestart');
 })
-router.get('/jeemaths/differentialcalculus/introduction', function(req, res, next){
-  res.render('front-end/jeemaths/introduction');
-})
 
 
 router.get('/xiimaths', function(req, res, next){
@@ -591,29 +607,56 @@ router.get('/xiimaths/syllabus', function(req, res, next){
 router.get('/xiimaths/relationsandfunctions', function(req, res, next){
   res.render('front-end/xiimaths/relationsandfunctions');
 })
+router.get('/xiimaths/relationsandfunctions/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/relationsandfunctions/coursestart');
+})
 router.get('/xiimaths/algebra', function(req, res, next){
   res.render('front-end/xiimaths/algebra');
+})
+router.get('/xiimaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/algebra/coursestart');
 })
 router.get('/xiimaths/calculus', function(req, res, next){
   res.render('front-end/xiimaths/calculus');
 })
+router.get('/xiimaths/calculus/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/calculus/coursestart');
+})
 router.get('/xiimaths/vectorsandthreedimensionalgeometry', function(req, res, next){
   res.render('front-end/xiimaths/vectorsandthreedimensionalgeometry');
+})
+router.get('/xiimaths/vectorsandthreedimensionalgeometry/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/vectorsandthreedimensionalgeometry/coursestart');
 })
 router.get('/xiimaths/linearprogramming', function(req, res, next){
   res.render('front-end/xiimaths/linearprogramming');
 })
+router.get('/xiimaths/linearprogramming/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/linearprogramming/coursestart');
+})
 router.get('/xiimaths/probability', function(req, res, next){
   res.render('front-end/xiimaths/probability');
+})
+router.get('/xiimaths/probability/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/probability/coursestart');
 })
 router.get('/xiimaths/statisticsandprobability', function(req, res, next){
   res.render('front-end/xiimaths/statisticsandprobability');
 })
+router.get('/xiimaths/statisticsandprobability/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/statisticsandprobability/coursestart');
+})
 router.get('/xiimaths/xiimathscomplete', function(req, res, next){
   res.render('front-end/xiimaths/xiimathscomplete');
 })
+router.get('/xiimaths/xiimathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/xiimathscomplete/coursestart');
+})
 router.get('/xiimaths/previousyearpapers', function(req, res, next){
   res.render('front-end/xiimaths/previousyearpapers');
+})
+router.get('/xiimaths/previousyearpapers/coursestart', function(req, res, next){
+  res.render('front-end/xiimaths/previousyearpapers/coursestart');
 })
 
 
@@ -626,26 +669,50 @@ router.get('/ximaths/syllabus', function(req, res, next){
 router.get('/ximaths/setsandfunctions', function(req, res, next){
   res.render('front-end/ximaths/setsandfunctions');
 })
+router.get('/ximaths/setsandfunctions/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/setsandfunctions/coursestart');
+})
 router.get('/ximaths/algebra', function(req, res, next){
   res.render('front-end/ximaths/algebra');
+})
+router.get('/ximaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/algebra/coursestart');
 })
 router.get('/ximaths/coordinategeometry', function(req, res, next){
   res.render('front-end/ximaths/coordinategeometry');
 })
+router.get('/ximaths/coordinategeometry/coursestart/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/coordinategeometry/coursestart');
+})
 router.get('/ximaths/calculus', function(req, res, next){
   res.render('front-end/ximaths/calculus');
+})
+router.get('/ximaths/calculus/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/calculus/coursestart');
 })
 router.get('/ximaths/mathematicalreasoning', function(req, res, next){
   res.render('front-end/ximaths/mathematicalreasoning');
 })
+router.get('/ximaths/mathematicalreasoning/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/mathematicalreasoning/coursestart');
+})
 router.get('/ximaths/statisticsandprobability', function(req, res, next){
   res.render('front-end/ximaths/statisticsandprobability');
+})
+router.get('/ximaths/statisticsandprobability/coursestart/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/statisticsandprobability/coursestart');
 })
 router.get('/ximaths/ximathscomplete', function(req, res, next){
   res.render('front-end/ximaths/ximathscomplete');
 })
+router.get('/ximaths/ximathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/ximathscomplete/coursestart');
+})
 router.get('/ximaths/previousyearpapers', function(req, res, next){
   res.render('front-end/ximaths/previousyearpapers');
+})
+router.get('/ximaths/previousyearpapers/coursestart', function(req, res, next){
+  res.render('front-end/ximaths/previousyearpapers/coursestart');
 })
 
 
@@ -659,29 +726,56 @@ router.get('/xmaths/syllabus', function(req, res, next){
 router.get('/xmaths/numbersystems', function(req, res, next){
   res.render('front-end/xmaths/numbersystems');
 })
+router.get('/xmaths/numbersystems/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/numbersystems/coursestart');
+})
 router.get('/xmaths/algebra', function(req, res, next){
   res.render('front-end/xmaths/algebra');
+})
+router.get('/xmaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/algebra/coursestart');
 })
 router.get('/xmaths/coordinategeometry', function(req, res, next){
   res.render('front-end/xmaths/coordinategeometry');
 })
+router.get('/xmaths/coordinategeometry/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/coordinategeometry/coursestart');
+})
 router.get('/xmaths/geometry', function(req, res, next){
   res.render('front-end/xmaths/geometry');
+})
+router.get('/xmaths/geometry/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/geometry/coursestart');
 })
 router.get('/xmaths/trigonometry', function(req, res, next){
   res.render('front-end/xmaths/trigonometry');
 })
+router.get('/xmaths/trigonometry/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/trigonometry/coursestart');
+})
 router.get('/xmaths/mensuration', function(req, res, next){
   res.render('front-end/xmaths/mensuration');
+})
+router.get('/xmaths/mensuration/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/mensuration/coursestart');
 })
 router.get('/xmaths/statisticsandprobability', function(req, res, next){
   res.render('front-end/xmaths/statisticsandprobability');
 })
+router.get('/xmaths/statisticsandprobability/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/statisticsandprobability/coursestart');
+})
 router.get('/xmaths/xmathscomplete', function(req, res, next){
   res.render('front-end/xmaths/xmathscomplete');
 })
+router.get('/xmaths/xmathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/xmathscomplete/coursestart');
+})
 router.get('/xmaths/previousyearpapers', function(req, res, next){
   res.render('front-end/xmaths/previousyearpapers');
+})
+router.get('/xmaths/previousyearpapers/coursestart', function(req, res, next){
+  res.render('front-end/xmaths/previousyearpapers/coursestart');
 })
 
 
@@ -695,26 +789,50 @@ router.get('/ixmaths/syllabus', function(req, res, next){
 router.get('/ixmaths/numbersystems', function(req, res, next){
   res.render('front-end/ixmaths/numbersystems');
 })
+router.get('/ixmaths/numbersystems/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/numbersystems/coursestart');
+})
 router.get('/ixmaths/algebra', function(req, res, next){
   res.render('front-end/ixmaths/algebra');
+})
+router.get('/ixmaths/algebra/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/algebra/coursestart');
 })
 router.get('/ixmaths/coordinategeometry', function(req, res, next){
   res.render('front-end/ixmaths/coordinategeometry');
 })
+router.get('/ixmaths/coordinategeometry/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/coordinategeometry/coursestart');
+})
 router.get('/ixmaths/geometry', function(req, res, next){
   res.render('front-end/ixmaths/geometry');
+})
+router.get('/ixmaths/geometry/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/geometry/coursestart');
 })
 router.get('/ixmaths/mensuration', function(req, res, next){
   res.render('front-end/ixmaths/mensuration');
 })
+router.get('/ixmaths/mensuration/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/mensuration/coursestart');
+})
 router.get('/ixmaths/statisticsandprobability', function(req, res, next){
   res.render('front-end/ixmaths/statisticsandprobability');
+})
+router.get('/ixmaths/statisticsandprobability/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/statisticsandprobability/coursestart');
 })
 router.get('/ixmaths/ixmathscomplete', function(req, res, next){
   res.render('front-end/ixmaths/ixmathscomplete');
 })
+router.get('/ixmaths/ixmathscomplete/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/ixmathscomplete/coursestart');
+})
 router.get('/ixmaths/previousyearpapers', function(req, res, next){
   res.render('front-end/ixmaths/previousyearpapers');
+})
+router.get('/ixmaths/previousyearpapers/coursestart', function(req, res, next){
+  res.render('front-end/ixmaths/previousyearpapers/coursestart');
 })
 
 router.get('/careforcareer', function(req, res, next){
