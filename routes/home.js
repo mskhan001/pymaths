@@ -550,6 +550,118 @@ router.get('/jeemaths/analyticalgeometry', function(req, res, next){
 router.get('/jeemaths/analyticalgeometry/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/analyticalgeometry/coursestart');
 })
+router.get('/jeemaths/analyticalgeometry/straightlines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/introduction');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/variousformsoftheequationofline', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/variousformsoftheequationofline');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/distanceofapointfromaline', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/distanceofapointfromaline');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/equationofthebisectoroftheanglebetweentwolines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/equationofthebisectoroftheanglebetweentwolines');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/concurrencyoflines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/concurrencyoflines');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/centroidorthocentreincentreandcircumcentreofatriangle', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/centroidorthocentreincentreandcircumcentreofatriangle');
+})
+router.get('/jeemaths/analyticalgeometry/straightlines/quiz1straightlines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/straightlines/quiz1straightlines');
+})
+router.get('/jeemaths/analyticalgeometry/circles', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles');
+})
+router.get('/jeemaths/analyticalgeometry/circles/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/introduction');
+})
+router.get('/jeemaths/analyticalgeometry/circles/equationofacircleinvariousforms', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/equationofacircleinvariousforms');
+})
+router.get('/jeemaths/analyticalgeometry/circles/equationsoftangentnormalandchord', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/equationsoftangentnormalandchord');
+})
+router.get('/jeemaths/analyticalgeometry/circles/parametricequationsofacircle', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/parametricequationsofacircle');
+})
+router.get('/jeemaths/analyticalgeometry/circles/intersectionofacirclewithastraightlineoracircle', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/intersectionofacirclewithastraightlineoracircle');
+})
+router.get('/jeemaths/analyticalgeometry/circles/equationofacirclethroughthepointsofintersectionoftwocirclesandthoseofacircleandastraightline', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/equationofacirclethroughthepointsofintersectionoftwocirclesandthoseofacircleandastraightline');
+})
+router.get('/jeemaths/analyticalgeometry/circles/familyofcircles', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/familyofcircles');
+})
+router.get('/jeemaths/analyticalgeometry/circles/quiz2circles', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/circles/quiz2circles');
+})
+
+router.get('/jeemaths/analyticalgeometry/conicsections', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/introduction');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/sectionsofacone', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/sectionsofacone');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/focidirectricesandeccentricity', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/focidirectricesandeccentricity');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/parabola', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/parabola');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/ellipse', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/ellipse');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/hyperbola', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/hyperbola');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/parametricequationsequationsoftangentandnormal', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/parametricequationsequationsoftangentandnormal');
+})
+router.get('/jeemaths/analyticalgeometry/conicsections/quiz3conicsections', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/conicsections/quiz3conicsections');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/introduction');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/directioncosinesanddirectionratiosofaline', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/directioncosinesanddirectionratiosofaline');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/equationofalineinspace', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/equationofalineinspace');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/anglebetweentwolines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/anglebetweentwolines');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/shortestdistancebetweentwolines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/shortestdistancebetweentwolines');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/plane', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/plane');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/coplanarityoftwolines', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/coplanarityoftwolines');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/distanceofapointfromaplane', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/distanceofapointfromaplane');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/anglebetweenalineandaplane', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/anglebetweenalineandaplane');
+})
+router.get('/jeemaths/analyticalgeometry/threedimensionalgeometry/quiz4threedimensionalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/analyticalgeometry/threedimensionalgeometry/quiz4threedimensionalgeometry');
+})
 
 router.get('/jeemaths/differentialcalculus', function(req, res, next){
   res.render('front-end/jeemaths/differentialcalculus');
