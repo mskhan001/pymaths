@@ -725,6 +725,44 @@ router.get('/jeemaths/trigonometry', function(req, res, next){
 router.get('/jeemaths/trigonometry/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/trigonometry/coursestart');
 })
+router.get('/jeemaths/trigonometry/trigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions');
+})
+router.get('/jeemaths/trigonometry/trigonometricfunctions/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions/introduction');
+})
+router.get('/jeemaths/trigonometry/trigonometricfunctions/additionandsubtractionformulae', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions/additionandsubtractionformulae');
+})
+router.get('/jeemaths/trigonometry/trigonometricfunctions/graphs', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions/graphs');
+})
+router.get('/jeemaths/trigonometry/trigonometricfunctions/formulaeinvolvingmultipleandsubmultipleangles', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions/formulaeinvolvingmultipleandsubmultipleangles');
+})
+router.get('/jeemaths/trigonometry/trigonometricfunctions/generalsolutionsoftrignometricequations', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions/generalsolutionsoftrignometricequations');
+})
+router.get('/jeemaths/trigonometry/trigonometricfunctions/quiz1trigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/trigonometricfunctions/quiz1trigonometricfunctions');
+})
+
+router.get('/jeemaths/trigonometry/inversetrigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/inversetrigonometricfunctions');
+})
+router.get('/jeemaths/trigonometry/inversetrigonometricfunctions/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/inversetrigonometricfunctions/introduction');
+})
+router.get('/jeemaths/trigonometry/inversetrigonometricfunctions/basicconcepts', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/inversetrigonometricfunctions/basicconcepts');
+})
+router.get('/jeemaths/trigonometry/inversetrigonometricfunctions/propertiesofinversetrigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/inversetrigonometricfunctions/propertiesofinversetrigonometricfunctions');
+})
+router.get('/jeemaths/trigonometry/inversetrigonometricfunctions/quiz2inversetrigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/trigonometry/inversetrigonometricfunctions/quiz2inversetrigonometricfunctions');
+})
+
 router.get('/jeemaths/analyticalgeometry', function(req, res, next){
   res.render('front-end/jeemaths/analyticalgeometry');
 })
@@ -962,21 +1000,50 @@ router.get('/jeemaths/integralcalculus', function(req, res, next){
 router.get('/jeemaths/integralcalculus/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/integralcalculus/coursestart');
 })
+
 router.get('/jeemaths/vectors', function(req, res, next){
   res.render('front-end/jeemaths/vectors');
 })
 router.get('/jeemaths/vectors/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/vectors/coursestart');
 })
+router.get('/jeemaths/vectors/vectoralgebra', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra');
+})
+router.get('/jeemaths/vectors/vectoralgebra/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/introduction');
+})
+router.get('/jeemaths/vectors/vectoralgebra/somebasicconcepts', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/somebasicconcepts');
+})
+router.get('/jeemaths/vectors/vectoralgebra/typesofvectors', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/typesofvectors');
+})
+router.get('/jeemaths/vectors/vectoralgebra/additionofvectors', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/additionofvectors');
+})
+router.get('/jeemaths/vectors/vectoralgebra/multiplicationofavectorbyascalar', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/multiplicationofavectorbyascalar');
+})
+router.get('/jeemaths/vectors/vectoralgebra/productoftwoscalars', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/productoftwoscalars');
+})
+router.get('/jeemaths/vectors/vectoralgebra/quiz1vectoralgebra', function(req, res, next){
+  res.render('front-end/jeemaths/vectors/vectoralgebra/quiz1vectoralgebra');
+})
+
 router.get('/jeemaths/jeemathscomplete', function(req, res, next){
   res.render('front-end/jeemaths/jeemathscomplete');
 })
+
 router.get('/jeemaths/jeemathscomplete/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/jeemathscomplete/coursestart');
 })
+
 router.get('/jeemaths/previousyearpapers', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers');
 })
+
 router.get('/jeemaths/previousyearpapers/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers/coursestart');
 })
