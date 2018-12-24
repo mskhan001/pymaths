@@ -1109,12 +1109,190 @@ router.get('/jeemaths/jeemathscomplete', function(req, res, next){
 router.get('/jeemaths/jeemathscomplete/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/jeemathscomplete/coursestart');
 })
+router.get('/jeemaths/jeemathscomplete/algebra', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/complex/numbers/', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/complexnumbers');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/quadraticequations', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/quadraticequations');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/sequenceandseries', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/sequenceandseries');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/binomialtheorem', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/binomialtheorem');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/permutationsandcombinations', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/permutationsandcombinations');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/matrices', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/matrices');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/determinants', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/determinants');
+})
+router.get('/jeemaths/jeemathscomplete/algebra/probability', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/algebra/probability');
+})
+
+router.get('/jeemaths/jeemathscomplete/trigonometry', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/trigonometry');
+})
+router.get('/jeemaths/jeemathscomplete/trigonometry/trigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/trigonometry/trigonometricfunctions');
+})
+router.get('/jeemaths/jeemathscomplete/trigonometry/inversetrigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/trigonometry/inversetrigonometricfunctions');
+})
+
+router.get('/jeemaths/jeemathscomplete/analyticalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/analyticalgeometry');
+})
+router.get('/jeemaths/jeemathscomplete/analyticalgeometry/straightlines', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/analyticalgeometry/straightlines');
+})
+router.get('/jeemaths/jeemathscomplete/analyticalgeometry/circles', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/analyticalgeometry/circles');
+})
+router.get('/jeemaths/jeemathscomplete/analyticalgeometry/conicsections', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/analyticalgeometry/conicsections');
+})
+router.get('/jeemaths/jeemathscomplete/analyticalgeometry/threedimensionalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/analyticalgeometry/threedimensionalgeometry');
+})
+
+router.get('/jeemaths/jeemathscomplete/differentialcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/differentialcalculus');
+})
+router.get('/jeemaths/jeemathscomplete/differentialcalculus/functions', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/differentialcalculus/functions');
+})
+router.get('/jeemaths/jeemathscomplete/differentialcalculus/limitsandderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/differentialcalculus/limitsandderivatives');
+})
+router.get('/jeemaths/jeemathscomplete/differentialcalculus/continuityanddifferentiability', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/differentialcalculus/continuityanddifferentiability');
+})
+router.get('/jeemaths/jeemathscomplete/differentialcalculus/applicationofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/differentialcalculus/applicationofderivatives');
+})
+
+router.get('/jeemaths/jeemathscomplete/integralcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/integralcalculus');
+})
+router.get('/jeemaths/jeemathscomplete/integralcalculus/integration', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/integralcalculus/integration');
+})
+router.get('/jeemaths/jeemathscomplete/integralcalculus/applicationofintegrals', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/integralcalculus/applicationofintegrals');
+})
+router.get('/jeemaths/jeemathscomplete/integralcalculus/differentialequations', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/integralcalculus/differentialequations');
+})
+
+router.get('/jeemaths/jeemathscomplete/vectors', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/vectors');
+})
+router.get('/jeemaths/jeemathscomplete/vectors/vectoralgebra', function(req, res, next){
+  res.render('front-end/jeemaths/jeemathscomplete/vectors/vectoralgebra');
+})
 
 router.get('/jeemaths/previousyearpapers', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers');
 })
 router.get('/jeemaths/previousyearpapers/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers/coursestart');
+})
+router.get('/jeemaths/previousyearpapers/algebra', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra');
+})
+router.get('/jeemaths/previousyearpapers/algebra/complexnumbers', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/complexnumbers');
+})
+router.get('/jeemaths/previousyearpapers/algebra/quadraticequations', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/quadraticequations');
+})
+router.get('/jeemaths/previousyearpapers/algebra/sequenceandseries', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/sequenceandseries');
+})
+router.get('/jeemaths/previousyearpapers/algebra/binomialtheorem', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/binomialtheorem');
+})
+router.get('/jeemaths/previousyearpapers/algebra/permutationsandcombinations', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/permutationsandcombinations');
+})
+router.get('/jeemaths/previousyearpapers/algebra/matrices', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/matrices');
+})
+router.get('/jeemaths/previousyearpapers/algebra/determinants', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/determinants');
+})
+router.get('/jeemaths/previousyearpapers/algebra/probability', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/algebra/probability');
+})
+
+router.get('/jeemaths/previousyearpapers/trigonometry', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/trigonometry');
+})
+router.get('/jeemaths/previousyearpapers/trigonometry/trigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/trigonometry/trigonometricfunctions');
+})
+router.get('/jeemaths/previousyearpapers/trigonometry/inversetrigonometricfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/trigonometry/inversetrigonometricfunctions');
+})
+
+router.get('/jeemaths/previousyearpapers/analyticalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/analyticalgeometry');
+})
+router.get('/jeemaths/previousyearpapers/analyticalgeometry/straightlines', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/analyticalgeometry/straightlines');
+})
+router.get('/jeemaths/previousyearpapers/analyticalgeometry/circles', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/analyticalgeometry/circles');
+})
+router.get('/jeemaths/previousyearpapers/analyticalgeometry/conicsections', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/analyticalgeometry/conicsections');
+})
+router.get('/jeemaths/previousyearpapers/analyticalgeometry/threedimensionalgeometry', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/analyticalgeometry/threedimensionalgeometry');
+})
+
+router.get('/jeemaths/previousyearpapers/differentialcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/differentialcalculus');
+})
+router.get('/jeemaths/previousyearpapers/differentialcalculus/functions', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/differentialcalculus/functions');
+})
+router.get('/jeemaths/previousyearpapers/differentialcalculus/limitsandderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/differentialcalculus/limitsandderivatives');
+})
+router.get('/jeemaths/previousyearpapers/differentialcalculus/continuityanddifferentiability', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/differentialcalculus/continuityanddifferentiability');
+})
+router.get('/jeemaths/previousyearpapers/differentialcalculus/applicationofderivatives', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapersdifferentialcalculus/applicationofderivatives');
+})
+
+router.get('/jeemaths/previousyearpapers/integralcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/integralcalculus');
+})
+router.get('/jeemaths/previousyearpapers/integralcalculus/integration', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/integralcalculus/integration');
+})
+router.get('/jeemaths/previousyearpapers/integralcalculus/applicationofintegrals', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/integralcalculus/applicationofintegrals');
+})
+router.get('/jeemaths/previousyearpapers/integralcalculus/differentialequations', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/integralcalculus/differentialequations');
+})
+
+router.get('/jeemaths/previousyearpapers/vectors', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/vectors');
+})
+router.get('/jeemaths/previousyearpapers/vectors/vectoralgebra', function(req, res, next){
+  res.render('front-end/jeemaths/previousyearpapers/vectors/vectoralgebra');
 })
 
 
