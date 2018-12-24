@@ -1000,6 +1000,77 @@ router.get('/jeemaths/integralcalculus', function(req, res, next){
 router.get('/jeemaths/integralcalculus/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/integralcalculus/coursestart');
 })
+router.get('/jeemaths/integralcalculus/integration', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration');
+})
+router.get('/jeemaths/integralcalculus/integration/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/introduction');
+})
+router.get('/jeemaths/integralcalculus/integration/integrationasaninverseprocessofdifferentiation', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/integrationasaninverseprocessofdifferentiation');
+})
+router.get('/jeemaths/integralcalculus/integration/methodsofintegration', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/methodsofintegration');
+})
+router.get('/jeemaths/integralcalculus/integration/integralsofsomeparticularfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/integralsofsomeparticularfunctions');
+})
+router.get('/jeemaths/integralcalculus/integration/integrationbypartialfunctions', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/integrationbypartialfunctions');
+})
+router.get('/jeemaths/integralcalculus/integration/definiteintegration', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/definiteintegration');
+})
+router.get('/jeemaths/integralcalculus/integration/fundamentaltheoremofcalculus', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/fundamentaltheoremofcalculus');
+})
+router.get('/jeemaths/integralcalculus/integration/evaluationofdefiniteintegralsbysubstitution', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/evaluationofdefiniteintegralsbysubstitution');
+})
+router.get('/jeemaths/integralcalculus/integration/somepropertiesofdefiniteintegrals', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/somepropertiesofdefiniteintegrals');
+})
+router.get('/jeemaths/integralcalculus/integration/quiz1integration', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/integration/quiz1integration');
+})
+
+router.get('/jeemaths/integralcalculus/applicationofintegrals', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/applicationofintegrals');
+})
+router.get('/jeemaths/integralcalculus/applicationofintegrals/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/applicationofintegrals/introduction');
+})
+router.get('/jeemaths/integralcalculus/applicationofintegrals/areaundersimplecurves', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/applicationofintegrals/areaundersimplecurves');
+})
+router.get('/jeemaths/integralcalculus/applicationofintegrals/areabetweentwocurves', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/applicationofintegrals/areabetweentwocurves');
+})
+router.get('/jeemaths/integralcalculus/applicationofintegrals/quiz2applicationofintegrals', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/applicationofintegrals/quiz2applicationofintegrals');
+})
+
+router.get('/jeemaths/integralcalculus/differentialequations', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations');
+})
+router.get('/jeemaths/integralcalculus/differentialequations/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations/introduction');
+})
+router.get('/jeemaths/integralcalculus/differentialequations/basicconcepts', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations/basicconcepts');
+})
+router.get('/jeemaths/integralcalculus/differentialequations/generalandparticularsolutionsofadifferentialequation', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations/generalandparticularsolutionsofadifferentialequation');
+})
+router.get('/jeemaths/integralcalculus/differentialequations/formationofadifferentialequationwhosegeneralsolutionisgiven', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations/formationofadifferentialequationwhosegeneralsolutionisgiven');
+})
+router.get('/jeemaths/integralcalculus/differentialequations/methodsofsolvingfirstorderfirstdegreedifferentialequations', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations/methodsofsolvingfirstorderfirstdegreedifferentialequations');
+})
+router.get('/jeemaths/integralcalculus/differentialequations/quiz3differentialequations', function(req, res, next){
+  res.render('front-end/jeemaths/integralcalculus/differentialequations/quiz3differentialequations');
+})
 
 router.get('/jeemaths/vectors', function(req, res, next){
   res.render('front-end/jeemaths/vectors');
@@ -1035,7 +1106,6 @@ router.get('/jeemaths/vectors/vectoralgebra/quiz1vectoralgebra', function(req, r
 router.get('/jeemaths/jeemathscomplete', function(req, res, next){
   res.render('front-end/jeemaths/jeemathscomplete');
 })
-
 router.get('/jeemaths/jeemathscomplete/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/jeemathscomplete/coursestart');
 })
@@ -1043,7 +1113,6 @@ router.get('/jeemaths/jeemathscomplete/coursestart', function(req, res, next){
 router.get('/jeemaths/previousyearpapers', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers');
 })
-
 router.get('/jeemaths/previousyearpapers/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/previousyearpapers/coursestart');
 })
