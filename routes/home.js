@@ -522,20 +522,201 @@ router.get('/jeemaths/algebra', function(req, res, next){
 router.get('/jeemaths/algebra/coursestart', function(req, res, next){
   res.render('front-end/jeemaths/algebra/coursestart');
 })
-router.get('/jeemaths/algebra/functions', function(req, res, next){
-  res.render('front-end/jeemaths/algebra/functions');
+router.get('/jeemaths/algebra/complexnumbers', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers');
+})
+router.get('/jeemaths/algebra/complexnumbers/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/introduction');
+})
+router.get('/jeemaths/algebra/complexnumbers/complexnumbers', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/complexnumbers');
+})
+router.get('/jeemaths/algebra/complexnumbers/algebraofcomplex numbers', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/algebraofcomplex numbers');
+})
+router.get('/jeemaths/algebra/complexnumbers/modulusandconjugate', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/modulusandconjugate');
+})
+router.get('/jeemaths/algebra/complexnumbers/argandandpolarrepresentation', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/argandandpolarrepresentation');
+})
+router.get('/jeemaths/algebra/complexnumbers/cuberootsofnuity', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/cuberootsofnuity');
+})
+router.get('/jeemaths/algebra/complexnumbers/geometricinterpretation', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/geometricinterpretation');
+})
+router.get('/jeemaths/algebra/complexnumbers/quiz1complexnumbers', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/complexnumbers/quiz1complexnumbers');
 })
 
-router.get('/jeemaths/algebra/limitsandderivatives', function(req, res, next){
-  res.render('front-end/jeemaths/algebra/limitsandderivatives');
+router.get('/jeemaths/algebra/quadraticequations', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations');
+})
+router.get('/jeemaths/algebra/quadraticequations/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations/introduction');
+})
+router.get('/jeemaths/algebra/quadraticequations/quadraticequationswithrealcoefficients', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations/quadraticequationswithrealcoefficients');
+})
+router.get('/jeemaths/algebra/quadraticequations/relationbetweenrootsandcoefficients', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations/relationbetweenrootsandcoefficients');
+})
+router.get('/jeemaths/algebra/quadraticequations/propertiesandgraphofquadraticequations', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations/propertiesandgraphofquadraticequations');
+})
+router.get('/jeemaths/algebra/quadraticequations/symmetricfunctionsofroots', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations/symmetricfunctionsofroots');
+})
+router.get('/jeemaths/algebra/quadraticequations/quiz2quadraticequations', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/quadraticequations/quiz2quadraticequations');
 })
 
-router.get('/jeemaths/algebra/continuityanddifferentiability', function(req, res, next){
-  res.render('front-end/jeemaths/algebra/continuityanddifferentiability');
+router.get('/jeemaths/algebra/sequenceandseries', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries');
+})
+router.get('/jeemaths/algebra/sequenceandseries/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/introduction');
+})
+router.get('/jeemaths/algebra/sequenceandseries/arithmeticprogression', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/arithmeticprogression');
+})
+router.get('/jeemaths/algebra/sequenceandseries/propertiesofarithmeticprogression', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/propertiesofarithmeticprogression');
+})
+router.get('/jeemaths/algebra/sequenceandseries/geometricprogression', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/geometricprogression');
+})
+router.get('/jeemaths/algebra/sequenceandseries/propertiesofgeometricprogression', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/propertiesofgeometricprogression');
+})
+router.get('/jeemaths/algebra/sequenceandseries/harmonicprogression', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/harmonicprogression');
+})
+router.get('/jeemaths/algebra/sequenceandseries/propertiesofharmonicprogression', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/propertiesofharmonicprogression');
+})
+router.get('/jeemaths/algebra/sequenceandseries/infiniteseries', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/infiniteseries');
+})
+router.get('/jeemaths/algebra/sequenceandseries/sumsofsquaresandcubes', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/sumsofsquaresandcubes');
+})
+router.get('/jeemaths/algebra/sequenceandseries/quiz3sequenceandseries', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/sequenceandseries/quiz3sequenceandseries');
 })
 
-router.get('/jeemaths/algebra/applicationsofderivatives', function(req, res, next){
-  res.render('front-end/jeemaths/algebra/applicationsofderivatives');
+router.get('/jeemaths/algebra/binomialtheorem', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/binomialtheorem');
+})
+router.get('/jeemaths/algebra/binomialtheorem/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/binomialtheorem/introduction');
+})
+router.get('/jeemaths/algebra/binomialtheorem/binomialtheoremforapositiveintegralindex', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/binomialtheorem/binomialtheoremforapositiveintegralindex');
+})
+router.get('/jeemaths/algebra/binomialtheorem/propertiesofbinomialcoefficients', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/binomialtheorem/propertiesofbinomialcoefficients');
+})
+router.get('/jeemaths/algebra/binomialtheorem/quiz4binomialtheorem', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/binomialtheorem/quiz4binomialtheorem');
+})
+
+router.get('/jeemaths/algebra/permutationsandcombinations', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/permutationsandcombinations');
+})
+router.get('/jeemaths/algebra/permutationsandcombinations/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/permutationsandcombinations/introduction');
+})
+router.get('/jeemaths/algebra/permutationsandcombinations/additionandmultiplicationrule', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/permutationsandcombinations/additionandmultiplicationrule');
+})
+router.get('/jeemaths/algebra/permutationsandcombinations/formulaeandproperties', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/permutationsandcombinations/formulaeandproperties');
+})
+router.get('/jeemaths/algebra/permutationsandcombinations/quiz5permutationsandcombinations', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/permutationsandcombinations/quiz5permutationsandcombinations');
+})
+
+router.get('/jeemaths/algebra/matrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices');
+})
+router.get('/jeemaths/algebra/matrices/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/introduction');
+})
+router.get('/jeemaths/algebra/matrices/typesofmatrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/typesofmatrices');
+})
+router.get('/jeemaths/algebra/matrices/operationsonmatrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/operationsonmatrices');
+})
+router.get('/jeemaths/algebra/matrices/symmetricandskewsymmetricmatrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/symmetricandskewsymmetricmatrices');
+})
+router.get('/jeemaths/algebra/matrices/elementaryoperationsonmatrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/elementaryoperationsonmatrices');
+})
+router.get('/jeemaths/algebra/matrices/invertiblematrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/invertiblematrices');
+})
+router.get('/jeemaths/algebra/matrices/solutionsofsimultaneouslinearequationsintwoorthreevariables', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/solutionsofsimultaneouslinearequationsintwoorthreevariables');
+})
+router.get('/jeemaths/algebra/matrices/quiz6matrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/matrices/quiz6matrices');
+})
+
+router.get('/jeemaths/algebra/determinants', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants');
+})
+router.get('/jeemaths/algebra/determinants/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants/introduction');
+})
+router.get('/jeemaths/algebra/determinants/propertiesofdeterminants', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants/propertiesofdeterminants');
+})
+router.get('/jeemaths/algebra/determinants/minorsandcofactors', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants/minorsandcofactors');
+})
+router.get('/jeemaths/algebra/determinants/adjointandinverseofamatrix', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants/adjointandinverseofamatrix');
+})
+router.get('/jeemaths/algebra/determinants/applicationofdeterminantsandmatrices', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants/applicationofdeterminantsandmatrices');
+})
+router.get('/jeemaths/algebra/determinants/quiz7determinants', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/determinants/quiz7determinants');
+})
+
+router.get('/jeemaths/algebra/probability', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability');
+})
+router.get('/jeemaths/algebra/probability/introduction', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/introduction');
+})
+router.get('/jeemaths/algebra/probability/conditionalprobability', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/conditionalprobability');
+})
+router.get('/jeemaths/algebra/probability/multiplicationtheoremsonprobability', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/multiplicationtheoremsonprobability');
+})
+router.get('/jeemaths/algebra/probability/independentevents', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/independentevents');
+})
+router.get('/jeemaths/algebra/probability/bayestheorem', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/bayestheorem');
+})
+router.get('/jeemaths/algebra/probability/randomvariablesandtheirprobabilitydistributions', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/randomvariablesandtheirprobabilitydistributions');
+})
+router.get('/jeemaths/algebra/probability/bernoullitrialsandbinomialdistribution', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/bernoullitrialsandbinomialdistribution');
+})
+router.get('/jeemaths/algebra/probability/computationofprobabilityofeventsusingpermutationsandcombinations', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/computationofprobabilityofeventsusingpermutationsandcombinations');
+})
+router.get('/jeemaths/algebra/probability/quiz8probability', function(req, res, next){
+  res.render('front-end/jeemaths/algebra/probability/quiz8probability');
 })
 
 router.get('/jeemaths/trigonometry', function(req, res, next){
