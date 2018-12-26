@@ -387,8 +387,8 @@ router.get('/engineeringmaths/numericalmethods/coursestart', function(req, res, 
 router.get('/engineeringmaths/ordinarydifferentialequations', function(req, res, next){
   res.render('front-end/engineeringmaths/ordinarydifferentialequations');
 })
-router.get('/engineeringmaths/ordinarydifferentialquations/coursestart', function(req, res, next){
-  res.render('front-end/engineeringmaths/ordinarydifferentialquations/coursestart');
+router.get('/engineeringmaths/ordinarydifferentialequations/coursestart', function(req, res, next){
+  res.render('front-end/engineeringmaths/ordinarydifferentialequations/coursestart');
 })
 router.get('/engineeringmaths/partialdifferentialequations', function(req, res, next){
   res.render('front-end/engineeringmaths/partialdifferentialequations');
@@ -435,11 +435,11 @@ router.get('/upscmaths/analyticgeometry', function(req, res, next){
 router.get('/upscmaths/analyticgeometry/coursestart', function(req, res, next){
   res.render('front-end/upscmaths/analyticgeometry/coursestart');
 })
-router.get('/upscmaths/ordinarydifferentialquations', function(req, res, next){
-  res.render('front-end/upscmaths/ordinarydifferentialquations');
+router.get('/upscmaths/ordinarydifferentialequations', function(req, res, next){
+  res.render('front-end/upscmaths/ordinarydifferentialequations');
 })
-router.get('/upscmaths/ordinarydifferentialquations/coursestart', function(req, res, next){
-  res.render('front-end/upscmaths/ordinarydifferentialquations/coursestart');
+router.get('/upscmaths/ordinarydifferentialequations/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/ordinarydifferentialequations/coursestart');
 })
 router.get('/upscmaths/dynamicsstaticsandhydrostatics', function(req, res, next){
   res.render('front-end/upscmaths/dynamicsstaticsandhydrostatics');
@@ -477,11 +477,11 @@ router.get('/upscmaths/linearprogramming', function(req, res, next){
 router.get('/upscmaths/linearprogramming/coursestart', function(req, res, next){
   res.render('front-end/upscmaths/linearprogramming/coursestart');
 })
-router.get('/upscmaths/partialdifferentialquations', function(req, res, next){
-  res.render('front-end/upscmaths/partialdifferentialquations');
+router.get('/upscmaths/partialdifferentialequations', function(req, res, next){
+  res.render('front-end/upscmaths/partialdifferentialequations');
 })
-router.get('/upscmaths/partialdifferentialquations/coursestart', function(req, res, next){
-  res.render('front-end/upscmaths/partialdifferentialquations/coursestart');
+router.get('/upscmaths/partialdifferentialequations/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/partialdifferentialequations/coursestart');
 })
 router.get('/upscmaths/numericalanalysisandcomputerprogramming', function(req, res, next){
   res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming');
