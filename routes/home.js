@@ -722,20 +722,20 @@ router.get('/engineeringmaths/linearalgebra/coursestart', function(req, res, nex
   res.render('front-end/engineeringmaths/linearalgebra/coursestart');
 })
 
-router.get('/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes', function(req, res, next){
-  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes');
+router.get('/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes');
 })
-router.get('/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/lineardependenceandindependence', function(req, res, next){
-  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/lineardependenceandindependence');
+router.get('/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/lineardependenceandindependence', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/lineardependenceandindependence');
 })
-router.get('/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/vectorspacesandsubspaces', function(req, res, next){
-  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/vectorspacesandsubspaces');
+router.get('/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/vectorspacesandsubspaces', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/vectorspacesandsubspaces');
 })
-router.get('/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/basisanddimension', function(req, res, next){
-  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/basisanddimension');
+router.get('/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/basisanddimension', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/basisanddimension');
 })
-router.get('/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/quiz1ectorspacesoverreal(r)andcomplex(c)planes', function(req, res, next){
-  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/quiz1ectorspacesoverreal(r)andcomplex(c)planes');
+router.get('/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/quiz1ectorspacesoverreal(r)andcomplex(c)planes', function(req, res, next){
+  res.render('front-end/engineeringmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/quiz1ectorspacesoverreal(r)andcomplex(c)planes');
 })
 
 router.get('/engineeringmaths/linearalgebra/lineartransformations', function(req, res, next){
@@ -1339,20 +1339,20 @@ router.get('/upscmaths/linearalgebra/coursestart', function(req, res, next){
   res.render('front-end/upscmaths/linearalgebra/coursestart');
 })
 
-router.get('/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes', function(req, res, next){
-  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes');
+router.get('/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes');
 })
-router.get('/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/lineardependenceandindependence', function(req, res, next){
-  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/lineardependenceandindependence');
+router.get('/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/lineardependenceandindependence', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/lineardependenceandindependence');
 })
-router.get('/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/vectorspacesandsubspaces', function(req, res, next){
-  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/vectorspacesandsubspaces');
+router.get('/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/vectorspacesandsubspaces', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/vectorspacesandsubspaces');
 })
-router.get('/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/basisanddimension', function(req, res, next){
-  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/basisanddimension');
+router.get('/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/basisanddimension', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/basisanddimension');
 })
-router.get('/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/quiz1ectorspacesoverreal(r)andcomplex(c)planes', function(req, res, next){
-  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverreal(r)andcomplex(c)planes/quiz1ectorspacesoverreal(r)andcomplex(c)planes');
+router.get('/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/quiz1ectorspacesoverreal(r)andcomplex(c)planes', function(req, res, next){
+  res.render('front-end/upscmaths/linearalgebra/vectorspacesoverrealrandcomplexcplanes/quiz1ectorspacesoverreal(r)andcomplex(c)planes');
 })
 
 router.get('/upscmaths/linearalgebra/lineartransformations', function(req, res, next){
