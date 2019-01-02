@@ -11257,3 +11257,16 @@ body {
 .video_page .has_border_lft{
   border-left: 1px solid #eee;
 }
+.courseListing > .container > .row > .col-md-3{
+  border-right: 1px solid #eee;
+}
+.courseListing > .container > .row > .col-md-9{
+  border-left: 1px solid #eee;
+}
+.list-course__header{
+  border-top: 1px solid #eee;
+}
+
+
+
+
