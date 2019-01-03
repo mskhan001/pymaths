@@ -1668,11 +1668,80 @@ router.get('/upscmaths/ordinarydifferentialequations/laplacetransform/quiz3lapla
   res.render('front-end/upscmaths/ordinarydifferentialequations/laplacetransform/quiz3laplacetransform');
 })
 
-router.get('/upscmaths/dynamicsstaticsandhydrostatics', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsstaticsandhydrostatics');
+router.get('/upscmaths/dynamicsandstatics', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics');
 })
-router.get('/upscmaths/dynamicsstaticsandhydrostatics/coursestart', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsstaticsandhydrostatics/coursestart');
+router.get('/upscmaths/dynamicsandstatics/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/coursestart');
+})
+
+router.get('/upscmaths/dynamicsandstatics/motion', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+})
+
+router.get('/upscmaths/dynamicsandstatics/keplerslaws', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws');
+})
+router.get('/upscmaths/dynamicsandstatics/keplerslaws/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/');
+})
+router.get('/upscmaths/dynamicsandstatics/keplerslaws/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/');
+})
+router.get('/upscmaths/dynamicsandstatics/keplerslaws/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/');
+})
+
+router.get('/upscmaths/dynamicsandstatics/equilibrium', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
 })
 
 
