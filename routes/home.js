@@ -1678,70 +1678,70 @@ router.get('/upscmaths/dynamicsandstatics/coursestart', function(req, res, next)
 router.get('/upscmaths/dynamicsandstatics/motion', function(req, res, next){
   res.render('front-end/upscmaths/dynamicsandstatics/motion');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/rectilinearmotion', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/rectilinearmotion');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/simpleharmonicmotion', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/simpleharmonicmotion');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/motioninaplane', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/motioninaplane');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/projectiles', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/projectiles');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/constrainedmotion', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/constrainedmotion');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/workandenergy', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/workandenergy');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/conservationofenergy', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/conservationofenergy');
 })
-router.get('/upscmaths/dynamicsandstatics/motion/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/motion/');
+router.get('/upscmaths/dynamicsandstatics/motion/quiz1motion', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/motion/quiz1motion');
 })
 
 router.get('/upscmaths/dynamicsandstatics/keplerslaws', function(req, res, next){
   res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws');
 })
-router.get('/upscmaths/dynamicsandstatics/keplerslaws/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/');
+router.get('/upscmaths/dynamicsandstatics/keplerslaws/keplerslaws', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/keplerslaws');
 })
-router.get('/upscmaths/dynamicsandstatics/keplerslaws/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/');
+router.get('/upscmaths/dynamicsandstatics/keplerslaws/orbitsundercentralforces', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/orbitsundercentralforces');
 })
-router.get('/upscmaths/dynamicsandstatics/keplerslaws/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/');
+router.get('/upscmaths/dynamicsandstatics/keplerslaws/quiz2keplerslaws', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/keplerslaws/quiz2keplerslaws');
 })
 
 router.get('/upscmaths/dynamicsandstatics/equilibrium', function(req, res, next){
   res.render('front-end/upscmaths/dynamicsandstatics/equilibrium');
 })
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
+router.get('/upscmaths/dynamicsandstatics/equilibrium/equilibriumofasystemofparticles', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/equilibriumofasystemofparticles');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/workandpotentialenergy', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/workandpotentialenergy');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/friction', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/friction');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/commoncatenary', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/commoncatenary');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/principleofvirtualwork', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/principleofvirtualwork');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/stabilityofequilibrium', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/stabilityofequilibrium');
+})
+router.get('/upscmaths/dynamicsandstatics/equilibrium/equilibriumofforcesinthreedimensions', function(req, res, next){
   res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
 })
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
-})
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
-})
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
-})
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
-})
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
-})
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
-})
-router.get('/upscmaths/dynamicsandstatics/equilibrium/', function(req, res, next){
-  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/');
+router.get('/upscmaths/dynamicsandstatics/equilibrium/quiz3equilibrium', function(req, res, next){
+  res.render('front-end/upscmaths/dynamicsandstatics/equilibrium/quiz3equilibrium');
 })
 
 
@@ -2202,14 +2202,106 @@ router.get('/upscmaths/numericalanalysisandcomputerprogramming/coursestart', fun
   res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/coursestart');
 })
 
-
-router.get('/upscmaths/numericalintegration', function(req, res, next){
-  res.render('front-end/upscmaths/numericalintegration');
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods');
 })
-router.get('/upscmaths/numericalintegration/coursestart', function(req, res, next){
-  res.render('front-end/upscmaths/numericalintegration/coursestart');
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/bisectionmethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/bisectionmethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/regulafalsimethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/regulafalsimethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/newtonraphsonmethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/newtonraphsonmethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/gaussianeliminationandgaussjordanmethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/gaussianeliminationandgaussjordanmethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/gaussseidelmethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/gaussseidelmethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/newtonsforwardandbackwardinterpolation', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/newtonsforwardandbackwardinterpolation');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/lagrangesinterpolation', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/lagrangesinterpolation');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/quiz1numericalmethods', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalmethods/quiz1numericalmethods');
 })
 
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/trapezoidalrule', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/trapezoidalrule');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/simpsonsrule', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/simpsonsrule');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/gaussianquadratureformula', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/gaussianquadratureformula');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/quiz2numericalintegration', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalintegration/quiz2numericalintegration');
+})
+
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations/eulermethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations/eulermethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations/rungekuttamethod', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations/rungekuttamethod');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations/quiz3numericalsolutionofordinarydifferentialequations', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/numericalsolutionofordinarydifferentialequations/quiz3numericalsolutionofordinarydifferentialequations');
+})
+
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/binarysystem', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/binarysystem');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/arithmeticandlogicaloperationsonnumbers', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/arithmeticandlogicaloperationsonnumbers');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/octalandhexadecimalsystems', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/octalandhexadecimalsystems');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/conversiontoandfromdecimalsystems', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/conversiontoandfromdecimalsystems');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/algebraofbinarynumbers', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/algebraofbinarynumbers');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/quiz4computerprogramming', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/quiz4computerprogramming');
+})
+
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/basiclogicgatesandtruthtables', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/basiclogicgatesandtruthtables');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/booleanalgebra', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/booleanalgebra');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/representationofunsignedandsignedintegers', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/representationofunsignedandsignedintegers');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/representationofrealsdoubleprecision', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/representationofrealsdoubleprecision');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/algorithmsandflowcharts', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/algorithmsandflowcharts');
+})
+router.get('/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/quiz5elementsofcomputersystemsandconceptofmemory', function(req, res, next){
+  res.render('front-end/upscmaths/numericalanalysisandcomputerprogramming/computerprogramming/elementsofcomputersystemsandconceptofmemory/quiz5elementsofcomputersystemsandconceptofmemory');
+})
 
 router.get('/upscmaths/mechanicsandfluiddynamics', function(req, res, next){
   res.render('front-end/upscmaths/mechanicsandfluiddynamics');
@@ -2218,12 +2310,57 @@ router.get('/upscmaths/mechanicsandfluiddynamics/coursestart', function(req, res
   res.render('front-end/upscmaths/mechanicsandfluiddynamics/coursestart');
 })
 
-
-router.get('/upscmaths/upscmathscomplete', function(req, res, next){
-  res.render('front-end/upscmaths/upscmathscomplete');
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics');
 })
-router.get('/upscmaths/upscmathscomplete/coursestart', function(req, res, next){
-  res.render('front-end/upscmaths/upscmathscomplete/coursestart');
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics/generalizedcoordinates', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics/generalizedcoordinates');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics/dalembertsprincipleandlagrangesequations', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics/dalembertsprincipleandlagrangesequations');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics/hamiltonequations', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics/hamiltonequations');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics/momentofinertia', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics/momentofinertia');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics/motionofrigidbodiesintwodimensions', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics/motionofrigidbodiesintwodimensions');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/mechanics/quiz1mechanics', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/mechanics/quiz1mechanics');
+})
+
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/equationofcontinuity', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/equationofcontinuity');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/eulersequationofmotionforinviscidflow', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/fluiddynamics/eulersequationofmotionforinviscidflow');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/streamlinesandpathofaparticle', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/streamlinesandpathofaparticle');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/potentialflow', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/potentialflow');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/twodimensionalandaxisymmetricmotion', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/twodimensionalandaxisymmetricmotion');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/sourcesandsinks', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/sourcesandsinks');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/vortexmotion', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/vortexmotion');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/navierstokesequationforaviscousfluid', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/navierstokesequationforaviscousfluid');
+})
+router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/quiz2fluiddynamics', function(req, res, next){
+  res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/quiz2fluiddynamics');
 })
 
 
