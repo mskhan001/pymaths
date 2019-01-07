@@ -2363,6 +2363,293 @@ router.get('/upscmaths/mechanicsandfluiddynamics/fluiddynamics/quiz2fluiddynamic
   res.render('front-end/upscmaths/mechanicsandfluiddynamics/fluiddynamics/quiz2fluiddynamics');
 })
 
+router.get('/upscmaths/previousyearpapers', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers');
+})
+router.get('/upscmaths/previousyearpapers/coursestart', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/coursestart');
+})
+
+router.get('/upscmaths/previousyearpapers/2017paperi', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionb2');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionb3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionb3');
+})
+router.get('/upscmaths/previousyearpapers/2017paperi/sectionb4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperi/sectionb4');
+})
+
+router.get('/upscmaths/previousyearpapers/2017paperii', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2017paperii/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2017paperii/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2016paperi', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/section1q4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2016paperi/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperi/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2016paperii', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2016paperii/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2016paperii/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2015paperi', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2015paperi/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperi/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2015paperii', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectiona4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectiona4');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionb2');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2015paperii/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2015paperii/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2014paperi', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2014paperi/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperi/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2014paperii', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2014paperii/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2014paperii/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2013paperi', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2013paperi/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperi/sectionbq4');
+})
+
+router.get('/upscmaths/previousyearpapers/2013paperii', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionaq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionaq1');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionaq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionaq2');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionaq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionaq3');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionaq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionaq4');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionbq1', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionbq1');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionbq2', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionbq2');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionbq3', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionbq3');
+})
+router.get('/upscmaths/previousyearpapers/2013paperii/sectionbq4', function(req, res, next){
+  res.render('front-end/upscmaths/previousyearpapers/2013paperii/sectionbq4');
+})
+
 
 //Routing for JEE Maths files
 router.get('/jeemaths', function(req, res, next){
